@@ -3,6 +3,7 @@
   date: 2021-01-13T19:10:40+06:00
   tags: "travel"
   tranding: false
+  secondAuthor: true
   readTime: "10 min"
   thumbnail: /images/blog/blog-thum-1.png
   featureImage: /images/blog/feature-image-03.jpg
