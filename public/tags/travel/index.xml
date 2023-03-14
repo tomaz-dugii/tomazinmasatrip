@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>travel on Tomaž in Maša trip | Travel Blog</title>
+    <link>http://example.org/tags/travel/</link>
+    <description>Recent content in travel on Tomaž in Maša trip | Travel Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jan 2021 19:10:40 +0600</lastBuildDate><atom:link href="http://example.org/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal post</title>
+      <link>http://example.org/posts/my-personal-post/</link>
+      <pubDate>Wed, 13 Jan 2021 19:10:40 +0600</pubDate>
+      
+      <guid>http://example.org/posts/my-personal-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>New blog post</title>
+      <link>http://example.org/posts/new-blog-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:20:40 +0600</pubDate>
+      
+      <guid>http://example.org/posts/new-blog-post/</guid>
+      <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Today&#39;s new post</title>
+      <link>http://example.org/posts/today-new-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:10:40 +0600</pubDate>
+      
+      <guid>http://example.org/posts/today-new-post/</guid>
+      <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to My Personal Blog3</title>
+      <link>http://example.org/posts/welcome-to-my-personal-blog/</link>
+      <pubDate>Wed, 13 Jan 2021 17:33:14 +0600</pubDate>
+      
+      <guid>http://example.org/posts/welcome-to-my-personal-blog/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+  </channel>
+</rss>
