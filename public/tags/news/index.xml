@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>news on Tomaž in Maša trip | Travel Blog</title>
-    <link>http://example.org/tags/news/</link>
+    <link>https://tomazinmasatrip.eu/tags/news/</link>
     <description>Recent content in news on Tomaž in Maša trip | Travel Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jan 2021 18:11:40 +0600</lastBuildDate><atom:link href="http://example.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 18:11:40 +0600</lastBuildDate><atom:link href="https://tomazinmasatrip.eu/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breaking news post</title>
-      <link>http://example.org/posts/breaking-news-post/</link>
+      <link>https://tomazinmasatrip.eu/posts/breaking-news-post/</link>
       <pubDate>Wed, 13 Jan 2021 18:11:40 +0600</pubDate>
       
-      <guid>http://example.org/posts/breaking-news-post/</guid>
+      <guid>https://tomazinmasatrip.eu/posts/breaking-news-post/</guid>
       <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>My blog post</title>
-      <link>http://example.org/posts/my-blog-post/</link>
+      <link>https://tomazinmasatrip.eu/posts/my-blog-post/</link>
       <pubDate>Wed, 13 Jan 2021 18:10:50 +0600</pubDate>
       
-      <guid>http://example.org/posts/my-blog-post/</guid>
+      <guid>https://tomazinmasatrip.eu/posts/my-blog-post/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>2nd blog post</title>
-      <link>http://example.org/posts/2nd-blog-post/</link>
+      <link>https://tomazinmasatrip.eu/posts/2nd-blog-post/</link>
       <pubDate>Wed, 13 Jan 2021 18:10:40 +0600</pubDate>
       
-      <guid>http://example.org/posts/2nd-blog-post/</guid>
+      <guid>https://tomazinmasatrip.eu/posts/2nd-blog-post/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
