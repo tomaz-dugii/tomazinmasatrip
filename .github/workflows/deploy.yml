@@ -33,7 +33,7 @@ jobs:
           switches: -avzr --delete
           path: public/
           remote_path: /home/tomazinm/public_html/
-          remote_host: Tomazs-MacBook-Pro-2.local
+          remote_host: 152.89.234.190
           remote_user: tomazs
           remote_key: ${{ secrets.HUGODEPLOYACTION_SSH_KEY }}
 
