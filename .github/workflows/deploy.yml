@@ -36,4 +36,11 @@ jobs:
           remote_host: 152.89.234.190
           remote_user: tomazs
           remote_key: ${{ secrets.HUGODEPLOYACTION_SSH_KEY }}
+      # 6.
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
 
