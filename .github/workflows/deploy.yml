@@ -2,39 +2,38 @@ name: Tomaz in Masa trip deployment
 on:
   push:
     branches: [main]
-  
 jobs:
-build:
-  runs-on: ubuntu-latest
-  steps:
-    # 1.
-    - uses: actions/checkout@v2
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1.
+      - uses: actions/checkout@v2
 
-    # 2.
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: "0.90.1"
-        extended: true
+      # 2.
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.90.1"
+          extended: true
 
-    # 3.
-    - name: Clone theme
-      run: git submodule update --init --recursive
+      # 3.
+      - name: Clone theme
+        run: git submodule update --init --recursive
 
-    # 4.
-    - name: Hugo build
-      run: |
-        cd $GITHUB_WORKSPACE
-        hugo -v          
+      # 4.
+      - name: Hugo build
+        run: |
+          cd $GITHUB_WORKSPACE
+          hugo -v          
 
-    # 5.
-    - name: Rsync Deployments Action
-      uses: Burnett01/rsync-deployments@5.2
-      with:
-        switches: -avzr --delete
-        path: public/
-        remote_path: /home/tomazinm/public_html/
-        remote_host: 152.89.234.190
-        remote_user: tomazs@Tomazs-MacBook-Pro-2.local
-        remote_key: ${{ secrets.HUGODEPLOYACTION_SSH_KEY }}
+      # 5.
+      - name: Rsync Deployments Action
+        uses: Burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete
+          path: public/
+          remote_path: /home/tomazinm/public_html/
+          remote_host: 152.89.234.190
+          remote_user: tomazs@Tomazs-MacBook-Pro-2.local
+          remote_key: ${{ secrets.HUGODEPLOYACTION_SSH_KEY }}
 
