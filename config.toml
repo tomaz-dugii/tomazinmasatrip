@@ -1,5 +1,5 @@
 baseURL = "https://tomazinmasatrip.eu"
-languageCode = "en-us"
+languageCode = "sl-si"
 paginate = 6
 summarylength = 10
 title = "Tomaž in Maša trip | Travel Blog"
@@ -34,8 +34,8 @@ theme = "blogge-hugo-theme"
   author2Thumb = "images/author.png"
   author2Address = "Celje"
   author2Phone = "+33-257634 534"
-  blogTitle = "Articles"
-  blogSubTitle = "View the latest news on Blogger"
+  blogTitle = "Blog"
+  blogSubTitle = "Preberite zadnji blog iz najinega potovanja"
   trendingBlogIcon = "images/blog/icon.svg"
   # Replace the third party URL/API with yours
   # We're using formspree.io for form handling, paste your formspree url below
