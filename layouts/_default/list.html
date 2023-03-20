@@ -50,7 +50,7 @@
       <div class="col-lg-4">
         <div class="blog-post-widget">
           <div class="latest-widget-title">
-            <h2>Trending post</h2>
+            <h2>{{ $.Site.Params.videoBlogsTitle }}</h2>
           </div>
           {{ range $i, $.Site.RegularPages }} {{ if eq .Params.tranding true }}
           <div class="latest-widget">
@@ -60,7 +60,7 @@
               </a>
               <div class="icon">
                 <a href="{{ .Permalink }}">
-                  <img src="{{ $.Site.Params.trendingBlogIcon | absURL }}" alt="icon" /></a>
+                  <i class="fa fa-youtube-play"></i>
               </div>
             </div>
             <div class="latest-widget-content">
