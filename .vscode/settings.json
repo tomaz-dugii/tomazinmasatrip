@@ -1,16 +1,81 @@
 {
+    "frontMatter.taxonomy.contentTypes": [
+        {
+            "name": "default",
+            "pageBundle": false,
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string"
+                },
+                {
+                    "title": "Publishing date",
+                    "name": "date",
+                    "type": "datetime",
+                    "default": "{{now}}",
+                    "isPublishDate": true
+                },
+                {
+                    "title": "Content preview",
+                    "name": "preview",
+                    "type": "image"
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "boolean"
+                },
+                {
+                    "title": "Tags",
+                    "name": "tags",
+                    "type": "tags"
+                },
+                {
+                    "title": "Categories",
+                    "name": "categories",
+                    "type": "categories"
+                },
+                {
+                    "title": "tranding",
+                    "name": "tranding",
+                    "type": "datetime"
+                },
+                {
+                    "title": "secondAuthor",
+                    "name": "secondAuthor",
+                    "type": "datetime"
+                },
+                {
+                    "title": "readTime",
+                    "name": "readTime",
+                    "type": "string"
+                },
+                {
+                    "title": "thumbnail",
+                    "name": "thumbnail",
+                    "type": "string"
+                },
+                {
+                    "title": "featureImage",
+                    "name": "featureImage",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
     "[markdown]": {
         "editor.fontSize": 14,
         "editor.lineHeight": 26,
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 64,
         "editor.lineNumbers": "off",
-        "editor.quickSuggestions": {
-            "comments": "on",
-            "strings": "on",
-            "other": "on"
-        },
+        "editor.quickSuggestions": false,
         "editor.minimap.enabled": false
-    },
-    "frontMatter.content.autoUpdateDate": false
+    }
 }
