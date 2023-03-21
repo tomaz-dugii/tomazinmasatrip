@@ -45,3 +45,4 @@ theme = "blogge-hugo-theme"
 
 [taxonomies]
   tag = "tags"
+  category = "categories"

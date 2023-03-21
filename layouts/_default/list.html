@@ -17,7 +17,9 @@
           </div>
           <div class="blog-post-content">
             <div class="blog-post-tag">
-              <a href={{ printf "tags/%s" .Params.tags | absURL }}> {{ .Params.tags }} </a>
+              {{ range .GetTerms "tags" }}            
+              <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+              {{ end }}
             </div>
             <div class="blog-post-title">
               <a href="{{ .Permalink }}"> {{ .Title }} </a>
