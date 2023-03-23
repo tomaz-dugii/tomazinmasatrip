@@ -12,13 +12,15 @@
 
   <link rel="stylesheet" href={{ "plugins/font-awesome/css/font-awesome.min.css" | absURL }} />
   
+  {{ $sassTemplate := resources.Get "scss/style.scss" }}
+  {{ $style := $sassTemplate | resources.ExecuteAsTemplate "scss/main.scss" . | resources.ToCSS | minify }} 
+  <link rel="stylesheet" href="{{ $style.Permalink }}"  />
+  
   {{ $style := resources.Get "scss/custom_style.scss" | resources.ToCSS | minify}}
   <link href="{{ $style.Permalink }}" rel="stylesheet" />
 
 
-  {{ $sassTemplate := resources.Get "scss/style.scss" }}
-  {{ $style := $sassTemplate | resources.ExecuteAsTemplate "scss/main.scss" . | resources.ToCSS | minify }} 
-  <link rel="stylesheet" href="{{ $style.Permalink }}"  />
+
 
 
 
