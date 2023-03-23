@@ -1,25 +1,33 @@
 ---
-  title: "My blog post"
-  date: 2021-01-13T18:10:50+06:00
-  tags: "news"
-  tranding: true
-  readTime: "1 min"
-  thumbnail: /images/blog/blog-thum-3.png
-  featureImage: /images/blog/feature-image-06.jpg
+title: First South Korea blog post
+date: 2023-03-23T08:15:26.556Z
+draft: false
+preview: ""
+tags:
+  - travel
+  - seoul
+video: false
+secondAuthor: true
+readTime: 10 min
+thumbnail: /images/blog/blog-thum-1.png
+featureImage: /images/blog/feature-image-03.jpg
+categories:
+  - južna koreja
+description: Test personal objave.
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
 
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-#### Make better business
+### Make better business
 
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-> You’ve got to get up every morning with determination if you’re going to go to bed with satisfaction.
+> sed diam voluptua. At vero eos et accusam et justo duo dolores ea rebum. Stet clita kasd gubergren!
 
-![](/images/blog/eature-image-02.jpg)
+![](/images/blog/feature-image-07.jpg)
 
-#### The Dreamy Factors
+### The Dreamy Factors
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

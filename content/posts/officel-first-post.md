@@ -1,8 +1,8 @@
 ---
-  title: "Officel first post"
+  title: "Offical first post"
   date: 2021-01-13T18:30:40+06:00
   tags: "office"
-  tranding: true
+  video: true
   readTime: "3 min"
   thumbnail: /images/blog/blog-thum-6.png
   featureImage: /images/blog/feature-image-08.jpg
