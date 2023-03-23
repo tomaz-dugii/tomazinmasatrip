@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{/*  {{ partial "feature.html" . }}  */}}
+{{/* {{ partial "feature.html" . }} */}}
 {{ partial "hero_section.html" . }}
 
 <section class="blog">
@@ -11,14 +11,14 @@
           <h2>{{ $.Site.Params.blogTitle }}</h2>
           <p>{{ $.Site.Params.blogSubTitle }}</p>
         </div>
-        {{ range $.Paginator.Pages }}
+        {{ range $.Paginator.Pages }} {{ if eq .Params.video false }}
         <article class="blog-post">
           <div class="blog-post-thumb">
             <img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum" />
           </div>
           <div class="blog-post-content">
             <div class="blog-post-tag">
-              {{ range .GetTerms "tags" }}            
+              {{ range .GetTerms "tags" }}
               <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
               {{ end }}
             </div>
@@ -46,7 +46,7 @@
             <a href="{{ .Permalink }}" class="blog-post-action">read more <i class="fa fa-angle-right"></i></a>
           </div>
         </article>
-        {{ end }}
+        {{ end }} {{ end }}
         {{ partial "pagination" .}}
       </div>
 
@@ -55,7 +55,7 @@
           <div class="latest-widget-title">
             <h2>{{ $.Site.Params.videoBlogsTitle }}</h2>
           </div>
-          {{ range $i, $.Site.RegularPages }} {{ if eq .Params.tranding true }}
+          {{ range $i, $.Site.RegularPages }} {{ if eq .Params.video true }}
           <div class="latest-widget">
             <div class="latest-widget-thum">
               <a href="{{ .Permalink }}" class="post-thumb"
