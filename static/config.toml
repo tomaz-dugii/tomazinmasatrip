@@ -35,7 +35,7 @@ theme = "blogge-hugo-theme"
   author2Address = "Celje"
   author2Phone = "+33-257634 534"
   blogTitle = "Blog"
-  blogSubTitle = "Preberite zadnji blog iz najinega potovanja"
+  blogSubTitle = "Kaj dogaja na poti."
   videoBlogIcon = "images/blog/icon.svg"
   videoBlogsTitle = "Zadnji Videi"
   # Replace the third party URL/API with yours

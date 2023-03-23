@@ -2,7 +2,7 @@ baseURL = "https://tomazinmasatrip.eu"
 languageCode = "sl-si"
 paginate = 6
 summarylength = 10
-title = "Tomaž in Maša trip | Travel Blog"
+title = "Tomaž in Maša potujeta | Travel Blog"
 theme = "blogge-hugo-theme"
 
 [menu]
@@ -35,7 +35,7 @@ theme = "blogge-hugo-theme"
   author2Address = "Celje"
   author2Phone = "+33-257634 534"
   blogTitle = "Blog"
-  blogSubTitle = "Preberite zadnji blog iz najinega potovanja"
+  blogSubTitle = "Kaj dogaja na poti."
   video = false
   videoBlogIcon = "images/blog/icon.svg"
   videoBlogsTitle = "Zadnji Videi"
