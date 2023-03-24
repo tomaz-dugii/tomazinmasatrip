@@ -8,11 +8,5 @@
         "editor.quickSuggestions": false,
         "editor.minimap.enabled": false
     },
-    "frontMatter.content.pageFolders": [
-        {
-            "title": "posts objave",
-            "path": "[[workspace]]/content/posts"
-        }
-    ],
     "frontMatter.content.autoUpdateDate": false
 }

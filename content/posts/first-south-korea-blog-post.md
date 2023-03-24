@@ -14,8 +14,12 @@ tranding: false
 ========
 title: First South Korea blog post
 date: 2023-03-23T08:15:26.556Z
+<<<<<<< HEAD
 draft: false
 >>>>>>> 7950c76 (Delete and add new posts)
+=======
+draft: true
+>>>>>>> b30836e (Add post tamplates)
 preview: ""
 tags:
   - travel
