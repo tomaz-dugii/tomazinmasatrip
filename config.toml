@@ -38,7 +38,7 @@ theme = "blogge-hugo-theme"
   blogSubTitle = "Kaj dogaja na poti."
   video = false
   videoBlogIcon = "images/blog/icon.svg"
-  videoBlogsTitle = "Zadnji Videi"
+  videoBlogsTitle = "Zadnji videi"
   # Replace the third party URL/API with yours
   # We're using formspree.io for form handling, paste your formspree url below
   fabformURL  = "9AJk8ro"
