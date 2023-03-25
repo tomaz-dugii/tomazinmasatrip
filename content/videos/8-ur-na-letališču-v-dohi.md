@@ -10,7 +10,7 @@ video: true
 secondAuthor: ""
 readTime: 30 min
 thumbnail: /images/videos/doha_airport.jpg
-featureImage: /images/videos/doha-garden-airport.png
+featureImage: /images/videos/doha-garden-airport.webp
 categories:
   - Videos
 description: 8 urni postanek med povezovalnim letom se spremeni v video ustvarjanje.
