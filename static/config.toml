@@ -24,7 +24,11 @@ theme = "blogge-hugo-theme"
   logo = "images/logo.svg"
   author = "Tomaž Starašinič"
   authorThumb = "images/tomaz_in_medo.png"
+<<<<<<< HEAD
   authorAddress = "Metlika, Slovenija"
+=======
+  authorAddress = "Zemelj, Metlika"
+>>>>>>> 3ba0690 (Fill about page and add Maša as author)
   authorPhone = "+33-257634 534"
   authorMail = "tomaz.starasinic@hotmail.com"
   instaUsername = "tomazstarasinic"
