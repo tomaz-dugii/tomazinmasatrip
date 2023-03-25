@@ -1,16 +1,4 @@
 ---
-<<<<<<< HEAD
-<<<<<<<< HEAD:.frontmatter/templates/Blog_post_masa_south_korea.md
-=======
->>>>>>> b30836e (Add post tamplates)
-title: Personal post
-date: 2023-03-23T07:19:09.080Z
-tags:
-  - travel
-  - seoul
-tranding: false
-<<<<<<< HEAD
-========
 title: First South Korea blog post
 date: 2023-03-23T08:15:26.556Z
 draft: false
@@ -19,9 +7,6 @@ tags:
   - travel
   - seoul
 video: false
->>>>>>>> 7950c76 (Delete and add new posts):content/posts/first-south-korea-blog-post.md
-=======
->>>>>>> b30836e (Add post tamplates)
 secondAuthor: true
 readTime: 10 min
 thumbnail: /images/blog/blog-thum-1.png
