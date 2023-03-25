@@ -19,7 +19,8 @@
                         </ul>
                     </div>
                     <div class="featured-post-thumb">
-                        <img src="{{ .Site.Data.hero_homepage.heroImage }}" alt="feature-post-thumb" />
+                        <img srcset="{{ .Site.Data.hero_homepage.heroImage1200 }} 1200w, {{ .Site.Data.hero_homepage.heroImage1020 }} 1020w,  {{ .Site.Data.hero_homepage.heroImage690 }} 690w," sizes="(min-width: 1200px) 640px, (min-width: 1000px) 570px, (min-width: 780px) 690px, (min-width: 580px) 510px, calc(100vw - 30px)"
+                         src="{{ .Site.Data.hero_homepage.heroImage1200 }}" alt="feature-post-thumb" />
                     </div>
                 </article>
             </div>
