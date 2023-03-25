@@ -1,0 +1,13 @@
+.footer {
+  &-logo {
+    margin-bottom: 34px;
+    
+    @include mobile-xs {
+      margin-bottom: 20px;
+    }
+    img{
+      width: 115px;
+    }
+  }
+  
+}

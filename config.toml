@@ -1,8 +1,8 @@
 baseURL = "https://tomazinmasatrip.eu"
-languageCode = "en-us"
+languageCode = "sl-si"
 paginate = 6
 summarylength = 10
-title = "Tomaž in Maša trip | Travel Blog"
+title = "Tomaž in Maša potujeta | Travel Blog"
 theme = "blogge-hugo-theme"
 
 [menu]
@@ -23,20 +23,27 @@ theme = "blogge-hugo-theme"
   summarylength = 80
   logo = "images/logo.svg"
   author = "Tomaž Starašinič"
-  authorThumb = "images/author.jpg"
-  authorAddress = "Zemelj, Metlika"
+  authorThumb = "images/tomaz_in_medo.png"
+  authorAddress = "Metlika, Slovenija"
   authorPhone = "+33-257634 534"
+  authorMail = "tomaz.starasinic@hotmail.com"
   instaUsername = "tomazstarasinic"
   facebookUsername = "tomaz.starasinic"
-  twitterUsername = "mary_astor"
+  youTubeUsername = "@tomazs95"
   linkedinUsername = "mary_astor"
-  author2 = "Maša Petan"
-  author2Thumb = "images/author.png"
-  author2Address = "Celje"
-  author2Phone = "+33-257634 534"
-  blogTitle = "Articles"
-  blogSubTitle = "View the latest news on Blogger"
-  trendingBlogIcon = "images/blog/icon.svg"
+  masaAuthor = "Maša Petan"
+  masaThumb = "images/masa_in_zaba.png"
+  masaAddress = "Celje, Slovenija"
+  masaPhone = "+33-257634 534"
+  masaMail = "petan.masa@gmail.com"
+  instaUsernameMasa = "masha_ptn"
+  facebookUsernameMasa = "masa.petan"
+  youTubeUsernameMasa = "@tomazs95"
+  blogTitle = "Blog"
+  blogSubTitle = "Kaj dogaja na poti."
+  video = false
+  videoBlogIcon = "images/blog/icon.svg"
+  videoBlogsTitle = "Zadnji videi"
   # Replace the third party URL/API with yours
   # We're using formspree.io for form handling, paste your formspree url below
   fabformURL  = "9AJk8ro"
@@ -44,3 +51,4 @@ theme = "blogge-hugo-theme"
 
 [taxonomies]
   tag = "tags"
+  category = "categories"

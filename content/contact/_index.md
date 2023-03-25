@@ -1,3 +1,3 @@
 ---
-title: "Contact Me"
+title: "Kontakti"
 ---

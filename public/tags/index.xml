@@ -1,45 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Tomaž in Maša trip | Travel Blog</title>
+    <title>Tags on Tomaž in Maša potujeta | Travel Blog</title>
     <link>https://tomazinmasatrip.eu/tags/</link>
-    <description>Recent content in Tags on Tomaž in Maša trip | Travel Blog</description>
+    <description>Recent content in Tags on Tomaž in Maša potujeta | Travel Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jan 2021 19:10:40 +0600</lastBuildDate><atom:link href="https://tomazinmasatrip.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>sl-si</language>
+    <lastBuildDate>Fri, 24 Mar 2023 00:19:50 +0000</lastBuildDate><atom:link href="https://tomazinmasatrip.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>travel</title>
-      <link>https://tomazinmasatrip.eu/tags/travel/</link>
-      <pubDate>Wed, 13 Jan 2021 19:10:40 +0600</pubDate>
+      <title>Potovanje</title>
+      <link>https://tomazinmasatrip.eu/tags/potovanje/</link>
+      <pubDate>Fri, 24 Mar 2023 00:19:50 +0000</pubDate>
       
-      <guid>https://tomazinmasatrip.eu/tags/travel/</guid>
+      <guid>https://tomazinmasatrip.eu/tags/potovanje/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>office</title>
-      <link>https://tomazinmasatrip.eu/tags/office/</link>
-      <pubDate>Wed, 13 Jan 2021 18:30:40 +0600</pubDate>
+      <title>seoul</title>
+      <link>https://tomazinmasatrip.eu/tags/seoul/</link>
+      <pubDate>Fri, 24 Mar 2023 00:19:50 +0000</pubDate>
       
-      <guid>https://tomazinmasatrip.eu/tags/office/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>news</title>
-      <link>https://tomazinmasatrip.eu/tags/news/</link>
-      <pubDate>Wed, 13 Jan 2021 18:11:40 +0600</pubDate>
-      
-      <guid>https://tomazinmasatrip.eu/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>0ffice</title>
-      <link>https://tomazinmasatrip.eu/tags/0ffice/</link>
-      <pubDate>Wed, 13 Jan 2021 18:10:30 +0600</pubDate>
-      
-      <guid>https://tomazinmasatrip.eu/tags/0ffice/</guid>
+      <guid>https://tomazinmasatrip.eu/tags/seoul/</guid>
       <description></description>
     </item>
     

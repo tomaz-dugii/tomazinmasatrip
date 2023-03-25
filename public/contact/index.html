@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Contact Me</title>
+  <title>Kontakti</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -13,8 +13,15 @@
   <meta name="generator" content="Hugo 0.111.3">
 
   <link rel="stylesheet" href=https://tomazinmasatrip.eu/plugins/font-awesome/css/font-awesome.min.css />
+
   
-  <link href="https://tomazinmasatrip.eu/scss/style.min.css" rel="stylesheet" />
+  
+   
+  <link rel="stylesheet" href="https://tomazinmasatrip.eu/scss/style.min.css"  />
+
+  
+   
+  <link href="https://tomazinmasatrip.eu/scss/main.min.css" rel="stylesheet" />
 
   <link rel="shortcut icon" href=https://tomazinmasatrip.eu/images/favicon.ico type="image/x-icon" />
   <link rel="icon" href=https://tomazinmasatrip.eu/images/favicon.svg type="image/x-icon" />
@@ -56,11 +63,6 @@
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/mary_astor">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li>
           <a href="http://www.instagram.com/tomazstarasinic">
             <i class="fa fa-instagram"></i>
           </a>
@@ -75,57 +77,69 @@
 <section class="contact">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-4">
         <div class="contact-information">
-          <h2>Contact Me</h2>
-          <ul>
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i>
-              <p>Address: Zemelj, Metlika</p>
-            </li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>
-              <a href="tel:+33-257634 534">Phone:&#43;33-257634 534</a>
-            </li>
-          </ul>
+          <h2>Kontakti</h2>
+          <section>
+            <h4>Tomaž Starašinič</h4>
+            <ul>
+              <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p> Metlika,Slovenia</p>
+              </li>
+              <li><a href="mailto:tomaz.starasinic@hotmail.com"> <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                <p> tomaz.starasinic@hotmail.com</p>
+              </li>
+              <li> <a href="https://www.facebook.com/tomaz.starasinic" target="_blank"><i
+                    class="fa fa-facebook"></i></a>
+                    <p> tomaz.starasinic</p>
+                  </li>
+
+              <li> <a href="https://www.instagram.com/tomazstarasinic" target="_blank"><i
+                    class="fa fa-instagram"></i></a>
+                    <p> tomazstarasinic</p>
+
+              </li>
+              <li> <a href="https://www.youtube.com/@tomazs95" target="_blank"><i
+                    class="fa fa-youtube-play"></i></a>
+                    <p> @tomazs95</p>
+
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h4>Maša Petan</h4>
+            <ul>
+              <li><a href="mailto:petan.masa@gmail.com"> <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                <p> petan.masa@gmail.com</p>
+              </li>
+              <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>Celje</p>
+              </li>
+              <li> <a href="https://www.facebook.com/masa.petan" target="_blank"><i
+                    class="fa fa-facebook"></i></a>
+                <p>masa.petan</p>
+              </li>
+
+              <li> <a href="https://www.instagram.com/masha_ptn" target="_blank"><i
+                    class="fa fa-instagram"></i></a>
+                <p>masha_ptn</p>
+              </li>
+            </ul>
+
+          </section>
+
+
+        </div>
+      </div>
+      <div class="col-lg-8 mt-5" style="padding-top: 20px;">
+        <h3>Trenutna lokacija</h3>
+        <div id="map">
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6">
-        <div class="contact-form">
-          <h2>Contact Form</h2>
-          <form class="row" id="contact-form" method="POST" action="https://fabform.io/f/9AJk8ro">
-            <div class="col-md-6">
-              <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
-            </div>
-            <div class="col-md-6">
-              <input type="email" class="form-control" id="mail" name="email" required="" placeholder="Your Email">
-            </div>
-            <div class="col-md-12">
-              <textarea class="form-control" id="message" rows="8" name="message"
-                placeholder="Message here…"></textarea>
-            </div>
-            <div class="col-md-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="agree" name="terms-agree">
-                <label class="form-check-label" for="agree">
-                  I agree that my submitted data is being collected and stored.
-                </label>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <button type="submit" class="btn btn-primary" id="contact-form-button" formtarget="_blank">Send Message</button>
-              <p id="contact-form-status"></p>
-            </div>
-          </form>
-          <p class="contact-form-generator">
-            <strong>** </strong> <a href="https://fabform.io/" target="_blank">Static website forms</a>
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div id="map">
-        </div>
-      </div>
+      
+
     </div>
   </div>
 </section>
@@ -149,27 +163,31 @@
         <div class="instagram-item">
           
           <div class="instagram-item-thum">
-            <img src="https://tomazinmasatrip.eu/images/blog/case-studies-1.png" alt="image">
+            <img src="https://tomazinmasatrip.eu/images/instagram_section/instagram_4.jpeg" alt="image">
           </div>
           
           <div class="instagram-item-thum">
-            <img src="https://tomazinmasatrip.eu/images/blog/case-studies-2.png" alt="image">
+            <img src="https://tomazinmasatrip.eu/images/instagram_section/instagram_tomaz.jpeg" alt="image">
           </div>
           
           <div class="instagram-item-thum">
-            <img src="https://tomazinmasatrip.eu/images/blog/case-studies-3.png" alt="image">
+            <img src="https://tomazinmasatrip.eu/images/instagram_section/instagram_1.jpeg" alt="image">
           </div>
           
           <div class="instagram-item-thum">
-            <img src="https://tomazinmasatrip.eu/images/blog/case-studies-4.png" alt="image">
+            <img src="https://tomazinmasatrip.eu/images/instagram_section/instagram_2.jpeg" alt="image">
           </div>
           
           <div class="instagram-item-thum">
-            <img src="https://tomazinmasatrip.eu/images/blog/case-studies-5.png" alt="image">
+            <img src="https://tomazinmasatrip.eu/images/instagram_section/instagram_3.jpeg" alt="image">
           </div>
           
           <div class="instagram-item-thum">
-            <img src="https://tomazinmasatrip.eu/images/blog/case-studies-6.png" alt="image">
+            <img src="https://tomazinmasatrip.eu/images/instagram_section/instagram_masa.jpeg" alt="image">
+          </div>
+          
+          <div class="instagram-item-thum">
+            <img src="https://tomazinmasatrip.eu/images/instagram_section/instagram_5.jpeg" alt="image">
           </div>
           
         </div>
@@ -220,11 +238,6 @@
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/mary_astor">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li>
               <a href="http://www.instagram.com/tomazstarasinic">
                 <i class="fa fa-instagram"></i>
               </a>
@@ -248,7 +261,7 @@
 
 
 
-<script src="https://tomazinmasatrip.eu/js/vendor.min.js"></script>
+<script src="https://tomazinmasatrip.eu/js/vendor.js"></script>
 
 
 

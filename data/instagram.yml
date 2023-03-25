@@ -2,12 +2,14 @@
 enable: true
 instaImages:
   [
-    "images/blog/case-studies-1.png",
-    "images/blog/case-studies-2.png",
-    "images/blog/case-studies-3.png",
-    "images/blog/case-studies-4.png",
-    "images/blog/case-studies-5.png",
-    "images/blog/case-studies-6.png",
+    "images/instagram_section/instagram_4.jpeg",
+    "images/instagram_section/instagram_tomaz.jpeg",
+    "images/instagram_section/instagram_1.jpeg",
+    "images/instagram_section/instagram_2.jpeg",
+    "images/instagram_section/instagram_3.jpeg",
+    "images/instagram_section/instagram_masa.jpeg",
+    "images/instagram_section/instagram_5.jpeg",
+    
   ]
 ---
 

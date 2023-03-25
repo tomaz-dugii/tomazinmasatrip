@@ -29,19 +29,23 @@
       </div>
       <div class="col-lg-10 order-1 order-lg-2">
         <article class="single-blog">
-          <a href={{ printf "tags/%s" .Params.tags | absURL }} class="tag">{{ .Params.tags }}</a>
+          <div class="blog-post-tag">
+            {{ range .GetTerms "tags" }}
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+            {{ end }}
+          </div>
           <p class="title">{{ .Title }}</p>
           <ul class="meta">
             <li>
               {{ if eq .Params.secondAuthor true }}
-              By <a href={{ "about" | absURL }}>{{ $.Site.Params.author2 }}</a>
+              By <a href={{ "about" | absURL }}>{{ $.Site.Params.masaAuthor }}</a>
               {{ else }}
               By <a href={{ "about" | absURL }}>{{ $.Site.Params.author }}</a>
               {{end}}
             </li>
             <li>
               <i class="fa fa-clock-o"></i>
-              {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} read
+              {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} branja
             </li>
           </ul>
           <div class="feature-image">

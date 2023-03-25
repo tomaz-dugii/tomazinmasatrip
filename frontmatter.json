@@ -1,0 +1,170 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "template": "[[workspace]]/.frontmatter/templates/Blog_post_masa_south_korea.md",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "secondAuthor",
+          "name": "secondAuthor",
+          "type": "datetime"
+        },
+        {
+          "title": "readTime",
+          "name": "readTime",
+          "type": "string"
+        },
+        {
+          "title": "thumbnail",
+          "name": "thumbnail",
+          "type": "string"
+        },
+        {
+          "title": "featureImage",
+          "name": "featureImage",
+          "type": "string"
+        },
+        {
+          "title": "video",
+          "name": "video",
+          "type": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "Video type",
+      "pageBundle": false,
+      "template": "[[workspace]]/.frontmatter/templates/Video.md",
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "preview",
+          "name": "preview",
+          "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "video",
+          "name": "video",
+          "type": "boolean"
+        },
+        {
+          "title": "secondAuthor",
+          "name": "secondAuthor",
+          "type": "boolean"
+        },
+        {
+          "title": "readTime",
+          "name": "readTime",
+          "type": "string"
+        },
+        {
+          "title": "thumbnail",
+          "name": "thumbnail",
+          "type": "string"
+        },
+        {
+          "title": "featureImage",
+          "name": "featureImage",
+          "type": "string"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "default": "Video type",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.taxonomy.tags": [
+    "Potovanje",
+    "seoul",
+    "travel"
+  ],
+  "frontMatter.taxonomy.categories": [
+    "južna koreja"
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts objave",
+      "path": "[[workspace]]/content/posts",
+      "originalPath": "[[workspace]]/content/posts"
+    },
+    {
+      "title": "videos",
+      "path": "[[workspace]]/content/videos",
+      "originalPath": "[[workspace]]/content/videos"
+    }
+  ]
+}

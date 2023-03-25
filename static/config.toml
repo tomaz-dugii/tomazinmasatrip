@@ -1,38 +1,49 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "https://tomazinmasatrip.eu"
+languageCode = "sl-si"
 paginate = 6
 summarylength = 10
-title = "Blogge | Personal Blog Template"
+title = "Tomaž in Maša trip | Travel Blog"
 theme = "blogge-hugo-theme"
 
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Domov"
     url= ""
     weight= 1
   [[menu.main]]
-    name = "About"
+    name = "O naju"
     url= "about"
     weight= 2
   [[menu.main]]
-    name = "Contact"
+    name = "Kontakt"
     url= "contact"
     weight= 3
 
 [params]
   summarylength = 80
   logo = "images/logo.svg"
-  author = "Mary Astor"
-  authorThumb = "images/author.png"
-  authorAddress = "Lorem 142 Str., 2352, Ipsum, State, USA"
+  author = "Tomaž Starašinič"
+  authorThumb = "images/tomaz_in_medo.png"
+  authorAddress = "Metlika, Slovenija"
   authorPhone = "+33-257634 534"
-  instaUsername = "mary_astor"
-  facebookUsername = "mary_astor"
-  twitterUsername = "mary_astor"
+  authorMail = "tomaz.starasinic@hotmail.com"
+  instaUsername = "tomazstarasinic"
+  facebookUsername = "tomaz.starasinic"
+  youTubeUsername = "@tomazs95"
   linkedinUsername = "mary_astor"
-  blogTitle = "Articles"
-  blogSubTitle = "View the latest news on Blogger"
-  trendingBlogIcon = "images/blog/icon.svg"
+  masaAuthor = "Maša Petan"
+  masaThumb = "images/masa_in_zaba.png"
+  masaAddress = "Celje, Slovenija"
+  masaPhone = "+33-257634 534"
+  masaMail = "petan.masa@gmail.com"
+  instaUsernameMasa = "masha_ptn"
+  facebookUsernameMasa = "masa.petan"
+  youTubeUsernameMasa = "@tomazs95"
+  blogTitle = "Blog"
+  blogSubTitle = "Kaj dogaja na poti."
+  video = false
+  videoBlogIcon = "images/blog/icon.svg"
+  videoBlogsTitle = "Zadnji videi"
   # Replace the third party URL/API with yours
   # We're using formspree.io for form handling, paste your formspree url below
   fabformURL  = "9AJk8ro"

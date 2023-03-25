@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-{{ partial "feature.html" . }}
+{{/* {{ partial "feature.html" . }} */}}
+{{ partial "hero_section.html" . }}
 
 <section class="blog">
   <div class="container">
@@ -10,14 +11,16 @@
           <h2>{{ $.Site.Params.blogTitle }}</h2>
           <p>{{ $.Site.Params.blogSubTitle }}</p>
         </div>
-        {{ range $.Paginator.Pages }}
+        {{ range $.Paginator.Pages }} {{ if eq .Params.video false }}
         <article class="blog-post">
           <div class="blog-post-thumb">
             <img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum" />
           </div>
           <div class="blog-post-content">
             <div class="blog-post-tag">
-              <a href={{ printf "tags/%s" .Params.tags | absURL }}> {{ .Params.tags }} </a>
+              {{ range .GetTerms "tags" }}
+              <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+              {{ end }}
             </div>
             <div class="blog-post-title">
               <a href="{{ .Permalink }}"> {{ .Title }} </a>
@@ -26,33 +29,33 @@
               <ul>
                 <li>
                   {{ if eq .Params.secondAuthor true }}
-                  By <a href={{ "about" | absURL }}>{{ $.Site.Params.author2 }}</a>
+                  By <a href={{ "about" | absURL }}>{{ $.Site.Params.masaAuthor }}</a>
                   {{ else }}
                   By <a href={{ "about" | absURL }}>{{ $.Site.Params.author }}</a>
                   {{end}}
                 </li>
                 <li>
                   <i class="fa fa-clock-o"></i>
-                  {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} read
+                  {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} branja
                 </li>
               </ul>
             </div>
             <p>
               {{ .Summary }}
             </p>
-            <a href="{{ .Permalink }}" class="blog-post-action">read more <i class="fa fa-angle-right"></i></a>
+            <a href="{{ .Permalink }}" class="blog-post-action">preberi več <i class="fa fa-angle-right"></i></a>
           </div>
         </article>
-        {{ end }}
+        {{ end }} {{ end }}
         {{ partial "pagination" .}}
       </div>
 
       <div class="col-lg-4">
         <div class="blog-post-widget">
-          <div class="latest-widget-title">
-            <h2>Trending post</h2>
+          <div class="blog-section-title">
+            <h2>{{ $.Site.Params.videoBlogsTitle }}</h2>
           </div>
-          {{ range $i, $.Site.RegularPages }} {{ if eq .Params.tranding true }}
+          {{ range $i, $.Site.RegularPages }} {{ if eq .Params.video true }}
           <div class="latest-widget">
             <div class="latest-widget-thum">
               <a href="{{ .Permalink }}" class="post-thumb"
@@ -60,7 +63,7 @@
               </a>
               <div class="icon">
                 <a href="{{ .Permalink }}">
-                  <img src="{{ $.Site.Params.trendingBlogIcon | absURL }}" alt="icon" /></a>
+                  <i class="fa fa-youtube-play"></i>
               </div>
             </div>
             <div class="latest-widget-content">
