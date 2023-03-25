@@ -14,7 +14,8 @@
         {{ range $.Paginator.Pages }} {{ if eq .Params.video false }}
         <article class="blog-post">
           <div class="blog-post-thumb">
-            <img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum" />
+            <a href="{{ .Permalink }}">
+              <img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum" /></a>
           </div>
           <div class="blog-post-content">
             <div class="blog-post-tag">

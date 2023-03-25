@@ -7,8 +7,8 @@ tags:
 secondAuthor: true
 video: false
 readTime: 10 min
-thumbnail: /images/blog/Jongmyo/Jongmyo.png
-featureImage: /images/blog/Jongmyo/Jongmyo.png
+thumbnail: /images/blog/Jongmyo/Jongmyo.webp
+featureImage: /images/blog/Jongmyo/Jongmyo.webp
 categories:
   - južna koreja
 description: "Znani rek pravi “Drži prijatelje blizu in svoje sovražnike še bližje”. "

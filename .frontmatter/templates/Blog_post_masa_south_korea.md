@@ -1,10 +1,12 @@
 ---
-title: Personal post
-date: 2023-03-23T07:19:09.080Z
+title: First South Korea blog post
+date: 2023-03-23T08:15:26.556Z
+draft: false
+preview: ""
 tags:
   - travel
   - seoul
-tranding: false
+video: false
 secondAuthor: true
 readTime: 10 min
 thumbnail: /images/blog/blog-thum-1.png
