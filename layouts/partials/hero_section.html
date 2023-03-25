@@ -8,9 +8,9 @@
                             <img src="{{ $.Site.Params.authorThumb | absURL }}" alt="author" />
                             <p>By <a href={{ "about" | absURL }}>{{ $.Site.Params.author }}</a></p>
                         </div>  */}}
-                        <a href="{{ .Permalink }}" class="featured-post-title">
+                        <p class="featured-post-title">
                             {{ .Site.Data.hero_homepage.heroTitle }}
-                        </a>
+                        </p>
                         <ul class="featured-post-meta">
                            <li>
                             <p>{{ .Site.Data.hero_homepage.heroDescription }}</p>
