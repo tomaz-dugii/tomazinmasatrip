@@ -3,9 +3,6 @@ title: First South Korea blog post
 date: 2023-03-23T08:15:26.556Z
 draft: false
 preview: ""
-tags:
-  - travel
-  - seoul
 video: false
 secondAuthor: true
 readTime: 10 min
