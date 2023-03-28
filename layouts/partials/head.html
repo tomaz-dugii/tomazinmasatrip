@@ -13,6 +13,7 @@
   <link rel="stylesheet" href={{ "plugins/font-awesome/css/font-awesome.min.css" | absURL }} />
 
   {{/*  {{ $style := resources.Get "scss/custom_style.scss" | resources.ToCSS | minify}}  */}}
+  {{ $lightbox := resources.Get "scss/plugins/_lightbox.scss" | resources.ToCSS | minify}}
   {{ $sassTemplate := resources.Get "scss/style.scss" }}
   {{ $style := $sassTemplate | resources.ExecuteAsTemplate "scss/style.scss" . | resources.ToCSS | minify }} 
   <link rel="stylesheet" href="{{ $style.Permalink }}"  />
