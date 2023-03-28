@@ -1,8 +1,43 @@
 .blog {
-    .latest-widget {
-        .icon {
-            i{
-                color: $white;
+    &-post {
+        &-widget {
+            .latest-widget {
+                .icon {
+                    i {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    &-image-gallery {
+        overflow: auto;
+        margin-left: -1% !important;
+
+        li {
+            float: left;
+            display: block;
+            margin: 0 0 1% 1%;
+            width: 30%;
+
+            a {
+                text-align: center;
+                text-decoration: none !important;
+                color: #777;
+            }
+
+            span {
+                display: block;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                padding: 3px 0;
+            }
+
+            img {
+                width: 100%;
+                display: block;
             }
         }
     }

@@ -32,7 +32,7 @@
         {
           "title": "Is in draft",
           "name": "draft",
-          "type": "draft"
+          "type": "boolean"
         },
         {
           "title": "Tags",
@@ -47,7 +47,12 @@
         {
           "title": "secondAuthor",
           "name": "secondAuthor",
-          "type": "datetime"
+          "type": "boolean"
+        },
+        {
+          "title": "video",
+          "name": "video",
+          "type": "boolean"
         },
         {
           "title": "readTime",
@@ -63,11 +68,6 @@
           "title": "featureImage",
           "name": "featureImage",
           "type": "string"
-        },
-        {
-          "title": "video",
-          "name": "video",
-          "type": "datetime"
         }
       ]
     },
@@ -79,6 +79,11 @@
         {
           "title": "title",
           "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
           "type": "string"
         },
         {
@@ -102,6 +107,11 @@
           "type": "tags"
         },
         {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
           "title": "video",
           "name": "video",
           "type": "boolean"
@@ -127,16 +137,6 @@
           "type": "string"
         },
         {
-          "title": "categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "description",
-          "name": "description",
-          "type": "string"
-        },
-        {
           "name": "type",
           "type": "string",
           "default": "Video type",
@@ -148,7 +148,7 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.taxonomy.tags": [
-    "Potovanje",
+    "potovanje",
     "seoul",
     "travel"
   ],
@@ -164,7 +164,10 @@
     {
       "title": "videos",
       "path": "[[workspace]]/content/videos",
-      "originalPath": "[[workspace]]/content/videos"
+      "originalPath": "[[workspace]]/content/videos",
+      "contentTypes": [
+        "Video type"
+      ]
     }
   ]
 }

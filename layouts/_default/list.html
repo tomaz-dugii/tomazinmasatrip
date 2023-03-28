@@ -11,7 +11,7 @@
           <h2>{{ $.Site.Params.blogTitle }}</h2>
           <p>{{ $.Site.Params.blogSubTitle }}</p>
         </div>
-        {{ range $.Paginator.Pages }} {{ if eq .Params.video false }}
+        {{ range .Paginator.Pages }} {{ if eq .Params.video false }}
         <article class="blog-post">
           <div class="blog-post-thumb">
             <a href="{{ .Permalink }}">
@@ -55,6 +55,7 @@
         <div class="blog-post-widget">
           <div class="blog-section-title">
             <h2>{{ $.Site.Params.videoBlogsTitle }}</h2>
+            <p>{{ $.Site.Params.blogSubTitleVideo }}</p>
           </div>
           {{ range $i, $.Site.RegularPages }} {{ if eq .Params.video true }}
           <div class="latest-widget">
@@ -77,7 +78,7 @@
                 <ul>
                   <li>
                     <i class="fa fa-clock-o"></i>
-                    {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} read
+                    {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} branja
                   </li>
                 </ul>
               </div>

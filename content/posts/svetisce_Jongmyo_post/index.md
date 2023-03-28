@@ -1,19 +1,19 @@
 ---
-title: Svetišče Jongmyo draft
+title: Svetišče Jongmyo
 date: 2023-03-24T00:19:50.878Z
 tags:
-  - Potovanje
   - seoul
+  - potovanje
 secondAuthor: true
 video: false
 readTime: 10 min
-thumbnail: /images/blog/Jongmyo/Jongmyo.webp
+thumbnail: /images/blog/Jongmyo/Jongmyo_thumbnail_650w.webp
 featureImage: /images/blog/Jongmyo/Jongmyo.webp
 categories:
   - južna koreja
 description: "Znani rek pravi “Drži prijatelje blizu in svoje sovražnike še bližje”. "
 preview: ""
-draft: true
+draft: false
 ---
 
 Znani rek pravi “Drži prijatelje blizu in svoje sovražnike še bližje”. Včasih pa tovrstna bližina vseeno lahko naredi več škode kot dobrega. Takšna je tudi zgodba nekdanjega korejskega cesarstva, ki s svojimi vzhodnimi sosedi preprosto ni uspelo shajati.
@@ -36,7 +36,7 @@ Jongmyo svetišče leži na idealni predpisani legi  glede na konfucionizem. Na 
 
 Svetišče je namenjeno za čaščenje nekdanjih vladarjev, ki se po verovanju sprehajajo ob živih vzdolž kamnite poti. Ta tlakovana pot je razdeljena na tri predele. Levi del je namenjen vladarju, desni prestolonasledniku, srednja, dvignjena pot, pa je le za duhove iz onstranstva. 
 
-![](/images/blog/Jongmyo/Jongmyo_5_pot.png)
+![](/images/blog/Jongmyo/Jongmyo_5_pot2x.webp)
 > Če se  kdajkoli znajdeš na svetišču vzhodne azije in zagledaš kamnito pot z dvignjenim osrednjim pasom, ne stopaj nanjo. Ta je namenjena le za duše umrlih.
 
 Sam obred čaščenja prednikov, ki se še vedno odvije dvakrat letno v popoldnaskem času, so včasih opravljali vsak letni čas s pričetkom ob enih ponoči. Noč je čas duhov, zato se je obred odvijal od ene zjutraj do sončnega vzhoda. 
@@ -45,5 +45,8 @@ V samem obredu so sedelovali le najvišji državni predstavniki ter nastopajoče
 
 Spoštovanje, ki ga imajo ljudje do svetišča je razumljivo. Jongmyo se sveto mesto, kjer stopajo v stik z mogočnimi predniki, ki so zgradili državo v kateri danes bivajo. Je tudi edino mesto v Seoulu, ki se je ohranilo iz mogočne Joseon dinastije, zato je ogled več kot priporočljiv.
 
-{{< image-gallery gallery_dir="/images/blog/Jongmyo">}}
+{{< gallery >}} 
+
+
+
 

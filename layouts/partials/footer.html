@@ -27,11 +27,6 @@
             <li> <a href="https://www.youtube.com/{{ .Site.Params.youTubeUsername }}" target="_blank"><i
                   class="fa fa-youtube-play"></i></a>
             </li>
-            <li>
-              <a href="http://www.instagram.com/{{ .Site.Params.instaUsername }}">
-                <i class="fa fa-instagram"></i>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
@@ -45,6 +40,10 @@
     </div>
   </div>
 </footer>
+
+<!-- Lightbox JS -->
+{{ $lightbox:= resources.Get "js/lightbox.js" | minify }}
+<script src="{{ $lightbox.Permalink }}"></script>
 
 <!-- Google Map -->
 {{/*  <script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapAPI }}&libraries=geometry"></script>  */}}

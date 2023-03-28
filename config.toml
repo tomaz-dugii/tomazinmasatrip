@@ -41,6 +41,7 @@ theme = "blogge-hugo-theme"
   youTubeUsernameMasa = "@tomazs95"
   blogTitle = "Blog"
   blogSubTitle = "Kaj dogaja na poti."
+  blogSubTitleVideo = "Kaj dogaja na poti, ampak v videu."
   video = false
   videoBlogIcon = "images/blog/icon.svg"
   videoBlogsTitle = "Zadnji videi"
