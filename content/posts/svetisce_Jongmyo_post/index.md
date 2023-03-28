@@ -36,7 +36,7 @@ Jongmyo svetišče leži na idealni predpisani legi  glede na konfucionizem. Na 
 
 Svetišče je namenjeno za čaščenje nekdanjih vladarjev, ki se po verovanju sprehajajo ob živih vzdolž kamnite poti. Ta tlakovana pot je razdeljena na tri predele. Levi del je namenjen vladarju, desni prestolonasledniku, srednja, dvignjena pot, pa je le za duhove iz onstranstva. 
 
-![](/images/blog/Jongmyo/Jongmyo_5_pot.png)
+![](/images/blog/Jongmyo/Jongmyo_5_pot2x.webp)
 > Če se  kdajkoli znajdeš na svetišču vzhodne azije in zagledaš kamnito pot z dvignjenim osrednjim pasom, ne stopaj nanjo. Ta je namenjena le za duše umrlih.
 
 Sam obred čaščenja prednikov, ki se še vedno odvije dvakrat letno v popoldnaskem času, so včasih opravljali vsak letni čas s pričetkom ob enih ponoči. Noč je čas duhov, zato se je obred odvijal od ene zjutraj do sončnega vzhoda. 
