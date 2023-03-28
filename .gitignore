@@ -63,6 +63,7 @@ bower_components
 
 # Mac File System File...utterly useless to anyone but me.
 .DS_Store
+**/.DS_Store
 
 # AWS stuff for publishing static files
 .aws-credentials.json
