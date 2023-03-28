@@ -7,7 +7,7 @@ tags:
 secondAuthor: true
 video: false
 readTime: 10 min
-thumbnail: /images/blog/Jongmyo/Jongmyo.webp
+thumbnail: /images/blog/Jongmyo/Jongmyo_thumbnail_650w.webp
 featureImage: /images/blog/Jongmyo/Jongmyo.webp
 categories:
   - južna koreja
