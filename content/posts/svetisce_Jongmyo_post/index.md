@@ -1,5 +1,5 @@
 ---
-title: Svetišče Jongmyo2
+title: Svetišče Jongmyo
 date: 2023-03-24T00:19:50.878Z
 tags:
   - Potovanje
