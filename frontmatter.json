@@ -148,7 +148,7 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.taxonomy.tags": [
-    "Potovanje",
+    "potovanje",
     "seoul",
     "travel"
   ],
@@ -165,7 +165,9 @@
       "title": "videos",
       "path": "[[workspace]]/content/videos",
       "originalPath": "[[workspace]]/content/videos",
-      "contentTypes": ["Video type"]
+      "contentTypes": [
+        "Video type"
+      ]
     }
-  ]  
+  ]
 }
