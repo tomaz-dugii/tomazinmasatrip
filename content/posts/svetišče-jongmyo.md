@@ -1,5 +1,5 @@
 ---
-title: Svetišče Jongmyo
+title: Svetišče Jongmyo draft
 date: 2023-03-24T00:19:50.878Z
 tags:
   - Potovanje
@@ -13,7 +13,7 @@ categories:
   - južna koreja
 description: "Znani rek pravi “Drži prijatelje blizu in svoje sovražnike še bližje”. "
 preview: ""
-draft: false
+draft: true
 ---
 
 Znani rek pravi “Drži prijatelje blizu in svoje sovražnike še bližje”. Včasih pa tovrstna bližina vseeno lahko naredi več škode kot dobrega. Takšna je tudi zgodba nekdanjega korejskega cesarstva, ki s svojimi vzhodnimi sosedi preprosto ni uspelo shajati.
@@ -44,4 +44,6 @@ Sam obred čaščenja prednikov, ki se še vedno odvije dvakrat letno v popoldna
 V samem obredu so sedelovali le najvišji državni predstavniki ter nastopajoče skupine, ki so vključevale pevce, glasbenike in plesalce. Sodelovanje na obredu je bilo prepovedano ženskam in pripadnikom drugih ver. Še dobro, da se tega v tretjem tisočletju ne držimo več, da sva si ga lahko ogledala tudi midva.
 
 Spoštovanje, ki ga imajo ljudje do svetišča je razumljivo. Jongmyo se sveto mesto, kjer stopajo v stik z mogočnimi predniki, ki so zgradili državo v kateri danes bivajo. Je tudi edino mesto v Seoulu, ki se je ohranilo iz mogočne Joseon dinastije, zato je ogled več kot priporočljiv.
+
+{{< image-gallery gallery_dir="/images/blog/Jongmyo">}}
 
