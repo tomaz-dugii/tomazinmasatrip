@@ -2,8 +2,8 @@
 title: Svetišče Jongmyo
 date: 2023-03-24T00:19:50.878Z
 tags:
-  - Potovanje
   - seoul
+  - potovanje
 secondAuthor: true
 video: false
 readTime: 10 min
