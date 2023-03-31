@@ -34,20 +34,32 @@
             <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
             {{ end }}
           </div>
-          <p class="title">{{ .Title }}</p>
-          <ul class="meta">
-            <li>
-              {{ if eq .Params.secondAuthor true }}
-              By <a href={{ "about" | absURL }}>{{ $.Site.Params.masaAuthor }}</a>
-              {{ else }}
-              By <a href={{ "about" | absURL }}>{{ $.Site.Params.author }}</a>
-              {{end}}
-            </li>
-            <li>
-              <i class="fa fa-clock-o"></i>
-              {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} branja
-            </li>
-          </ul>
+
+          <div class="row">
+            <div class="col-lg-7">
+              <p class="title">{{ .Title }}</p>
+              <ul class="meta">
+                <li>
+                  {{ if eq .Params.secondAuthor true }}
+                  By <a href={{ "about" | absURL }}>{{ $.Site.Params.masaAuthor }}</a>
+                  {{ else }}
+                  By <a href={{ "about" | absURL }}>{{ $.Site.Params.author }}</a>
+                  {{end}}
+                </li>
+                <li>
+                  <i class="fa fa-clock-o"></i>
+                  {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} branja
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+                data-name="bmc-button" data-slug="tomazinmasa" data-color="#ef884f" data-emoji="" data-font="Inter"
+                data-text="Kupi nama kavo" data-outline-color="#000000" data-font-color="#000000"
+                data-coffee-color="#FFDD00"></script>
+            </div>
+          </div>
+
           <div class="feature-image">
             <img src="{{ .Params.featureImage  | absURL }}" alt="banner">
           </div>
