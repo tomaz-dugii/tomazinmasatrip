@@ -24,7 +24,7 @@
 
   <link rel="shortcut icon" href={{ "images/favicon.ico" | absURL }} type="image/x-icon" />
   <link rel="icon" href={{ "images/favicon.svg" | absURL }} type="image/x-icon" />
-  <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js)  and Google Analytics-->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNVFHPVQG6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -33,12 +33,17 @@
 
     gtag('config', 'G-JNVFHPVQG6');
   </script>
-
+<!-- Clarity for analytics -->
   <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "gg28o9y76l");
-</script>
+  </script>
+  <!-- Buy me a coffe script-->
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="tomazinmasa" data-description="Support me on Buy me a coffee!"
+    data-message="Hvala za kavo ☕️. Če veva kdo si, pričakuj fotko s kavo." data-color="#FF813F" data-position="Right"
+    data-x_margin="18" data-y_margin="18"></script>
 </head>
