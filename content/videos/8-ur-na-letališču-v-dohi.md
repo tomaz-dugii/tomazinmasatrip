@@ -9,7 +9,7 @@ tags:
 video: true
 secondAuthor: ""
 readTime: 30 min
-thumbnail: /images/videos/doha_airport.jpg
+thumbnail: /images/videos/doha_airport.webp
 featureImage: /images/videos/doha-garden-airport.webp
 categories:
   - Videos
