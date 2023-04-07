@@ -20,6 +20,7 @@ theme = "blogge-hugo-theme"
     weight= 3
 
 [params]
+  languageCode = "sl"
   summarylength = 80
   logo = "images/logo.svg"
   author = "Tomaž Starašinič"
