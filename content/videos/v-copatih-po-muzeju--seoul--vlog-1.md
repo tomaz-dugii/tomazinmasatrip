@@ -9,8 +9,8 @@ tags:
 video: true
 secondAuthor: ""
 readTime: 15 minut
-thumbnail: /images/videos/Seoul_vlog_thumbnail.png
-featureImage: /images/videos/Seoul_vlog_feature.png
+thumbnail: /images/videos/Seoul_vlog_thumbnail.webp
+featureImage: /images/videos/Seoul_vlog_feature.webp
 categories:
   - južna koreja
 description: Prvi vlog potovanja. Seoul 2023
