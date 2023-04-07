@@ -1,5 +1,5 @@
 baseURL = "https://tomazinmasatrip.eu"
-languageCode = "sl-si"
+languageCode = "sl"
 paginate = 6
 summarylength = 10
 title = "Tomaž in Maša potujeta | Travel Blog"
@@ -20,6 +20,7 @@ theme = "blogge-hugo-theme"
     weight= 3
 
 [params]
+  languageCode = "sl"
   summarylength = 80
   logo = "images/logo.svg"
   author = "Tomaž Starašinič"
