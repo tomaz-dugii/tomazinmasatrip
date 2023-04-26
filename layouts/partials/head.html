@@ -47,17 +47,16 @@
     data-message="Pomagaj nama potovat z nakupom kave. Hvala." data-color="#FF813F" data-position="Right"
     data-x_margin="18" data-y_margin="18"></script>
   {{ if isset .Site.Params "twitter" }}
-  <meta name="twitter:card" content="{{ if .Params.featured_image }}summary_large_image{{else}}summary{{end}}">
+  <meta name="twitter:card" content="{{ if .Params.featureImage }}summary_large_image{{else}}summary{{end}}">
   <meta name="twitter:title"
     content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}">
   <meta name="twitter:description"
     content="{{ if .IsHome }}{{ .Description }}{{ else }}{{ htmlEscape .Summary }}{{ end }}">
   <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
   <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
-  {{ if .Params.featured_image }}
-  <meta name="twitter:image" content="{{ .Params.featured_image }}">{{ end }}
+  {{ if .Params.featureImage }}
+  <meta name="twitter:image" content="{{ .Params.featureImage }}">{{ end }}
   {{ end }}
-
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:title"
@@ -66,9 +65,9 @@
     content="{{ if .IsHome }}{{ .Description }}{{ else }}{{ htmlEscape .Summary }}{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
-  {{ if .Params.featured_image }}
-  <meta property="og:image" content="{{ .Params.featured_image }}">
-  <meta property="og:image:secure_url" content="{{ .Params.featured_image }}">
+  {{ if .Params.featureImage}}
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ substr .Params.featureImage 1 }}">
+  <meta property="og:image:secure_url" content="{{ .Site.BaseURL }}{{ substr .Params.featureImage 1 }}">
   {{- end }}
   {{ range .Params.categories }}
   <meta property="article:section" content="{{ . }}">{{ end }}
