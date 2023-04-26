@@ -66,8 +66,8 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
   {{ if .Params.featureImage}}
-  <meta property="og:image" content="{{ .Site.BaseURL }}{{ substr .Params.featureImage 1 }}">
-  <meta property="og:image:secure_url" content="{{ .Site.BaseURL }}{{ substr .Params.featureImage 1 }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.featureImage }}">
+  <meta property="og:image:secure_url" content="{{ .Site.BaseURL }}{{ .Params.featureImage }}">
   {{- end }}
   {{ range .Params.categories }}
   <meta property="article:section" content="{{ . }}">{{ end }}
