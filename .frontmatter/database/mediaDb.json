@@ -1,1 +1,13 @@
-{}
+{
+  "static": {
+    "images": {
+      "videos": {
+        "fukuoka exploring_thumbnail.webp": {
+          "caption": "Vlog thumbnail for video.",
+          "alt": "fukuoka_vlog_thumbnail",
+          "title": "Fukuoka vlog thumbnail"
+        }
+      }
+    }
+  }
+}
