@@ -48,3 +48,6 @@ Japosnka s svojo oddaljenostjo in posebnostjo stalno ponuja nove kulturne šoke.
 13. Urejene poti. Naj bo to na vulkanu ali otoku sredi morja, vse uradne poti so brezhibno urejene. Povsod najdeš oznake in urejeno pot, kjer je postriženo še grmičevje naokoli. Res škoda, da toliko Japoncev raje še na kratko razdaljo vzame prevoz, kot pa izkoristi sprehajalne poti.
 
 
+{{< gallery >}} 
+
+
