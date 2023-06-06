@@ -39,7 +39,7 @@ Toliko, kot se lahko na Japonski zaneseš na točnost vlakov, se lahko tudi na p
 
 Vrste postanejo del vsakdana in na koncu je že povsem naravno, da se pač za vsako stvar postaviš v vrsto in čakaš. Prej kot se sprijazniš, manj trpijo živci. Še dobro, da sva šla za tri mesce, da se nama nikamor ne mudi.
 
-![](/images/blog/vrsta_za_vrsto/vrsta_1.webp)
+{{< gallery >}} 
 
 
 
