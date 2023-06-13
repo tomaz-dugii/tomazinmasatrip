@@ -50,6 +50,3 @@ Japosnka s svojo oddaljenostjo in posebnostjo stalno ponuja nove kulturne šoke.
 {{< gallery >}} 
 
 
-{{< gallery >}} 
-
-
