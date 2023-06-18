@@ -14,11 +14,6 @@ categories:
   - Japonska
 description: ""
 type: Video type
-tranding: true
 ---
 
-
 {{< youtube e-twJJIOIek >}}
-
-
-

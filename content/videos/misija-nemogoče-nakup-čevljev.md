@@ -14,10 +14,6 @@ categories:
   - Japonska
 description: Nakupujeva Puma čevlje v Kumamoto.
 type: Video type
-tranding: true
 ---
 
 {{< youtube AOEinibagyk >}}
-
-
-
