@@ -13,13 +13,11 @@ thumbnail: /images/blog/blog-thum-6.png
 featureImage: /images/blog/feature-image-08.jpg
 categories:
   - Japonska
-description: Obajava Japonska
+description: Video objava Japonska
 ---
 
-### Make better business
-> Primer kako zgleda citat v tekstu.
 
-![](/images/blog/feature-image-09.jpg)
+{{< youtube CsRJwX-jr60 >}}
 
 
 
