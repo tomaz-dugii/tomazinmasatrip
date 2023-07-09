@@ -14,12 +14,11 @@ categories:
   - Japonska
 description: ""
 type: Video type
-tranding: true
 ---
 
-Gora Aso je aktiven vulkan, ki se nahaja v središču otoka Kyushu. 
-Je največji aktiven Japonski vulkan in eden največjih na svetu. 
-Njegova starodavna kaldera je dolga kar 25 kilometrov in v obseg meri ogromnih 100 kilometrov. 
+Gora Aso je aktiven vulkan, ki se nahaja v središču otoka Kyushu.
+Je največji aktiven Japonski vulkan in eden največjih na svetu.
+Njegova starodavna kaldera je dolga kar 25 kilometrov in v obseg meri ogromnih 100 kilometrov.
 
 Aso je v nedavni preteklosti izbruhnil že dvakrat. Leta 2016 in 2021. Izbruha sta povzročila izpust pepela, plinov in gostega dima, ki so zahtevali evakuacije in imeli močan vpliv na kmetijsko dejavnost.
 
@@ -28,6 +27,3 @@ Leta 2016 je serija močnih potresov, vključno z glavnim sunkom 14. aprila, pri
 Kljub temu pa vulkan Aso še vedno privablja turiste s svojimi edinstvenimi pokrajinami in geološko zanimivostjo, saj predstavlja odlično destinacijo za odkrivanje naravnih čudes Japonske.
 
 {{< youtube 26xJx6l3pLo >}}
-
-
-
