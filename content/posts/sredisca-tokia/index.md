@@ -15,7 +15,6 @@ categories:
 description: Številna središča Tokia poskrbijo, da je mesto raznoliko in vedno ponuja nekaj novega. Pa jih spoznajmo.
 ---
 
-
 Ne glede na kateri izmed stoterih postaj izstopiš v Tokiu, te bo mesto pričakalo s pestro ponudbo. Na ulicah se stalno kaj dogaja in ni treba daleč, da se med visokimi zgradbami prikaže novo svetišče. Mesto, ki nikoli ne spi, se spreminja iz dneva v dan, in medtem, ko nekatera središča ob mraku ugasnejo luči, se v drugih življenje šele prične.
 
 SHUBUYA
