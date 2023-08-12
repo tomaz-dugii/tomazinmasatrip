@@ -19,3 +19,4 @@ Grad Kumamoto je eden najbolj impresivnih gradov na Japonskem. Zgrajen je bil le
 
 
 {{< youtube CsRJwX-jr60 >}}
+
