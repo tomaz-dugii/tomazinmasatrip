@@ -1,15 +1,20 @@
 ---
-title: Središča Tokia
-description: Številna središča Tokia poskrbijo, da je mesto raznoliko in vedno ponuja nekaj novega. Pa jih spoznajmo.
+title: Središča Tokya
+date: 2023-08-12T03:17:26.636Z
+draft: false
+preview: ""
 tags:
   - potovanje
-categories:
-  - Japonska
+video: false
 secondAuthor: true
-readTime: 10 minutS
+readTime: 10 minut
 thumbnail: /images/blog/sredisca_tokia/srediscatokia_thumbnail.webp
 featureImage: /images/blog/sredisca_tokia/srediscatokia_header.webp
+categories:
+  - Japonska
+description: Številna središča Tokia poskrbijo, da je mesto raznoliko in vedno ponuja nekaj novega. Pa jih spoznajmo.
 ---
+
 
 Ne glede na kateri izmed stoterih postaj izstopiš v Tokiu, te bo mesto pričakalo s pestro ponudbo. Na ulicah se stalno kaj dogaja in ni treba daleč, da se med visokimi zgradbami prikaže novo svetišče. Mesto, ki nikoli ne spi, se spreminja iz dneva v dan, in medtem, ko nekatera središča ob mraku ugasnejo luči, se v drugih življenje šele prične.
 
