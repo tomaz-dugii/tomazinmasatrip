@@ -8,8 +8,8 @@ tags:
 video: true
 secondAuthor: false
 readTime: 12 minut
-thumbnail: /images/videos/Unzen_thumbnail.webp
-featureImage: /images/videos/Unzen_feature.webp
+thumbnail: "/images/videos/Unzen_thumbnail.webp"
+featureImage: "/images/videos/Unzen_feature.webp"
 categories:
   - Japonska
 description: ""
