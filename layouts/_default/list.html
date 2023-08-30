@@ -58,7 +58,7 @@
             <h2>{{ $.Site.Params.videoBlogsTitle }}</h2>
             <p>{{ $.Site.Params.blogSubTitleVideo }}</p>
           </div>
-          {{ range $i, $.Site.RegularPages }} {{ if eq .Params.video true }}
+          {{ range $i, $.Site.RegularPages }} {{ if and (eq .Params.video true) (eq .Params.tranding true) }}
           <div class="latest-widget">
             <div class="latest-widget-thum">
               <a href="{{ .Permalink }}" class="post-thumb"
