@@ -1,19 +1,21 @@
 ---
 title: Ohori Park, Fukuoka | Sprehod
 date: 2023-04-10T04:51:21.079Z
-draft: false
+draft: true
 preview: ""
 tags:
   - fukuoka
   - video
   - sprehod
 video: true
+tranding: false
 secondAuthor: false
 readTime: 15 minut
 thumbnail: /images/videos/Omori Park_Fukuoka_thumbnail.webp
 featureImage: /images/videos/Omori Park_Fukuoka_feature.webp
 categories:
   - japonska
+  - Japonska
 description: Sprehod čez 3 z mostmi povezanimi otočki  v Ohori parku.
 type: Video type
 ---
