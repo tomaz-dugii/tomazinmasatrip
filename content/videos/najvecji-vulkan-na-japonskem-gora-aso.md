@@ -14,6 +14,7 @@ categories:
   - Japonska
 description: ""
 type: Video type
+tranding: true
 ---
 
 Gora Aso je aktiven vulkan, ki se nahaja v središču otoka Kyushu. 
