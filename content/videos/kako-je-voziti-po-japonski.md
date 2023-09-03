@@ -15,7 +15,7 @@ categories:
 description: Vožnja po Japonski
 type: Video type
 tranding: true
-=======
+---
 
 
 {{< youtube 5obRP-pMeQA >}}
