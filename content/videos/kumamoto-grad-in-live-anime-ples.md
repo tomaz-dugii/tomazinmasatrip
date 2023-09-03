@@ -8,8 +8,8 @@ tags:
 video: true
 secondAuthor: false
 readTime: 9 minut
-thumbnail: /images/videos/grad_kumamoto_thumbnail.webp
-featureImage: /images/videos/grad_kumamoto_feature.webp
+thumbnail: "/images/videos/grad_kumamoto_thumbnail.webp"
+featureImage: "/images/videos/grad_kumamoto_feature.webp"
 categories:
   - Japonska
 description: ""
