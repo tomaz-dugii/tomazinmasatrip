@@ -1,0 +1,19 @@
+<section class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+              <div class="blog-section-title">
+                <h2>{{ .Site.Data.map.mapTitle}}</h2>
+                <p>{{ .Site.Data.map.mapDescription }}</p>
+              </div>
+            </div>
+        </div>
+        <div class = "container">
+          <div class="featured-post-thumb">
+            <img srcset="{{ .Site.Data.map.mapImage1200 | absURL }} 1200w, {{ .Site.Data.map.mapImage1020 | absURL }} 1020w,  {{ .Site.Data.map.mapImage690 | absURL }} 690w," sizes="(min-width: 1200px) 640px, (min-width: 1000px) 570px, (min-width: 780px) 690px, (min-width: 580px) 510px, calc(100vw - 30px)"
+             src="{{ .Site.Data.map.mapImage1200 | absURL }}" alt="feature-post-thumb" />
+        </div>
+
+        </div>
+    </div>
+</section>
