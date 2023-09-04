@@ -157,15 +157,6 @@
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.taxonomy.tags": [
-    "potovanje",
-    "seoul",
-    "travel",
-    "vlog"
-  ],
-  "frontMatter.taxonomy.categories": [
-    "južna koreja"
-  ],
   "frontMatter.content.pageFolders": [
     {
       "title": "posts objave",
