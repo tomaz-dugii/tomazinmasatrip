@@ -14,6 +14,7 @@ readTime: 15 minut
 thumbnail: /images/videos/Omori Park_Fukuoka_thumbnail.webp
 featureImage: /images/videos/Omori Park_Fukuoka_feature.webp
 categories:
+  - japonska
   - Japonska
 description: Sprehod čez 3 z mostmi povezanimi otočki  v Ohori parku.
 type: Video type
