@@ -141,22 +141,17 @@
           "type": "string",
           "default": "Video type",
           "hidden": true
+        },
+        {
+          "title": "tranding",
+          "name": "tranding",
+          "type": "boolean"
         }
       ]
     }
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.taxonomy.tags": [
-    "potovanje",
-    "seoul",
-    "travel",
-    "vlog"
-  ],
-  "frontMatter.taxonomy.categories": [
-    "Japonska",
-    "južna koreja"
-  ],
   "frontMatter.content.pageFolders": [
     {
       "title": "posts objave",
