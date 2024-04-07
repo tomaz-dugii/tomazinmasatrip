@@ -8,8 +8,8 @@ tags:
 video: false
 secondAuthor: true
 readTime: 5 minut
-thumbnail: /images/blog/nazaj_v_prihodnost/japan_thumbnail.webp
-featureImage: /images/blog/nazaj_v_prihodnost/japan_header.webp
+thumbnail: /images/blog/nazaj_v_prihodnost/back_to_the_future_thumbnail.webp
+featureImage: /images/blog/nazaj_v_prihodnost/back_to_the_future.webp
 categories:
   - Japonska
 description: Japonska, znana po svojih naprednih tehnologijah, uporabi obotov, hitrih vlakih in futurističnem izlgedu, je hkrati zastarela.
