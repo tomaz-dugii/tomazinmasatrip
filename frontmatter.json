@@ -13,6 +13,11 @@
           "type": "string"
         },
         {
+          "name": "type",
+          "type": "string",
+          "default": "posts"
+        },
+        {
           "title": "Description",
           "name": "description",
           "type": "string"
