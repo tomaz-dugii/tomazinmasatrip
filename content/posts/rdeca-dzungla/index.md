@@ -14,7 +14,6 @@ categories:
     - Japonska
     - Taipei
 description: ""
-type: default
 ---
 
 Eden izmed lepših trenutkov, ki jih bom nekoč upam, da uspela doživeti v živo, je nočno nebo osvetljeno s tisočimi papirnatimi lanternami, ki se dvigajo v nočno nebo in za sabo puščajo svetlo sled. Stara tradicija, ki izhaja iz budizma, je prisotna v vseh budističnih državah in je del številnih praznikov in obredov. Višje kot se lanterna vzdigne, več obilja, sreče in zdravja, naj bi prinesla. Vsaj tako pravi stoletja staro verovanje.
