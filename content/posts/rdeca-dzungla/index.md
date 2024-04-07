@@ -7,10 +7,11 @@ tags:
     - potovanje
 video: false
 secondAuthor: false
-readTime: "10"
+readTime: 10 minut
 thumbnail: images/blog/rdeca-dzungla/lanterne_3_thumbnail.webp
 featureImage: images/blog/rdeca-dzungla/lanterne_3.webp
 categories:
+    - Japonska
     - Taipei
 description: ""
 type: default
@@ -22,7 +23,7 @@ Kot budistična država, v nebo lanterne spušča tudi Taiwan. Te v sklopu Pinxi
 
 Izjemno lep festival, pa žal za sabo pušča malo manj prijetno zapuščino, ki je s Tomažem nisva mogla spregledati. Vas Shifen, kjer se februarja odvija festival, je priljubljena destinacija skozi celotno leto. Mnogo turistov jo obišče zaradi ozke ulice, kjer dvakrat na uro čez njo drvi vlak. Večina budističnih turistov, pa jo bolj kot zaradi vlaka, obiščejo za dvig papirnate lanterne za uresničitev želja.
 
-< Slika: lanterne_1.jpg >
+![](/images/blog/rdeca-dzungla/lanterne_1.webp)
 
 Tako skozi celotno leto, ne glede, ali je čas festivala, ali le navadna sreda, v nebo vsako minuto zaplava nova rdečkasta lanterna. Pisanje želja na lanterne je posel, ki vaščane finančno drži pokonci. Žal pa jih finančna odvisnost od turizma, precej stane. Papirnate lanterne namreč niso narete iz navadnega papirja, temveč iz voščenega papirja, podobnega papirju za zavijanje daril, ki mu dodajo plastično elastičnost. Ta povzroči da lanterne, ko pod njimi ugasne ogenj, ki jih je držal v zraku, padejo nekam v džunglo in tam ostanejo več let, če ne desetletja.
 
@@ -31,6 +32,6 @@ Vožnja po vijugastih cestah obdanih z gostim gozdom kaže številne prizore zap
 Tako lanterne, ki plapolajo v vetru in za trenutek osrečijo pošiljatelje, za večno postanejo del rdeče džungle.
 
 
-![](/images/blog/feature-image-07.jpg)
+
 
 {{< gallery >}}

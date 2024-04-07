@@ -7,7 +7,7 @@ tags:
     - potovanje
 video: false
 secondAuthor: false
-readTime: "10"
+readTime: 10 minut
 thumbnail: images/blog/ogled_taipeia/taipei_11_thumbnail.webp
 featureImage: images/blog/ogled_taipeia/taipei_11.webp
 categories:
