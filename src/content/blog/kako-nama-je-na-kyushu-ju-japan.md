@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: true
-secondAuthor: false
 readTime: 15 minut
 thumbnail: /images/videos/Kyushu_pogovor_thumbnail.webp
 featureImage: /images/videos/Kyushu_pogovor_feature.webp
-tranding: true
+showOnSidebar: true
 youtubeUrl: 'https://www.youtube.com/watch?v=Z0ZNoqSWXAA'
 contentType: Vlog
+authorId: tomaz
+fmContentType: vlog-post
 ---
 1 mesec japonske je minil. Kako se imava ? Kaj delava ? V tokratnem vlogu poveva več o potovanju in izkušnjah na poti.
 

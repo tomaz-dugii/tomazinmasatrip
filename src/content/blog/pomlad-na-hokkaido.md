@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/pomlad_na_hokkaido/hokkaido_thumbnail.webp
 featureImage: /images/blog/pomlad_na_hokkaido/hokkaido_header.webp
-tranding: false
+showOnSidebar: false
 description: Pomlad na Hokkaido otok pride šele maja.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Rožnato obdobje tisoče cvetečih češenj se po otokih dan za dem počasi giblje od juga Okinawe do daljnih vrhov Hokkaida. Prve češnje na najjužnejših otokih zacveto že zgodaj februarja, medtem ko se na Hokkaido prikradejo šele z začetkom maja. Natančno planiranje obiska Japonske lahko tako zagotovi, da cvetoče češnje ali sakuro, kot jih imenujejo domačini, ne občuduješ le enkrat, temveč prebujanje pomladi doživiš znova in znova.
 
@@ -24,7 +25,7 @@ Narava belo obleko zamenja za rožnato tik v času japonskega zlatega tedna, ko 
 Tako sakura sezona cvetočih češenj svojo štirimesečno potavnje po Japonski zaključi v objemu prebivalcev Hokkaida. 
 
 
-![](/images/blog/feature-image-07.jpg)
+![Feature-Image-07](/images/blog/feature-image-07.jpg)
 
 
 

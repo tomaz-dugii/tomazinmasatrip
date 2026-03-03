@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/kumamoto/kumamoto_thumbnail.webp
 featureImage: /images/blog/kumamoto/kumamoto_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Kumamoto se nahaja v središču otoka, obdano s pobočji največjega japonskega vulkana Aso in Ariaškim morjem.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Če je Fukuoka vhod v hribovit Kyushu, je Kumamoto njegovo srce. Mesto, ki se nahaja v središču otoka, obdano s pobočji največjega japonskega vulkana Aso in Ariaškim morjem na drugem obrežju, dom predstavlja skoraj polovici milijona ljudi.
 
@@ -21,7 +22,7 @@ Nekoč izjemnega pomena za razvoj moderne Japonske, kot jo poznamo danes, obisko
 
 Grad, ki se dviga visoko nad mesto, je na pomembnosti pridobil že v šestnajstem stoletju, ko ga je zgradil prvi daimyo (feudalni lord), ki je pod sabo združil skoraj celoten Kyushu. Med zlato trojico japosnkih gradov, pa ga je ustoličilo leto 1877, ko je grad postal glavno bojišče med Satsuma uporniki ter Meiji vladavino. Tik pred izbruhom vojne, ki je začrtala smernice japonskega razvoja, je grad zagorel v plamenih. Od njega so ostali le še temelji. Upornikom bitke kljub temu ni uspelo dobiti, za kar v svojih memoarjih krivijo strateško lego Kumamota, ki jim ga nikoli ni uspelo zavzeti. Po končani zadnji državljanski vojni in vstopu japonske v moderen svet, je prazno pobočje desetletja spominjalo na nekoč mogočen grad. 
 
-![](/images/blog/kumamoto/kumamoto_2.webp)
+![Kumamoto 2](/images/blog/kumamoto/kumamoto_2.webp)
 
 Grad so ponovno zgradili po koncu druge svetovne vojne. Gradnja je trajala več let, do 1960, ko so njegova vrata prvič od obstoja odprli za javnost. Njegova pretresljiva zgodovina in pomembnost včasu Meiji vladavine, mnoge turiste vabita v mesto.
 

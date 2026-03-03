@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/grad_himeji/himeji_thumbnail.webp
 featureImage: /images/blog/grad_himeji/himeji_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Himeji grad, ki se nahaja v mestu Himeji, velja za nacionalni ponos in eno imzed glavnih atrakcij Japonske. '
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Tipično razglednico Japonske krasi fotografija vulkana Fuji, Tokio stolpa ali grada Himeji. Po mesecu dni potepanja po Japonski, sva končno prispela na eno izmed teh ikoničnih točk - grad Himeji.
 
@@ -27,7 +28,7 @@ Kljub ne tako pretresljivi zgodovini, ali mogoče prav zaradi nje, pa je Himeji 
 
 Celoten grad se baha v beli barvi in mnogih obzidjih ki obdajajo kanale okoli gradu. Utrdba stoji na griču, južneje od Osake in je s strateško lego veljala za vrata na zahod. Kot nekakšna vrata med zahodom in celino, se je ognil vsem večjim bitkam, ki so se dogajale v prestolnicah. 
 
-![](/images/blog/grad_himeji/himeji_1.webp)
+![Himeji 1](/images/blog/grad_himeji/himeji_1.webp)
 
 K ohranitvi gradu je prispevala tudi zelo premišljena obrambna gradnja, v katero so že ob postavitvi vložili veliko premisleka. Tako ima grad številne jarke, odprtine za lokostrelce in nastanitve za samuraje. Ob takšni obrambi se ga najverjetne nikomur ni splačalo napasti. 
 

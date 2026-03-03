@@ -8,13 +8,14 @@ categories:
   - Japonska
   - Južna Koreja
 video: false
-secondAuthor: true
 readTime: 6 minut
 thumbnail: /images/blog/tokio_ali_seoul/japonska_thumbnail.webp
 featureImage: /images/blog/tokio_ali_seoul/japonska_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Tokio in Seoul, dve ogromni prestolnici, ki privabljata ljubitelje tehnike in pop-kulture, sta si v mongih pogledih precej podobni.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Tokio in Seoul, dve ogromni prestolnici, ki privabljata ljubitelje tehnike in pop-kulture, sta si v mongih pogledih precej podobni. Ko sem o potovanju v vzhodno Azijo prvič premišljevala že leta 2017, tudi sama nisem bila povsem odločena kam oditi. Na koncu je prevladal Seoul s cenejšo letalsko karto. Sedaj sem v letu 2023 obiskala obe državi zapored in lahko trdim, da čeprav sta si precej podobni, se je v podobnostih tudi precej razlik. 
 
@@ -32,7 +33,7 @@ Držanje pravil
 
 Še en japonski stereotip, ki ga bolj kot njej, moramo začeti pripisovati njeni zahodni sosedi. Čeprav se večina japoncev drži pravil, stoji v vrsti in ne prečka ceste pri rdeči, to ne drži za vse prebivalce. Večji ekstrem je tu Seoul, kjer se pravil držijo vsi, se za vsak metro naredijo vrste in nihče ne stopi na cesto ob rdeči.
 
-![](/images/blog/tokio_ali_seoul/japonska_8.webp)
+![Japonska 8](/images/blog/tokio_ali_seoul/japonska_8.webp)
 
 Mesto napredka in tehnologije
 

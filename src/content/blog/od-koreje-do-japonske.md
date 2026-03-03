@@ -1,19 +1,20 @@
 ---
 title: Od Koreje do Japonske - Dan na trajektu
-pubDate: '2023-04-10T11:54:40.172Z'
+pubDate: 2023-04-10T11:54:40.172Z
 draft: false
 tags:
-  - potovanje
   - fukuoka
+  - potovanje
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 10 minut
 thumbnail: /images/blog/od_koreje_do_japonske/od_koreje_do_japonske_thumbnail.webp
 featureImage: /images/blog/od_koreje_do_japonske/od_koreje_do_japonske_feature.webp
-tranding: false
+showOnSidebar: false
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Večina obiskovalcev Japonske, svoj dopust prične na zelo glasnem Narita letališču, ki svet povezuje z japonsko prestolnico Tokio. Letališče je znano po gužvi in tisočim ljudem, ki hkrati želijo biti prvi, ki se prebijejo čez letališče.
 

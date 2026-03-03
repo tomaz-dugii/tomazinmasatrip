@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/Baseball_po_japonsko/Baseball_header.webp
 featureImage: /images/blog/Baseball_po_japonsko/Baseball_header.webp
-tranding: false
+showOnSidebar: false
 description: Ogled baseball tekme SoftBank Hawks v Fukuoki na Japonskem.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 V marcu, ko sva se prebijala po Južni Koreji in Fukuoki, je sočasno potekalo svetovno prvenstvo v baseballu. Nič, kar bi nas zanimalo v Sloveniji, kjer ta šport ni tako razšijen, a velika novica za državi, v katerih sva bivala.
 

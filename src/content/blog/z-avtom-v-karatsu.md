@@ -7,14 +7,15 @@ tags:
 categories:
   - Japonska
 video: true
-secondAuthor: false
 readTime: 7 minut
 thumbnail: /images/videos/Karatsu_thumbnail.webp
 featureImage: /images/videos/Karatsu_feature.webp
-tranding: false
+showOnSidebar: false
 description: 'Z avtom v Karatsu '
 youtubeUrl: 'https://www.youtube.com/watch?v=Q9uMYFI1BA0'
 contentType: Vlog
+authorId: tomaz
+fmContentType: vlog-post
 ---
 Prvič  na Japonski najameva avto in se po levi strani ceste iz Fukuoke podava proti mestu Karatsu. Tam obiščeva grad in muzej bančništva.
 

@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/agoriba/agoriba_thumbnail.webp
 featureImage: /images/blog/agoriba/agoriba_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Ago-riba se uporablja le na otoku in je znana le okoli 15.000 ljudem. Že prebivalci ostali otokov Okinawe, je ne poznajo.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Japonci pred uživanjem obroka izrečejo besedo “itadsakimasu”. Ta beseda v direktnem prevodu pomeni ponižno sprejemam. V okolju s hrano, pa bolj kot direkten prevod, pomeni zahvalo za hrano ali nakazilo, da začenjamo jesti.
 
@@ -38,7 +39,7 @@ Tako beseda dozo ob ponujeni hrani, bolj pomeni "tukaj je naročena hrana" kot k
 
 Po stalnem poslušanju dozo to, in dozo ono, sva bila prijetno presenečena, ko so naju domačini majhnega otoka Miyagi naučili fraze “ago-riba”. Ta po njihovo pomeni dober tek. Ago-riba se uporablja le na otoku in je znana okoli 15.000 ljudem. Že prebivalci ostali otokov Okinawe, je ne poznajo.
 
-![](/images/blog/agoriba/agoriba_4.webp)
+![Agoriba 4](/images/blog/agoriba/agoriba_4.webp)
 
 Za lokalno verzijo "dober tek" se le spodobi, da ji je namenjena tudi lastna gostilna. V njo, naju je na Miyagi otoku nedeljsko opoldne zapeljala sostanovalka Mugi. Restavracija, ki je odprta le čez vikend se nahaja v hriboviti vasici, stran od večjih vasi in turističnih atrakcij. Njen v japonščini zapisan meni je sestavljen le iz nekaj opcij, ki se že vrsto let niso spremenile.
 

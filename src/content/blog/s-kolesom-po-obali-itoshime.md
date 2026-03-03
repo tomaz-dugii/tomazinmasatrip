@@ -7,12 +7,13 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 7 minut
 thumbnail: /images/blog/S_kolesom_po_obali_Itoshime/itoshima_thumbnail.webp
 featureImage: /images/blog/S_kolesom_po_obali_Itoshime/itoshima_header.webp
-tranding: false
+showOnSidebar: false
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Če smo si z Japonci pri čem podobni, je to kolesarjenje. Tako kot Ljubljana, je tudi Fukuoka polna kolesarjev, ki drvijo čez ulice. Le, da te tukaj bolj po redko zbijejo.
 
@@ -26,7 +27,7 @@ Tako sva kolesarila po manjših naseljih, po vijugasti cesti ob obali in hribovj
 
 Prekolesarila sva iz severnega rta pa vse do južnega, kar nama je vzelo malo več kot pet ur, vendar je čas ob takšni idili hitro minil. 
 
-![](/images/blog/S_kolesom_po_obali_Itoshime/itoshima_5.webp)
+![Itoshima 5](/images/blog/S_kolesom_po_obali_Itoshime/itoshima_5.webp)
 
 Prvi daljši remor sva naredila na Palm beach. Dolgi peščeni plaži, kjer se vrstijo kavarne in nedeljski obiskovalci, ki so prišli na sprehod po plaži ali na sladoled. Na sredini plaže se dviga tudi znamenitost tega polotoka - Sakurai Futamigaura skalovje, ki se skupaj z belimi torii dviga iz morja.
 

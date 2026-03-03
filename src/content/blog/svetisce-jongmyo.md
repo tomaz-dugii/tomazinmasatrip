@@ -8,13 +8,14 @@ tags:
 categories:
   - Južna Koreja
 video: false
-secondAuthor: true
 readTime: 10 min
 thumbnail: /images/blog/Jongmyo/Jongmyo_thumbnail_650w.webp
 featureImage: /images/blog/Jongmyo/Jongmyo.webp
-tranding: false
+showOnSidebar: false
 description: 'Znani rek pravi “Drži prijatelje blizu in svoje sovražnike še bližje”. '
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Znani rek pravi “Drži prijatelje blizu in svoje sovražnike bližje”. Včasih pa tovrstna bližina vseeno lahko naredi več škode kot dobrega. Takšna je tudi zgodba nekdanjega korejskega cesarstva, ki s svojimi vzhodnimi sosedi preprosto ni uspelo shajati.
 
@@ -36,7 +37,7 @@ Jongmyo svetišče leži na idealni legi  glede na ideale konfucionizma. Na seve
 
 Svetišče je namenjeno za čaščenje nekdanjih vladarjev, ki se po verovanju sprehajajo ob živih vzdolž kamnite poti. Ta tlakovana pot je razdeljena na tri predele. Levi del je namenjen vladarju, desni prestolonasledniku, srednja, dvignjena pot, pa je le za duhove iz onstranstva. 
 
-![](/images/blog/Jongmyo/Jongmyo_5_pot2x.webp)
+![Jongmyo 5 Pot2x](/images/blog/Jongmyo/Jongmyo_5_pot2x.webp)
 > Če se  kdajkoli znajdeš na svetišču Vzhodne Azije in zagledaš kamnito pot z dvignjenim osrednjim pasom, ne stopaj nanjo. Ta je namenjena le za duše umrlih.
 
 Sam obred čaščenja prednikov, ki se še vedno odvije dvakrat letno v popoldnaskem času, so včasih opravljali vsak letni čas s pričetkom ob enih ponoči. Noč je čas duhov, zato se je obred odvijal od ene zjutraj do sončnega vzhoda. 

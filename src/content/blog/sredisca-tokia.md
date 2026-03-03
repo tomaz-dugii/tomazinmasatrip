@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 10 minut
 thumbnail: /images/blog/sredisca_tokia/srediscatokia_thumbnail.webp
 featureImage: /images/blog/sredisca_tokia/srediscatokia_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Številna središča Tokia poskrbijo, da je mesto raznoliko in vedno ponuja nekaj novega. Pa jih spoznajmo.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Ne glede na kateri izmed stoterih postaj izstopiš v Tokiu, te bo mesto pričakalo s pestro ponudbo. Na ulicah se stalno kaj dogaja in ni treba daleč, da se med visokimi zgradbami prikaže novo svetišče. Mesto, ki nikoli ne spi, se spreminja iz dneva v dan, in medtem, ko nekatera središča ob mraku ugasnejo luči, se v drugih življenje šele prične.
 
@@ -22,7 +23,7 @@ Shibuya je ogromen predel centralnega Tokia, ki je mnogokrat prva destinacija tu
 
 Poleg svetovno znanega križišča, Shibuya razvaja z mnogimi trgovinami in restavracijami, ki so zvečer osvetljene v neon barvah. Sprehod med ulicami trgovin te popelje do ogromnega Yoyogi parka, kjer objet z drevjem, pozabiš na mesto, ki te obdaja. Na park meji Meiji svetišče, ki so ga osem let po smrti posvetili vladarju Meiji, ki je Japonsko zarisal na moderen zemljevid. 
 
-![](/images/blog/sredisca_tokia/srediscatokia_9.webp)
+![Srediscatokia 9](/images/blog/sredisca_tokia/srediscatokia_9.webp)
 
 HARAJUKU 
 Harajuku je okrožje večjega predela Shibuya, kjer na ulicah mladina izkazuje svoj prefinjen modni stil. Na nedeljsko popoldne glavni predel središča poka po šivih, ko se tisoče mladih sprehaja med trgovinami in išče najnovejše modne dodatke. Nad trgovinami številne kavarne goste privabljajo s štirinožnimi prijatelji. Kava ob družbi psov, mačk, majhnih prašičkov in celo sov, ni nič posebnega.
@@ -30,7 +31,7 @@ Harajuku je okrožje večjega predela Shibuya, kjer na ulicah mladina izkazuje s
 SHINJUKU 
 Shinjuku je predvsem znan po največji železniški postaji v Tokiu, ki je tudi druga največja postaja na svetu. Naziv največje postaje pripada japonski Nagoyi. Na postaji vsako minuto ustavljajo vlaki, ki v središče vozijo množice ljudi. Vse ulice so čez vikend zaprte za vozila, saj je le tako možen sprehod po okrožju. Med visokimi stolpnicami se skrivajo ozke ulice polne barov, ki vrata odpro ko zapade mrak. Tam se za šankom, ki mnogokrat sprejme le štiri ljudi, domačini družijo ob mnogih kozarcih dolgo v noč.
 
-![](/images/blog/sredisca_tokia/srediscatokia_1.webp)
+![Srediscatokia 1](/images/blog/sredisca_tokia/srediscatokia_1.webp)
 
 TAITO 
 Taito središče je bolj kot po lastnem imenu, znano pod imenom UENO. Ueno je ime zelena parka in ogromne železniške postaje, na kateri hitri shinkansen vlaki v mesto pripeljejo prebivalce severne japonske. Grušč postaje hitro izpuhti, ko prestopiš prag Ueno parka. Ta gosti številne muzeje in galerije Tokia, kjer se vrstijo ekshibicije dinozavrov, zahodne umetnosti, in  tradicionalnih samurajev. V parku si poleg nagačenih živali, lahko ogledaš tudi žive, ki prebivajo v Ueno živalskem vrtu. 
@@ -44,7 +45,7 @@ Akihabara je okrožje polno neon tabel, ki goste vabijo v visoke stavbe polne tr
 CHIDOYA
 Center Tokia predstavlja okrožje Chidoya katere srce je ogromna zelena površina kraljeve palače. V njej še vedno prebiva japonski kralj, zato je večji del zaprt za javnost. Obisk palače ponuja sprehod po južnih vrtovih in obisk bližnjih svetišč, ki so obdana s stolpnicami finančnega okrožja.
 
-![](/images/blog/sredisca_tokia/srediscatokia_8.webp)
+![Srediscatokia 8](/images/blog/sredisca_tokia/srediscatokia_8.webp)
 
 ROPPONGI
 Eno izmed najprestižnejših in najdražjih predelov za življenje na svetu je Roppongi. Njegova bližina centru Tokia in številne nove modernistične zgradbe so cene stanovanj dvignile v višave. Med sprehanjem te stalno obdajajo mega avtomobili, kjer vsako minuto mimo tebe pripelje kak Porsche ali Lamborghini. Nov projekt Roppongi hribovje, ki zajema povsem novo zgrajeno okrožje stolpnic privablja mnoge ljubitelje luksuza, ki nakupujejo v trgovinah, pred katerimi stojita po dva varnostnika. Mnoge drage trgovine in Michellin restavracije dopolnjujejo številna mednarodna podjetja, zaradi katerih številni tuji uslužbenci mestu dajejo mednarodni pridih.

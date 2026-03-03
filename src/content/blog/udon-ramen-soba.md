@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/udon_ramen_soba/udon_ramen_soba_thumbnail.webp
 featureImage: /images/blog/udon_ramen_soba/udon_ramen_soba_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Glavne tri vrste, ki jih najdeš povsej japosnki so udon, ramen in soba rezanci.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Ko doma govorimo o japonski hrani, najprej pomislimo na sushi. Kroglice riža s svežo ribo nas še vedno delijo na strastne ljubitelje in skeptike, ki še poskusiti ne želijo. No, sicer je sushi res povsod po japosnki, vendar še zdaleč ni tako tipična hrana kot so rezanci. Japonci obužujejo svoje rezance in drznem si reči, da znajo z njimi pripraviti več jedi kot naši zahodni sosedje.
 
@@ -27,7 +28,7 @@ Najznamenitejša restavracija, ki jo za odličen ramen obišče vsak turist, je 
 
 Vsaka regija ramen pripravlja malo drugače. Nekatere za osnovo uporabljajo drugo juho, spet druge dodajajo druge dodatke. Prav posebna izkušnja je ramen v Hokkaidu, kjer jed postrežejo v skledi s smetanovo omako.
 
-![](/images/blog/udon_ramen_soba/udon_ramen_soba_1.webp)
+![Udon Ramen Soba 1](/images/blog/udon_ramen_soba/udon_ramen_soba_1.webp)
 
 Čeprav je ramen najbolj ikončen, midva največkrat jeva udon rezance. Ti se od prejšnjih razlikujejo predvsem po debelini. Udon rezanci so precej širši od ramen rezancev, kar omogoča, da se napijejo tekočine in so malo bolj pacasti. 
 
@@ -38,7 +39,7 @@ Udon rezanci veljajo za poceni hrano in odličen hiter obrok. Velikokrat so post
 Za posebno izkušnjo je treba naročiti Kamatama udon. Ta preprosta jed se ponuja po celotni državi in tople udon rezance postreže s surovim jajcem. To rezance prepoji z rumenjakom in jih naredi svilnate. Kamatama udon so tudi Tomaževa najljubša jed, ki ji doda še sojino omako, mlado čebulo in ocvrtke.
 
 
-![](/images/blog/udon_ramen_soba/udon_ramen_soba_2.webp)
+![Udon Ramen Soba 2](/images/blog/udon_ramen_soba/udon_ramen_soba_2.webp)
 
 Moji najljubši rezanci pa so soba. Soba rezanci so narejeni iz polnozrnate moke in so za razliko od drugih vrst, rjave barve. Velikorat so posreženi hladni na bambusovem podstavku. Po tem se razlikujejo od ramen in udon rezancev, ki vedno pridejo s prilogo. 
 
@@ -46,7 +47,7 @@ Iz podstavka jih počasi namakaš v sojino omako v katero dodaš wasabi in mlado
 
 Rezanci so velikokrat postreženi še z mnogimi dodatki, ki jedi dodajo raznolikost. Pogosto je zraven ocvrta tempura zelenjava in ribe, ki jih skupaj z rezanci namakaš v omako.
 
-![](/images/blog/udon_ramen_soba/udon_ramen_soba_header.webp)
+![Udon Ramen Soba Header](/images/blog/udon_ramen_soba/udon_ramen_soba_header.webp)
 
 Ne glede na to, za katero vrsto rezancev gre, so ti najino najpogostejše kosilo. Pripravljeni so izjemno hitro in velikokrat jih dobiš že za pet evrov. Za nekaj evrov več, lahko ob rezancih dobiš še skledo riža in gyoza žlikrofe, kar je precej pogosto kosilo.
 

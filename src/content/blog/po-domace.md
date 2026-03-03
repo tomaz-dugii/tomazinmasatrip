@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/po_domace/po_domace_thumbnail.webp
 featureImage: /images/blog/po_domace/po_domace_header.webp
-tranding: false
+showOnSidebar: false
 description: Tekom treh dni sva živela v majhni hišici sredi hribovitih ulic in opazovala kako živijo po domače.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Ryokani in kapsulski hoteli sta dve precej slavni obliki nastanitev na otoku. Obe sta opevani med turisti kot edinstvena izkušnja, ki je ni zamuditi. In četudi sta nočitvi res zanimivi, je življenje prebivalcev precej drugačno od turističnega.
 

@@ -4,17 +4,19 @@ pubDate: '2023-09-09T01:11:29.679Z'
 draft: false
 tags:
   - potres
+categories:
   - Japonska
-categories: []
 video: false
-secondAuthor: false
 readTime: 3 minutes
 thumbnail: /images/blog/potres/potres_thumbnail.webp
 featureImage: /images/blog/potres/potres_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Potres z magnitudo 6.0 ni nič posebnega za Japonsko. Zato ni nič novega, da med potovanjem tudi sam izkusiš kakšnega.'
 contentType: Blog
+authorId: tomaz
+fmContentType: blog-post
 ---
+
 Otočje, ki se nahaja na ognjenem obroču, letno strese okoli 1500 potresov. V povprečju to pomeni 4 na dan. Potresi z magnitudo 6.0 niso nič posebnega in bolj kot sam potres, te pretrese odziv Japoncev.
 
 Stalno tresenje zemlje je za domačine že tako normalno, da jih potres, ki bi doma vse dvignil na noge, sploh ne gane. Potres z magnitudi 6.4, ki je pri naših južnih sosedil zrušil celo mesto in bil glavni dogodek na televiziji še teden po njem, tukaj sploh ne pride na televizijo. Stalna prisotnost tresenja, je ljudi naredila že čisto otopele.

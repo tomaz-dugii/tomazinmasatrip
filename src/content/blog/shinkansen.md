@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 7 minut
 thumbnail: /images/blog/shinkansen/shinkansen_thumbnail.webp
 featureImage: /images/blog/shinkansen/shinkansen_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Najhitrejši vlaki na svetu, ki dosežejo hitrost do 320km/h se imenujejo Shinkansen.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Kako dolgo potrebuješ iz Celja do Ljubljane, če se vkrcaš na najhitrejši vlak? Dobrih 64 minut, če imaš srečo in ni nikakršne zamude. V teh 64 minutah prevoziš 62 kilometrov, kar načeloma pomeni, da za vsak prevožen kilomerter vlak porabi malce več kot minuto.
 
@@ -27,7 +28,7 @@ Ko sva se odpravljala iz severnega Hokkaida, sva se na Shinkansen usedla v mestu
 
 Kljub dveh mesecih potovanja po Japonski, je to bila najina prva vožnja s shinkansenom, saj so cene precej visoke. Ceneje je med mesti leteti, kot vzeti shinkansen. Letenje žal pride s svojimi nevšečnostmi, kar shinkansen vseeno uvršča med popularnejšo izbiro prevoza.
 
-![](/images/blog/shinkansen/shinkansen_1.webp)
+![Shinkansen 1](/images/blog/shinkansen/shinkansen_1.webp)
 
 Vlak ima precej podolgovat kljun, ki zagotavlja aerodinamičnost in notranjsot podobno letalu. Po vagonih se sprehaja gospa s prigrizki in večina ljudi vožnjo prespi. Tudi midva bi večino vožnje lahko prespala saj je ta bila, na manjše razočaranje, precej povprečna. Ne vem kaj sva pričakovala, vendar povprečne vožnje že ne.
 

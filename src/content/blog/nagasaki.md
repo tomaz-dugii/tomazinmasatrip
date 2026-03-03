@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/nagasaki/nagasaki_thumbnail.webp
 featureImage: /images/blog/nagasaki/nagasaki_header.webp
-tranding: false
+showOnSidebar: false
 description: Mesto Nagasaki je na svetovni zemlejvid postavil tragičen napad z uporabo atomske bombe.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Japonsko sestavlja sedeminštirideset prefektur. Prefekture so večja območja, kot pri nas pokrajine, ki na območnem nivoju upravljajo državno administracijo. Tekom prvega tedna sva na otoku Kyushu obiskala že tri - Fukuoka, Saga in Nagasaki.
 

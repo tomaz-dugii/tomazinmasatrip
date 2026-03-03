@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/Edina_turista_v_Karatsu/Karatsu_thumbnail.webp
 featureImage: /images/blog/Edina_turista_v_Karatsu/Karatsu_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Edina turista v Karatsu, mestu na otoku Kyushu na Japonski.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 V Tokiu in Kansai regiji se v spomladanskem času na ulice zgrne gora turistov. Več kot ima mesto atrakcij, bolj kot so te znane, več jih bo. To je nenapisano pravilo znano vsem. Tako se večina tujcev na Japonskem giblje med tema dvema vročima točkama, z dnevnimi zleti do gore Fuji ali bližnjih mest. Že manj jih pride v Fukuoko, prestolnico otoka Kyushu, še manj jih iz Fukuoke obišče ostala turistična mesta kot so Nagasaki, Beppu ali Unzen. Zelo redki srečneži, pa se znajdejo v manjših mestih kot je Karatsu.
 
@@ -23,7 +24,7 @@ Karatsu je eden izmed manjših zakladov, polnih zgodovine, ki se potikajo po Jap
 
 Že prvi obisk mesta Karatsu nama je dal vedeti, da sva po vsej verjetnosti edina mednarodna turista, ki so jih videli v kratkem. Mesto gosti kar nekaj hotelskih nastanitev, vendar so te večinoma za lokalne turiste. Mogoče se tu in tam prikrade kakšna korejska skupina, potem pa se nabor počasi zaključi. Mogoče si naju zdaj predstavljaš hoditi po kakšnem Celju, vendar ima Karatsu kar 120.000 prebivalcev, kot kakšen Maribor. Vseeno pa je to za državo, kjer je glavno mesto dom 14 milijonom ljudi, bližnja Fukuoka pa kar dvema milijonoma, precej majhno in neznano mesto. Tako sva ta dan atrakcija bila midva. 
 
-![](/images/blog/Edina_turista_v_Karatsu/Karatsu_1.webp)
+![Karatsu 1](/images/blog/Edina_turista_v_Karatsu/Karatsu_1.webp)
 
 Ogledala sva si grad, občudovala neskončne peščene obale, obiskala lokalni tempelj ter turistični ogled zaključila v nekdanji banki, ki so jo spremenili v muzej. Japonska je z vidika kulture pravi raj za obiskovalce, saj je večina muzejev zastonj ali kakšen evro. Tako sva za obisk gradu odštela tri evre, ogled banke pa je bil brezplačen.
 

@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/slava_grelcem/slava_grelcem_thumbnail.webp
 featureImage: /images/blog/slava_grelcem/slava_grelcem_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Slava japonskim grelcem. Vsak pričetek aprila se v Beppu zgrne tisoče obiskovalcev s celotne japonske, ki tekom šestih dni slavijo številne okoliške grelce.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Zadnja točka najinega potepanja po otoku Kyushu se nahaja na severni obali, tik ob mestu Oita. Beppu je obalno mesto, nekakšne velikosti Maribora, ki na otoku slavi po (kdo bi uganil) številnim termalnim vrelcem, ki mesto obdarjajo s toplo vodo.
 
@@ -21,7 +22,7 @@ Iz visokih dimnikov se stalno vali bela para in iz kanalizacije piha topel zatoh
 
 Vsak pričetek aprila se v mesto zgrne tisoče obiskovalcev s celotne Japonske, ki tekom šestih dni slavijo številne okoliške grelce. Tekom dogajanja obiskovalci tekmujejo v številu onsenov, ki jih obiščejo, z najvišjim možnim številom pri kar 88 onsenov v šestih dneh. Čez vikend se na petih lokacijah po ulicah vrstijo prireditve in povorke z vrhuncem v ponedeljek zvečer, ko pobočje nad mestom zagori v žgočih plamenih ognjenega festivala.
 
-![](/images/blog/slava_grelcem/slava_grelcem.webp)
+![Slava Grelcem](/images/blog/slava_grelcem/slava_grelcem.webp)
 
 V parku Matsubara, malo iz centra, sva si ogledala nastope tolkanle skupine in vojaškega orkestra, ob tem pa okušala lokalne specialitete. Kramljala sva s starejšim gospodom, ki se mu zdelo tako fascinantno pogovarjati s turisti, da je kljub neznanju angleščine vseeno zbral pogum in naju ogovoril. Tako sva preko parih japonskih besed, pantomime in aplikacij za prevajanje izvedela o njegovih številnih nespametnih podvigih, kot je obisk mesta v času cunamija. 
 

@@ -3,6 +3,61 @@
   "frontMatter.framework.id": "astro",
   "frontMatter.preview.host": "http://localhost:4321",
   "frontMatter.content.publicFolder": "public",
+  "frontMatter.data.files": [
+    {
+      "id": "authors",
+      "title": "Authors",
+      "file": "[[workspace]]/data/authors.json",
+      "labelField": "name",
+      "singleEntry": false,
+      "fileType": "json",
+      "schema": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "name"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "title": "ID"
+            },
+            "name": {
+              "type": "string",
+              "title": "Name"
+            },
+            "image": {
+              "type": "string",
+              "title": "Image"
+            },
+            "bio": {
+              "type": "string",
+              "title": "Bio"
+            },
+            "social": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "label": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
   "frontMatter.content.filters": [
     "contentFolders",
     "tags",
@@ -16,7 +71,10 @@
     {
       "title": "blog",
       "path": "[[workspace]]/src/content/blog",
-      "contentTypes": ["blog-post", "vlog-post"]
+      "contentTypes": [
+        "blog-post",
+        "vlog-post"
+      ]
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
@@ -50,7 +108,10 @@
           "title": "Vrsta vsebine",
           "name": "contentType",
           "type": "choice",
-          "choices": ["Blog", "Vlog"]
+          "choices": [
+            "Blog",
+            "Vlog"
+          ]
         },
         {
           "title": "Destinacije",
@@ -79,9 +140,13 @@
           "description": "Prikaži ta video kot izbrani na strani Vlogi. Samo en video naj bo imel oznako true. Če noben nima true, se prikaže najnovejši."
         },
         {
-          "title": "Second author",
-          "name": "secondAuthor",
-          "type": "boolean"
+          "title": "Author",
+          "name": "authorId",
+          "type": "dataFile",
+          "dataFileId": "authors",
+          "dataFileKey": "id",
+          "dataFileValue": "name",
+          "default": "tomaz"
         },
         {
           "title": "Read time",
@@ -105,8 +170,8 @@
           "type": "string"
         },
         {
-          "title": "Tranding",
-          "name": "tranding",
+          "title": "Show on sidebar",
+          "name": "showOnSidebar",
           "type": "boolean"
         }
       ]
@@ -141,7 +206,10 @@
           "title": "Vrsta vsebine",
           "name": "contentType",
           "type": "choice",
-          "choices": ["Blog", "Vlog"]
+          "choices": [
+            "Blog",
+            "Vlog"
+          ]
         },
         {
           "title": "Destinacije",
@@ -170,9 +238,13 @@
           "description": "Prikaži ta video kot izbrani na strani Vlogi. Samo en video naj bo imel oznako true. Če noben nima true, se prikaže najnovejši."
         },
         {
-          "title": "Second author",
-          "name": "secondAuthor",
-          "type": "boolean"
+          "title": "Author",
+          "name": "authorId",
+          "type": "dataFile",
+          "dataFileId": "authors",
+          "dataFileKey": "id",
+          "dataFileValue": "name",
+          "default": "tomaz"
         },
         {
           "title": "Read time",
@@ -196,11 +268,120 @@
           "type": "string"
         },
         {
-          "title": "Tranding",
-          "name": "tranding",
+          "title": "Show on sidebar",
+          "name": "showOnSidebar",
           "type": "boolean"
         }
       ]
+    },
+    {
+      "name": "blog",
+      "previewPath": "'blog'",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "pubDate",
+          "type": "datetime",
+          "default": "{{now}}",
+          "required": true
+        },
+        {
+          "name": "updatedDate",
+          "type": "datetime",
+          "default": "{{now}}"
+        },
+        {
+          "name": "heroImage",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "name": "contentType",
+          "type": "choice",
+          "choices": [
+            "Blog",
+            "Vlog"
+          ]
+        },
+        {
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "name": "video",
+          "type": "boolean"
+        },
+        {
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "name": "authorId",
+          "type": "string"
+        },
+        {
+          "name": "readTime",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "thumbnail",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "featureImage",
+          "type": "image"
+        },
+        {
+          "name": "youtubeUrl",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "showOnSidebar",
+          "type": "boolean"
+        },
+        {
+          "name": "galleryImages",
+          "type": "image"
+        }
+      ]
     }
-  ]
+  ],
+  "frontMatter.content.snippets": {
+    "Image": {
+      "description": "Insert markdown image from media panel. Use when selecting an image from the media picker.",
+      "body": "![[[alt]]]([[&mediaUrl]])",
+      "isMediaSnippet": true,
+      "fields": [
+        {
+          "name": "alt",
+          "title": "Alt text",
+          "type": "string",
+          "default": ""
+        }
+      ]
+    }
+  }
 }

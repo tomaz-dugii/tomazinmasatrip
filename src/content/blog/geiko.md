@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/geiko/geiko_thumbnail.webp
 featureImage: /images/blog/geiko/geiko_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Bleda dekleta, ki jih doma poznamo pod imenom geisha, v Kyotu imenujejo geiko.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 V starodavnem mestu Kyoto, poznanem tudi po imenu Srce Japonske, ozke ulice krasijo stare lesene hiše. V njih ob mraku pričnejo zahajati gostje, ki si po napornem dnevu zaželijo okusne večerje. Tako kot gostje, pa v kakšno izmed njih vstopi tudi dekle snežnobelega obraza.
 
@@ -29,4 +30,4 @@ Poleg starosti in ekspertize se geiko in maiko razlikujejo tudi po videzu. Maiko
 
 Na spodnji fotografiji nama je uspelo ujeti tri turistke oblečene kot maiko. Za lepše fotografije pa bo žal potrebno obiskati strica Googla ali se na predstavo odpraviti v Kyoto.
 
-![](/images/blog/geiko/geiko_1.webp)
+![Geiko 1](/images/blog/geiko/geiko_1.webp)

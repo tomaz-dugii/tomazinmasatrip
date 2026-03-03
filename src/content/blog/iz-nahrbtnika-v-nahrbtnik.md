@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/Iz_nahrbtnika_v_nahrbtnik/Nahrbtnik_thumbnail.webp
 featureImage: /images/blog/Iz_nahrbtnika_v_nahrbtnik/Nahrbtnik_header.webp
-tranding: false
+showOnSidebar: false
 description: Stalna menjava prenočišča in pakiranje iz nahrbtnika v nahrbtnik zna biti naporna.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Na cesti že na daleč opaziš popotnika. Oblačila in oprema so že tako očitni, da je vsem jasno, da je človek na daljšem potovanju. Športni čevlji, ogromen nahrbtnik s katerega mnogokrat visijo čevlji, pohodniška oblačila in zagorela koža. 
 

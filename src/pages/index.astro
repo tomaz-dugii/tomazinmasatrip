@@ -15,7 +15,7 @@ const posts = allPosts
   .slice(0, 6);
 
 const videos = allPosts
-  .filter((p) => !p.data.draft && p.data.video && p.data.tranding)
+  .filter((p) => !p.data.draft && p.data.video && p.data.showOnSidebar)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
@@ -33,6 +33,7 @@ const videos = allPosts
         <div class="blog-header">
           <span class="section-label">BLOG</span>
           <h2 class="section-title">Kaj dogaja na poti</h2>
+          <p class="section-subtitle">Kaj dogaja na poti in kod se potepava.</p>
         </div>
         <div class="blog-list">
           {posts.map((entry) => <BlogCard entry={entry} />)}
@@ -69,6 +70,11 @@ const videos = allPosts
     font-size: 1.75rem;
     font-weight: 700;
     margin: 0;
+  }
+  .section-subtitle {
+    font-size: 15px;
+    color: var(--grey-400);
+    margin: 0 0 1.5rem 0;
   }
   .blog-list {
     display: flex;

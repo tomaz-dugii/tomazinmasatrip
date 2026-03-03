@@ -4,13 +4,14 @@ description:
 pubDate:
 draft: true
 contentType: Blog
+fmContentType: blog-post
 categories: []
 tags:
   - potovanje
 video: false
-secondAuthor: false
+authorId: "tomaz"
 readTime:
 thumbnail:
 featureImage:
-tranding: false
+showOnSidebar: false
 ---

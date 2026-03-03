@@ -7,14 +7,16 @@ tags:
 categories:
   - Taiwan
 video: false
-secondAuthor: false
 readTime: '10'
 thumbnail: /images/blog/zivahnost-taipeia/taipei_4_thumbnail.webp
 featureImage: /images/blog/zivahnost-taipeia/taipei_4.webp
-tranding: false
+showOnSidebar: false
 contentType: Blog
+authorId: tomaz
+fmContentType: blog-post
 ---
-Po mesecih Japonske, ki jo na trenutke lahko primerjaš s čistočo in redom v bolnišnici, je kratek oddih v Taiwanu bil zelo dobrodošel. Mesto reda in miru sva za štiri dni zamenjala za živahno prestolnico Taipei, ki ob vonju nočnih tržnic in brnečih motorjev diha dolgo v noč. S tem nadaljujeva najino popotovanje po Aziji, kjer sva končno zapustila Japonsko in se za dva tedna odpravila potepat po Taiwanu in Tajski. 
+
+Po mesecih Japonske, ki jo na trenutke lahko primerjaš s čistočo in redom v bolnišnici, je kratek oddih v Taiwanu bil zelo dobrodošel. Mesto reda in miru sva za štiri dni zamenjala za živahno prestolnico Taipei, ki ob vonju nočnih tržnic in brnečih motorjev diha dolgo v noč. S tem nadaljujeva najino popotovanje po Aziji, kjer sva končno zapustila Japonsko in se za dva tedna odpravila potepat po Taiwanu in Tajski.
 
 Leta življenja pod japonsko okupacijo, preden so Taipei po drugi svetovni vojni “predali nazaj” Kitajski, so Taiwan spremenila v poseben miks japonske in kitajske kulture, ki se izmenjujeta od stojnice do stojnice. Milijonsko mesto gradijo široke večpasovne ceste, po katerih stalno divjajo avtomobili in preglasni skuterji. Kljub odličnem podzemnem prometu, je hiter motor še vedno prva izbira večine prebivalcev.
 
@@ -24,15 +26,12 @@ Ljudje so precej zgovornejši in brez zadržka na hitro pokramljajo. Kljub uradn
 
 Staro mestno jedro krasijo številne stare palače, ki so jih v prejšnjem stoletju pokitajščili, če se lahko tako izrazim. Mogočne japonske stavbe, ki so v primerjavi s kitajskimi kljub živim barvam precej minimalistično okrašene, so dokrasili z barvami in vzorci zahodne sosede. Ta dokrasitev stavbe naredi taiwanske, saj niso ne japonske, ne kitajske, temveč samosvoje, kot Taiwanski narod.
 
-![](/images/blog/zivahnost-taipeia/taipei_13.webp)
+![Taipei 13](/images/blog/zivahnost-taipeia/taipei_13.webp)
 
-Visoke temperature in še višja vlažnost poletne popoldneve naredita nevzdržne. Zato se ljudje na ulice prikradejo skupaj z mrakom. Sončni zahod na obalo in njene bare privabi številne mlade, ki se družijo ob koktejlih in okusni hrani, ki navdih jemlje iz vseh okoliških držav. Prava poslastica so nočne tržnice, ki se odpro šele pozno popoldne in zapro krepko v naslednji dan. Tam za majhne denarje najdeš vse. Od spominkov, do oblek, čevljev ali hišnih pripomočkov. 
+Visoke temperature in še višja vlažnost poletne popoldneve naredita nevzdržne. Zato se ljudje na ulice prikradejo skupaj z mrakom. Sončni zahod na obalo in njene bare privabi številne mlade, ki se družijo ob koktejlih in okusni hrani, ki navdih jemlje iz vseh okoliških držav. Prava poslastica so nočne tržnice, ki se odpro šele pozno popoldne in zapro krepko v naslednji dan. Tam za majhne denarje najdeš vse. Od spominkov, do oblek, čevljev ali hišnih pripomočkov.
 
 Vse turiste, pa nas na nočne tržnice vodi vonj po okusni hrani. Stojnice, ki se vrstijo vzdolž dolgih ulic, ponujajo vse, kar bi si trebuh gurmana lahko poželel. Od žlikrofov polnjenih s svinjino ali rakci, ogromnih školjk, krompirjevih puhastih kroglic, do toplih kruhkov polnjenih z kdo ve kaj. Važno, da je okusno. Ne glede na to kaj izbereš, veš, da bo odlično. Poleg hrane je pestra tudi izbira pijač, kjer lahko izbiraš med številnimi svežimi smoothiji, okusiš pijačo iz sladkornega trsta ali naročiš slavni boba čaj. Nočne ulice ovite v vonj cvrte hrane in osvetljene z medlo oranžno svetlobo so gorivo, ki mesto drži pokonci iz dneva v dan.
 
-Taipei je nedvomno mesto kontrastov, ki ga naredijo barvitega in polnega življenja. Razlike med novim in starim, kitajsko in ameriško kulturo, tajsko in japonsko hrano, kot nočnim kaosom tržnic z urejenostjo novih poslovnih predelov, oblikujejo Taiwan v izjemno destinacijo, kjer te na vsakem koraku čaka novo presenečenje. 
-
-
-
+Taipei je nedvomno mesto kontrastov, ki ga naredijo barvitega in polnega življenja. Razlike med novim in starim, kitajsko in ameriško kulturo, tajsko in japonsko hrano, kot nočnim kaosom tržnic z urejenostjo novih poslovnih predelov, oblikujejo Taiwan v izjemno destinacijo, kjer te na vsakem koraku čaka novo presenečenje.
 
 <!-- gallery -->

@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/sledi_tsunamija/tsunami_thumbnail.webp
 featureImage: /images/blog/sledi_tsunamija/tsunami_header.webp
-tranding: false
+showOnSidebar: false
 description: Iskanje sledi smrtonosnega tsunamija na Japonski v mestu Ishinomaki.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Popotovanje okoli sveta me stalno opozarja kako smrtonosna je neskončna modrina oceana. Morje brez razburkanih valov, ogromnih razlik v plimovanju in uničujočih tsunamijev, mi je doma povsem samoumevno. Na vzhodni obali Japonske, kjer večmetrski valovi požirajo pomole, je zgodba povsem drugačna.
 
@@ -21,7 +22,7 @@ Odprte vode, ki segajo vse do obal Japonske, skrbijo za ogromne valove in nevarn
 
 Ko je grozovit potres, ki bi polovico Slovenije zmlel v prah, prenehal, so vzdolž vzhodne obale zatulile sirene. Močan potres sredi oceana je proti obali ponesel ogromen val, ki ga poznamo pod imenom tsunami. Ta je s svojo višino štiridestih metrov trčil ob obalo že pol ure po potresu, kar je za mnoge, ki so bili ujeti med ruševine, bilo usodno. 
 
-![](/images/blog/sledi_tsunamija/tsunami_4.webp)
+![Tsunami 4](/images/blog/sledi_tsunamija/tsunami_4.webp)
 
 Glavna zgodba, znana po svetu, je huda katastrofa v Fukushimi, kjer je tsunami uničil jedrsko elektrarno. Največ smrtnih žrtev, pa je tirjalo mesto Ishinomaki. Tu je močna voda rušila vse pred sabo in nekdanje ulice spreminjala v rjavo gmoto ruševin. Življenje je izgubilo več kot 15.000 ljudi in skoraj pol milijona jih je v manj kot uri za vedno izgubilo svoj dom. 
 

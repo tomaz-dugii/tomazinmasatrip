@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 7 minut
 thumbnail: /images/blog/japonske_sladice/sladice_thumbnail.webp
 featureImage: /images/blog/japonske_sladice/sladice_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Pregled zanimivih japonskih sladic, ki sva jih okusila na poti.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Izjemen rezultat japonskega perfekcionizma in ljubezni do mešanja nenavadnih okusov so njihove sladice.
 
@@ -27,7 +28,7 @@ Ker jih je preveč in vse tudi sama ne poizkusiva, drugače bova nazaj prišla s
 
 2. Daifuku - najpomembnejša tradicionalna japonska sladica. Narejena iz riža, vode in sladkorja, ki skupaj tvorijo gumijasto kroglico imenovano mochi. Oblikovane kroglice so na okus in otip precej želejaste, vendar to še zdaleč ne pomeni, da niso slastne. Tradicionalno so kroglice napolnjene s fižolovo pasto in posipane s sladkorjem, kar je neglede na opis, izvrstna kombinacija. V današnjih časih se dobijo vseh vrst in okusov, od jagodnega polnila do kroglic polnjenih z melono, kar je precej popularna izbira.
 
-![](/images/blog/japonske_sladice/sladice_3.webp)
+![Sladice 3](/images/blog/japonske_sladice/sladice_3.webp)
 
 3. Daifuku s sadjem. Izpopolnjene mochi kroglice so še boljše prerezane na pol. Te v središču dopolnjuje jagoda, ki ob ugrizu doda svežino. Čeprav gre za isti princip sladice, dodana jagoda doda povsem nov okus in teksturo, zakar si zasluži svojo točko.
 

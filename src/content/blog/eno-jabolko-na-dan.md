@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/eno_jabolko_na_dan/jabolko_thimbnail.webp
 featureImage: /images/blog/eno_jabolko_na_dan/jabolko_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Eno jaboko na dan te na Japonskem hitro oskubi, saj je sadje precej drago.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Eno jabolko na dan, te na Japonskem precej veliko stane.
 

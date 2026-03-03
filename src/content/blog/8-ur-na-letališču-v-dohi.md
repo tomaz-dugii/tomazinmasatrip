@@ -1,20 +1,21 @@
 ---
 title: 8 ur na letališču v Dohi
-pubDate: '2023-03-25T11:07:11.229Z'
+pubDate: 2023-03-25T11:07:11.229Z
 draft: true
 tags:
+  - doha
   - vlog
-  - Doha
 categories: []
 video: true
-secondAuthor: false
 readTime: 30 min
 thumbnail: /images/videos/doha_airport.webp
 featureImage: /images/videos/doha-garden-airport.webp
-tranding: false
+showOnSidebar: false
 description: 8 urni postanek med povezovalnim letom se spremeni v video ustvarjanje.
 youtubeUrl: 'https://www.youtube.com/watch?v=Z0MsXi9di0M'
 contentType: Vlog
+authorId: tomaz
+fmContentType: vlog-post
 ---
 ### 30 minutni video sprehoda po letališču
 

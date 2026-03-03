@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/nazaj_v_prihodnost/back_to_the_future_thumbnail.webp
 featureImage: /images/blog/nazaj_v_prihodnost/back_to_the_future.webp
-tranding: false
+showOnSidebar: false
 description: 'Japonska, znana po svojih naprednih tehnologijah, uporabi obotov, hitrih vlakih in futurističnem izlgedu, je hkrati zastarela.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Če se želiš preleviti v Martya iz kultnega filma Nazajv prihodnost, za to ne potrebuješ časovnega stroja. Dovolj je že enosmerna karta za Japosnko, kjer odputuješ nazaj v prihodnost. Svetovno znana po svojih naprednih tehnologijah, uporabi robotov, hitrih vlakih in futurističnem izlgedu, je hkrati ujeta v staro tehnologijo prejšnjega stoletja. Posebno ravnovesje med prihodnostjo in zgodovino, ki sobivata na otoku, omogoča, da lahko hkrati izkusiš obe skrajnosti.
 

@@ -1,27 +1,28 @@
 ---
 title: Zeleno-rdeča
-pubDate: '2023-03-28T09:59:39.933Z'
-draft: ''
+pubDate: "2023-03-28T09:59:39.933Z"
+draft: ""
 tags:
   - potovanje
   - seoul
 categories:
   - Južna Koreja
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/Zeleno-rdeca/seoul_palace@2x_thumbnail.webp
 featureImage: /images/blog/Zeleno-rdeca/seoul_palace@2x.webp
-tranding: false
+showOnSidebar: false
 description: Južna Koreja v zadnjih letih poževa slavo na globavni ravni.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
+
 Južna Koreja v zadnjih letih poževa slavo na globavni ravni. Naj bo to uspeh K-pop idolov, kozmetične industrije, plastične kirurgije, pametnih telefonov, avtomobilov, ali popularnih serij. Ne glede na to, v katerem kotičku sveta se skrivaš, vest o tej državi prodira tudi tja.
 
 Uspeh moderne države pa gradita tudi bogata tradicija in pretresljiva zgodovina.
 
 Kot kratkoročna obiskovalca tega majhnega polotoka, kjer domuje več kot petdeset milijonov ljudi, se seveda lahko dotakneva le majhnega delca kulture in zgodovine. Vseeno pa menim, da so tudi drobci lahko precej zanimivi za odkrivanje - in prvi je že tu.
-
 
 Južne Koreje se drži vzdevek država jutranjega miru. Korejski polotok je eden izmed prvih predelov azije, ki ga zjutraj obsije jutranje sonce. Njegovo gozdnato gorovje se okopa v prvih sončnih žarkih, temple zajame jutranja meglica in svet zaživi. Kar primeren vzdevek, kajne?
 
@@ -35,16 +36,12 @@ Zelena in rdeča sta uporabljeni za templje in palače. Pomembne stavbe iz korej
 
 Rumena barva se je uporabljala izključno za stavbe imperija. Krasi le redke palače v centru Seoula, ki kažejo mogočnost nekdanjih vladarjev.
 
-![](/images/blog/Zeleno-rdeca/colored_ruf.webp)
+![Colored Ruf](/images/blog/Zeleno-rdeca/colored_ruf.webp)
 
 Kljub temu, da so stavbe namenjene vladarjem in duhovom, se njihova arhitektura ne razlikuje toliko od preprostejših stavb. Seveda so te višje in mogočnejše, vendar osnova ostaja ista. Njihovo zunanjost krasijo izklesani vzorci, obarvani v rdeče in zelene predele, ki jih ločujejo od rjavih stavb navadnega prebivalstva.
-
 
 Vse zeleno-rdeče stavbe krasijo prelepi slivovi cvetovi, ki so nacionalni simbol. V arhitekturi tako opazimo veliko navezanost ljudi na naravo in zlitje naravnega ter človeškega sveta preko spiritualnosti, arhitekture in vsakdanjega življenja.
 
 V novodobni državi staro sožitje z duhovi nadomeščata budizem in krščanstvo, lesene stavbe pa visoke stolpnice vseh oblik in barv. Vseeno pa te sprehod po nekdanjih palačah in svetiščih vsaj za trenutek popelje v življenje nekdanjega kraljestva jutranjega miru.
-
-
-
 
 <!-- gallery -->

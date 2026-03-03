@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/mesto_dreves/sendai_thumbnail.webp
 featureImage: /images/blog/mesto_dreves/sendai_header.webp
-tranding: false
+showOnSidebar: false
 description: Sendai se po Japonski oglašuje kot mesto dreves.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Sendai se po Japonski oglašuje kot mesto dreves. Za državo, ki je precej zelena in tudi mesta ogromno vlagajo v urejanje parkov ter zelenih površin, se nama je takšen slogan zdel malce privlečen za lase. Da resnici prideva do dna, sva se usedla na vlak in odpeljala v samooklicano mesto dreves.
 
@@ -21,7 +22,7 @@ Sendai je milijonsko mesto, ki leži v severni regiji glavnega otoka Honshu, ime
 
 Po izstopu iz Sendai železniške postaje sva kupila dnevno vozovnico za turističn bus in se kot prava turista lotila ogleda mesta. Prvotni plan je sestavljal ogled gradu, obisk muzeja Miyagi prefekture in obisk umetnostne galerije. Še preden je avtobus speljal, pa sva že črtala iz seznama muzej, saj je trenutno zaprt.
 
-![](/images/blog/mesto_dreves/sendai_5.webp)
+![Sendai 5](/images/blog/mesto_dreves/sendai_5.webp)
 
 Krožna turistična vožnja je vedno odlična izbira za dnevne obiske, saj na hitro preletiš vse pomembne znamenitosti in dobiš občutek za mesto. Nisva se potrebovala peljati dolgo, da sva ugotovila, da njihov slogan drži. Vse ulice spremljajo zelena drevesa, katerih krošnje skrbijo za prijetno senco. Dolge promenade so povsem zelene in tlakovane poti vijugajo med debli. Med prometnimi ulicami drevesa dihajo vzdolž urejenih poti za pešce, ki ceste delijo na polovico. Tako se celotno mesto stalno kopa v zelenih barvah.
 

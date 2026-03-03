@@ -6,13 +6,14 @@ tags:
   - potovanje
 categories: []
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/prenocitev_v_kapsuli/spanje_v_kapsuli_thumbnail.webp
 featureImage: /images/blog/prenocitev_v_kapsuli/spanje_v_kapsuli_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Kapsulski hoteli so znamenite nastanitve Japonske, kjer obiskovalec prenoči v majhni celici, nič večji kot njegova postelja. '
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Spala sva na tatami, spala sva pri domačinih, v hostlih in službenih hotelih. Sedaj pa je čas, da izkusiva tudi slavne kapsulske hotele.
 

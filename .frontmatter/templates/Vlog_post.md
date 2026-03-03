@@ -4,16 +4,17 @@ description:
 pubDate:
 draft: true
 contentType: Vlog
+fmContentType: vlog-post
 categories: []
 tags:
   - potovanje
   - vlog
 video: true
 featured: false
-secondAuthor: false
+authorId: "tomaz"
 readTime:
 thumbnail:
 featureImage:
 youtubeUrl:
-tranding: false
+showOnSidebar: false
 ---

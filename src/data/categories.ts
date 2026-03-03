@@ -1,3 +1,5 @@
+import taxonomy from "../../taxonomy.json";
+
 /**
  * Predefined filter order for Blog page.
  * Vse = show all (no category).
@@ -6,19 +8,7 @@
  */
 export const CONTENT_TYPES = ["Blog", "Vlog"] as const;
 
-export const DESTINATION_ORDER = [
-  "Japonska",
-  "Južna Koreja",
-  "Taiwan",
-  "Avstralija",
-  "Italija",
-  "Hrvaška",
-  "Nemčija",
-  "Velika Britanija",
-  "Avstrija",
-  "Jordanija",
-  "Malta",
-] as const;
+export const DESTINATION_ORDER = taxonomy.destinations as readonly string[];
 
 export const CATEGORY_FILTERS = [
   "Vse",

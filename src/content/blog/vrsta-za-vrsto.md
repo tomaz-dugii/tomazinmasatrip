@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/vrsta_za_vrsto/vrsta_thumbnail.webp
 featureImage: /images/blog/vrsta_za_vrsto/vsta_header.webp
-tranding: false
+showOnSidebar: false
 description: Prenatrpana mesta in omejeno število storitev je idealen recept za vrste.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Kako pogosto doma stojiš v vrsti? Najverjetneje vsakič, ko se odpraviš v Mercator. Tam je vrsta na blagajni pač del izkušnje. 
 

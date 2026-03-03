@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: true
-secondAuthor: false
 readTime: 18 minut
 thumbnail: /images/videos/viznja_po_japonski_thumbnail.webp
 featureImage: /images/videos/viznja_po_japonski_feature.webp
-tranding: true
+showOnSidebar: true
 description: Vožnja po Japonski
 youtubeUrl: 'https://www.youtube.com/watch?v=5obRP-pMeQA'
 contentType: Vlog
+authorId: tomaz
+fmContentType: vlog-post
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5obRP-pMeQA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

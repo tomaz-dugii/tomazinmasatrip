@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 7 minut
 thumbnail: /images/blog/najina_japonska_hisa/japonska_hisa_thumbnail.webp
 featureImage: /images/blog/najina_japonska_hisa/japonska_hisa_header.webp
-tranding: false
+showOnSidebar: false
 description: Japonska hiša in življenje v več 100 let stari stavbi sredi Japonske.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Ko sva se maja prebijala iz Hakodate v Tokio, sva se za slab teden dni ustavila v obalnem mestu Ishinomaki. To se nahaja slabo uro vožnje z vlakom iz mesta Sendai in meji na Tihi ocean. Začasen dom sva našla v stari hiši, ki je za teden dni pripadala le nama.
 
@@ -23,7 +24,7 @@ Hiša Ogawa spada pod Z-klasificirane hiše, ki označujejo stavbe, težke za ob
 
 Obnovljena je bila v skladu z nekdanjo podobo, ki so ji le dodali sodobnejšo opremo. Star videz naju je privabil, da izkusiva življenje v tej 100 let stari hiši. Bivanje v njej bi z veseljem ponovila, vendar pa so dnevi v njej bili precej naporni, kar lahko pripiševa naslednjim razlogom.
 
-![](/images/blog/najina_japonska_hisa/japonska_hisa_4.webp)
+![Japonska Hisa 4](/images/blog/najina_japonska_hisa/japonska_hisa_4.webp)
 
 1 - Izolacija. Japonske hiše ne poznajo izolacije. Tudi novejše zgradbe imajo precej tanke stene in so ponoči nepredstavljivo mrzle. Med tabo in zunanjostjo je velikokrat le tanka plast papirnatih vrat in stekla. Tako je stalno ogrevanje prostorov draga nuja. 
 

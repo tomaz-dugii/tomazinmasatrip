@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/velikna_v_dezeli_palckov/velikan_thumbnail.webp
 featureImage: /images/blog/velikna_v_dezeli_palckov/velikan_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Na Japonski sse počutiš kot štorast velikan, ki ne zna nič drugega, kot podirati.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Po najnovejših meritvah naj bi bila povprečna višina odraslih moških na Japonski 170cm in žensk 160cm. To sicer ni tako nizko, vendar pa je nedvomno mnogo več tistih, ki so visoki le meter in čevap, kot tistih nad 180cm. Nizka rast in večina stavb zrajenih v prejšnjem stoletju, ko je povprečna višina za moškega bila le 160cm, visokim obiskovalcem povzroča kar nekaj preglavic. 
 Dobesedno.
@@ -24,7 +25,7 @@ Na številnih turističnih mestih, kjer je ogromno višjih turistov, so vhodi ve
 
 Poleg glave trpijo tudi kolena in križ. Mnogokrat so mize preozke ali prenizke, da bi se udobno namestil za dalj časa. Ekstremen primer je obisk najbolj znane verižne ramen restavracije Ichiran. Tam skledo ramena uživaš v majhnem ograjenem prostoru. Ideja za zagrajenim prostorm je, da se posvetiš hrani in v njej uživaš. A kaj, ko je uživanje hrane zelo neudobno, ko je prostor premajhen, da bi se lahko namestil na stol. Prostor med mizo in stolom je namreč tako ozek, da ne moreš sedeti naravnost, temveč iščeš alternativne oblike sedenja. Meni je nekako uspelo sedeti postrani, Tomaž pa je s svojimi dolgimi palcami namesto na riti, “sedel” na stegnih.
 
-![](/images/blog/velikna_v_dezeli_palckov/velikan_2.webp)
+![Velikan 2](/images/blog/velikna_v_dezeli_palckov/velikan_2.webp)
 
 Tako riskanten kot je obisk Ichirana, je tudi nakup oblačil. Nakup brez pomerjanja je nespametna odločitev, saj so oblačila velikokrat prekratka. Tako lahko prelepe obleke le gledam od daleč. Še težje kot oblačila, je najti čevlje. Majhni ljudje, imajo tudi majhna stopala. Tako sva obiskala vsaj deset trgovin s čevlji, preden sva našla eno, ki je imela ženski čevelj velikosti štirideset.
 

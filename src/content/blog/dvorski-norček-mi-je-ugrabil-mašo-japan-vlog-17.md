@@ -7,14 +7,15 @@ tags:
 categories:
   - Japonska
 video: true
-secondAuthor: false
 readTime: ''
 thumbnail: /images/videos/Zvezda_vecera_thumbnail.webp
 featureImage: /images/videos/Zvezda_vecera_feature.webp
-tranding: true
+showOnSidebar: true
 description: Na Japan v mestu Beppu sva si ogledala gledališko predstavo.
 youtubeUrl: 'https://www.youtube.com/watch?v=VHTQUvqEUiM'
 contentType: Vlog
+authorId: tomaz
+fmContentType: vlog-post
 ---
 V mestu Beppu poteka festival vodnih vrelcev. V sklopu festivala se odvija veliko kulturnih dogotkov. Midva sva se udeležila gledališke predstave, za posladek je bila Maša povabljena na oder zaplesat s glavnim likom predstave.
 

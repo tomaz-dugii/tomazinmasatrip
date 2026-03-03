@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/sushi_in_sashimi/sushi_thumbnail.webp
 featureImage: /images/blog/sushi_in_sashimi/sushi_header.webp
-tranding: false
+showOnSidebar: false
 description: ' Sushi je ena izmed svetovno znanih vrst hrane, ki se je v podobi, kot jo poznamo danes, začela razvijati na Japonskem v času Edo vladavine.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Na katero hrano pomisliš, ko slišiš besedo Japonska? Nedvomno se med prvimi idejami poroji beseda sushi. Sushi je ena izmed svetovno znanih vrst hrane, ki se je v podobi, kot jo poznamo danes, začela razvijati v času Edo vladavine v devetnajstem stoletju.
 
@@ -26,7 +27,7 @@ Najina najljubša restavracija je Kura sushi, kjer se sushi vrti na tekočem tra
 
 Ogromna izbira sushija po kakšni uri postane precej monotona, saj ob sveži morski hrani poješ toliko riža, da na koncu okušaš le še tega. Zato poleg sushija obstaja še bolj plemenita opcija imenovana sashimi. Sashimi je ime za svežo in surovo mosrko hrano (ali meso), ki je dovolj kvalitetna, da jo lahko uživaš surovo.
 
-![](/images/blog/sushi_in_sashimi/sushi_5.webp)
+![Sushi 5](/images/blog/sushi_in_sashimi/sushi_5.webp)
 
 Sashimi velikokrat ponujajo v večernih restavracijah ali restavracijah namenjenim prav sveži mosrki hrani in njegove cene so precej višje od sushija. Vseeno je vsaj zame vreden vsakega dodatnega evra. Svež kos tune, ki ga po želji namočiš v omako se v ustah stopi sam od sebe. Specifični sashimiji, še posebej sveže ujete školjke, lahko dosežejo po ceno večih evrov na kos.
 

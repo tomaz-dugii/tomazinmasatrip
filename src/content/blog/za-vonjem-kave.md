@@ -7,12 +7,13 @@ tags:
 categories:
   - Južna Koreja
 video: false
-secondAuthor: true
 readTime: 10 minut
 thumbnail: /images/blog/za_vonjem_kave/za_vonjem_kave_5_thumbnail.webp
 featureImage: /images/blog/za_vonjem_kave/za_vonjem_kave_5_feature.webp
-tranding: false
+showOnSidebar: false
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Kava, doza energije, ki mnoge spravi čez jutranji prag, ali kremast napitek, ki ogreje okončine med napornim tednom. Ne glede na razlog za pitje, se strinjamo, da je ta topla pijača del naše kulture.
 

@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/unzen/unzen_thumbnail.webp
 featureImage: /images/blog/unzen/unzen_header.webp
-tranding: false
+showOnSidebar: false
 description: Unzen je gorsko mesto polno vročih vrelcev in kopeli tople mineralne vode.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Japonsko otočje je močno prepleteno z vulkani, ki s svojim delovanjem krojijo življenje otočanov. Najznamenitejši vulkan je nedvomno Fuji, gorovje glavnega otoka, ki se razprostira med Tokyom in Kyotom.
 
@@ -23,7 +24,7 @@ Okoli naravnih vrelcev so že od nekdaj postavljali tradicionalna letovišča im
 
 Na bližino vrelcev opominja tudi vonj po gnilih jajcah, ali natančneje po hidrogenovem sulfatu, ki se dviga iz aktivnega območja. 
 
-![](/images/blog/unzen/unzen.webp)
+![Unzen](/images/blog/unzen/unzen.webp)
 
 Ob vrelcih se dvigajo številni ryokani in onseni, ki preko cevi črpajo vodo grelcev in z njimi napajajo svoja kopališča. Sivo pobočje s katerega se dviga dim, v japonski folklori predstavlja pekel. Obisk vročih vrelcev, kjer te dim stalno slepi, doživetje res lahko opiše z izbrano besedo.　Pekel za ene, raj za druge. Aktivno pobočje jpresenetljiv naravni pojav, ki ga v Sloveniji nimamo. 
 

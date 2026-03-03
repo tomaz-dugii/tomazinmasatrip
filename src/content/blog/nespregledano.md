@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 10 minut
 thumbnail: /images/blog/nespregledano/nespregledano_thumbnail.webp
 featureImage: /images/blog/nespregledano/nespregledano_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Opažene zanimivosti japonke, da se jih bova čez leta z užitkom spominjala .'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Japonska s svojo oddaljenostjo in posebnostjo stalno ponuja nove kulturne šoke. Večina, kot je vožnja po levi, olikanost, držanje vrst in pravil, ter podobno, so mnogim že znani. Vseeno pa dnevno opažava majhne zanimivosti, ki jih z doma nisva vajena. Da jih ne pozabiva in se bova čez leta z užitkom spominjala teh podrobnosti, sva jih zapisala v prispevku.
 
@@ -27,7 +28,7 @@ Japonska s svojo oddaljenostjo in posebnostjo stalno ponuja nove kulturne šoke.
 
 5. Pomanjkanje košev za smeti. Pred odpravo na Japonsko te vsi svarijo, kako težko je najti koš za smeti. To je čista resnica. Četudi sva se na to že malo navadila v Južni Koreji, se ob vožnji z avtomobilom, ko se smeti nabere malo več, včasih znajdeva dva dni, ne da bi smeti lahko nekam oddala. Koša nima nobena bencinska črpalka, trgovina, ali obcestna postaja na kateri prespiš.
 
-![](/images/blog/nespregledano/nespregledano_1.webp)
+![Nespregledano 1](/images/blog/nespregledano/nespregledano_1.webp)
 
 6. Ko smo že pri bencinskih postajah. Sama postrežba na teh je fenomenalna. Skozi celoten postopek se ti ni treba niti vstati iz avtomobila. Sama sploh ne veva ali sva vozila bencinarja ali dizla. Ko zapelješ na bencinsko, te pričakajo uslužbenci, ki te napotijo do črpalke, tankajo avtomobil, uredijo plačilo, te pospremijo do izvoza in ti celo pokažejo kdaj je cesta varna za speljati.
 
@@ -39,7 +40,7 @@ Japonska s svojo oddaljenostjo in posebnostjo stalno ponuja nove kulturne šoke.
 
 10. Priročnost trgovinc. Majhne 24urne trgovince kot sta 7eleven in FimilyMart se tako kot avtomati, nahajajo povsod. Njihove police so založene z raznimi priročnimi izdelki in svežo hrano, ki mnogokrat lahko za nizko ceno nadomesti celoten topel obrok. Tako si lahko v 7eleven kupiš skledo rezancev z mesom, ki ti ga še pogrejejo in dodajo potreben pribor. Sama sva vsaj en obrok na dan kupila v trgovinah. Onigiri (zvitek riža, obdan z nori, ter polnjen z lososom, tuno, ali druggo mosrsko hrano) te stane slab evro.
 
-![](/images/blog/nespregledano/nespregledano_3.webp)
+![Nespregledano 3](/images/blog/nespregledano/nespregledano_3.webp)
 
 11. Japonska stranišča. Če se sprva zdi čudno, da bi ti stranišče opralo še vso spodnjo površino, se na funkcije hitro navadiš. Sedaj sva razočarana, če prideva na javno stranišče, ki teh funkcij ne ponuja. Če bova kdajkoli imela svojo hišo, bova sigurno investirala v takšno strasnišče. Podobno kot avtomate, sva tudi javna stranišča že zasledila sredi polj.
 

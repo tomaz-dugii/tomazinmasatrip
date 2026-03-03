@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 7 minut
 thumbnail: /images/blog/tokio_logistika/tokio_thumbnail.webp
 featureImage: /images/blog/tokio_logistika/Tokio_header.webp
-tranding: false
+showOnSidebar: false
 description: Premišljena Tokio logistika in urbanistično planiranje mega mesta.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Območje Tokia že dve desetletji velja za najbolj poseljen predel sveta. Megamesto, ki je nastalo s širitvijo večih milijonskih mest v eno, je dom že skoraj 40 milijonom ljudem. Če tem prištejemo še dnevne migrante iz okolice, ki se vozijo v službo in tisoče turistov, je število precej višje. Za mesto, ki je veliko približno toliko kot Dolenjska, gosti pa dvajsetkrat več prebivalcev kot celotna Slovenija, je pretočnost izjemnega pomena.
 
@@ -23,7 +24,7 @@ Megamesto se je s hitro rastjo prebivalstva vse od druge svetovne vojne dalje, o
 
 Takšno efektivnost sva po dnevih opazovanja pripisala sedmim faktorjem, ki prikazujejo precej premišljen sistem in dobro urbanistično planiranje.
 
-![](/images/blog/tokio_logistika/tokio_5.webp)
+![Tokio 5](/images/blog/tokio_logistika/tokio_5.webp)
 
 1. Razpršena uprava - za razliko od naše preljube Slovenije, so številne državne službe v okoliških mestih. Eno izmed tovrstnih mest je Sendai, kjer je veliko število prebivalcev zaposlenih v državni upravi. Ta razpršenost dovoljuje upravljanje mnogih državnih funkcij izven prestolnice in mnogim državljanom prihrani vožnjo v Tokio. 
 
@@ -35,7 +36,7 @@ Takšno efektivnost sva po dnevih opazovanja pripisala sedmim faktorjem, ki prik
 
 5. Vlak - Javni promet dopolnjuje vlak, ki s petimi dodatnimi progami ljudi prevaža čez mesto kot tudi po celotni državi. Postaje za vlak in metro se velikokrat združene v isti stavbi, kar omogoča preprost prestop iz ene linije na drugo.
 
-![](/images/blog/tokio_logistika/tokio_4.webp)
+![Tokio 4](/images/blog/tokio_logistika/tokio_4.webp)
 
 6. Avtobus -Izjemno dobro mrežo tirnic dopolnjuje še dodatnih 200 avtobusnih linij, ki povprečnemu prebivalcu zagotavljajo brezskrbno življenje v mestu. 
 
@@ -87,7 +88,7 @@ Eno izmed najprestižnejših in nadražjih predelov za življenje na svetu je Ro
 
 AOYAMA je severno okrožje MInato predela, ki meji na Roppongi. Kratek desetminutni sprehod od Roppongija do Aoyame okolje povsem spremeni. Aoyama je namenjena predvsem bivalnim stoplnicam, namenjenim vsem zaposlenim, ki delajo v okoliških centrih. Ob glavni postaji se nahaja Honda Miles cafe, kjer se vsak dan pred odprtjem vrsta navdušencev čaka, da odpro vrata. Znotraj kavarne Honda gosti številne avtomobile, motorje in druge ikonične izdelke, ki si jih lahko ogledaš ob dobri kavi. 
 
-![](/images/blog/feature-image-07.jpg)
+![Feature-Image-07](/images/blog/feature-image-07.jpg)
 
 
 

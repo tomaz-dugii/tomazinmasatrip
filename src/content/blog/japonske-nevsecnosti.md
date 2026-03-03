@@ -7,12 +7,13 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/tegobe_japonske/tegobe_japonske_thumbnail.webp
 featureImage: /images/blog/tegobe_japonske/tegobe_japonske_header.webp
-tranding: false
+showOnSidebar: false
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Če že piševa kaj nama je všeč, je prav, da malo omeniva tudi zadeve, ki nama niso tako pri srcu. Nikjer ni popolno in tukaj je seznam, ki povzema najine tegobe tekom potovanja.
 
@@ -31,4 +32,4 @@ Seveda kavarne so. Tudi kar veliko jih je. Vendar pa pogrešava kavarne z verand
 5. Otežen nakup za tujce - 
 Številni nakupi kot je nakup avtomobila, kolesa ali lokalne SIM kartice ni možen za tuje državljane. Za številne večje nakupe potrebuješ japonsko državljanstvo ali celo registrirano parkirno mesto. S tem si velikokrat omejen na ponudbo za turiste, ki ponuja le dnevne ali tedenske opcije. 
 
-![](/images/blog/feature-image-07.jpg)
+![Feature-Image-07](/images/blog/feature-image-07.jpg)

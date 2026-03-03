@@ -7,12 +7,13 @@ tags:
 categories:
   - Južna Koreja
 video: false
-secondAuthor: true
 readTime: 10 minut
 thumbnail: /images/blog/pocasna_jutra/pocasna_jutra_thumbnail.webp
 featureImage: /images/blog/pocasna_jutra/pocasna_jutra_feature.webp
-tranding: false
+showOnSidebar: false
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Za državo, ki nikoli ne spi, se korejska jutra zdijo kot magičen trenutek miline. Vse od prvih žarkov, ki se priplazijo na obzorje in osvetlijo temno morje, ter pozno v deseto uro, mesto diha počasneje.
 

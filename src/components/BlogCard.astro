@@ -1,45 +1,62 @@
 ---
-import type { CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from "astro:content";
+import { authors } from "../data/about";
 
 interface Props {
-  entry: CollectionEntry<'blog'>;
+  entry: CollectionEntry<"blog">;
 }
 
 const { entry } = Astro.props;
 const { id, data } = entry;
 const { title, pubDate, description, tags, thumbnail, readTime } = data;
-const author = data.secondAuthor ? 'Maša Petan' : 'Tomaž Starašinič';
-const formattedDate = new Date(pubDate).toLocaleDateString('sl-SI', { year: 'numeric', month: 'long', day: 'numeric' });
-const excerpt = description || '';
+const authorId = data.authorId ?? "tomaz";
+const author = authors.find((a) => a.id === authorId) ?? authors[0];
+const formattedDate = new Date(pubDate).toLocaleDateString("sl-SI", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+const excerpt = description || "";
 ---
 
 <article class="blog-card">
   <a href={`/posts/${id}`} class="card-image-link">
-    {thumbnail ? (
-      <img src={thumbnail} alt={title} class="card-image" loading="lazy" />
-    ) : (
-      <div class="card-image-placeholder"></div>
-    )}
+    {
+      thumbnail ? (
+        <img src={thumbnail} alt={title} class="card-image" loading="lazy" />
+      ) : (
+        <div class="card-image-placeholder" />
+      )
+    }
   </a>
   <div class="card-content">
-    {tags && tags.length > 0 && (
-      <div class="card-tags">
-        {tags.slice(0, 2).map((tag) => (
-          <span class="tag">{tag}</span>
-        ))}
-      </div>
-    )}
+    {
+      tags && tags.length > 0 && (
+        <div class="card-tags">
+          {tags.slice(0, 2).map((tag) => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+      )
+    }
     <h3 class="card-title">
       <a href={`/posts/${id}`}>{title}</a>
     </h3>
     <p class="card-meta">
-      By {author} · {formattedDate}
+      By {author.name} · {formattedDate}
       {readTime && ` · ${readTime} branja`}
     </p>
     {excerpt && <p class="card-excerpt">{excerpt}</p>}
     <a href={`/posts/${id}`} class="card-link">
       Preberi več
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      <svg
+        width="14"
+        height="14"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"><path d="M9 18l6-6-6-6"></path></svg
+      >
     </a>
   </div>
 </article>

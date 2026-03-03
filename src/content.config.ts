@@ -40,20 +40,12 @@ const blog = defineCollection({
               : false,
         z.boolean().optional(),
       ),
-      secondAuthor: z.preprocess(
-        (v) =>
-          v === true || v === "true"
-            ? true
-            : v === false || v === "false" || v === ""
-              ? false
-              : false,
-        z.boolean().optional(),
-      ),
+      authorId: z.string().optional(),
       readTime: z.string().optional(),
       thumbnail: z.string().optional(),
       featureImage: z.string().optional(),
       youtubeUrl: z.string().optional(),
-      tranding: z.preprocess(
+      showOnSidebar: z.preprocess(
         (v) =>
           v === true || v === "true"
             ? true

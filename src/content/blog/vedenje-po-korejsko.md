@@ -7,12 +7,13 @@ tags:
 categories:
   - Južna Koreja
 video: false
-secondAuthor: true
 readTime: 10 minut
 thumbnail: /images/blog/vedenje_po_korejsko/vedenje_po_korejsko_4_thumbnail.webp
 featureImage: /images/blog/vedenje_po_korejsko/vedenje_po_korejsko_4_feature.webp
-tranding: false
+showOnSidebar: false
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Skrb za starejše, čistoča, ter olikanost so svetovno znani atributi Južne Koreje. V tem članku pa se dotakneva še drugih zanimivosti kulture obnašanja v Južni Koreji, ki se razlikuje od tiste, ki smo jo navajeni doma.
 

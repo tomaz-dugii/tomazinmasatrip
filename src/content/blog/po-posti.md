@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/po_posti/po_posti_thumbnail.webp
 featureImage: /images/blog/po_posti/po_posti_header.webp
-tranding: false
+showOnSidebar: false
 description: Japonska pošta. Kako sva pošiljala zadeve.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Tako kot sistem vlakov, imajo na Japonski urejen tudi poštni sistem. Za državo, ki še vedno operira preko papirja in faxa, imajo javne sisteme urejene do pike. Vedno znova sva presenečena kako dobro stvari funkcionirajo in kako dostopne so za državljane.
 

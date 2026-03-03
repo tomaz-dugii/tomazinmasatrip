@@ -7,13 +7,14 @@ tags:
 categories:
   - Taiwan
 video: false
-secondAuthor: false
 readTime: 10 minut
 thumbnail: /images/blog/ogled_taipeia/taipei_11_thumbnail.webp
 featureImage: /images/blog/ogled_taipeia/taipei_11.webp
-tranding: false
+showOnSidebar: false
 description: Na kratko o Taipeiju.
 contentType: Blog
+authorId: tomaz
+fmContentType: blog-post
 ---
 Ključna kratica: ROC - Republika Kitajska. Je politična struktura nekdanje celinske Kitajske, ki je izgubila državljansko vojno iz prebežala na otok Taiwan. 
 
@@ -31,7 +32,7 @@ Kot vsako večje mesto, je tudi Taipei prerasel staro obzidje, ki ga je nekoč v
 Znotraj mestnega jedra se razprostira ogromen park, pol skulptur in bujnih dreves znan po imenu 228. Ime nakazuje datum 28. 2. 1947, ko so po letih zatiranja po Taiwanu izbruhnili protivladni protesti. Iskra, ki je zanetila vse skupaj, je bil umor mlade ženske, ki naj bi prodajala takrat prepovedane cigarete Na 28. februar je ob izbruhu protestov prebežniška kitajska vlada (ROC) ubila na tisoče domačinov in obdobje zatiranja, ki se je od takrat vilo več let, je znano pod imenom Obdobje Belega Tetorja (White teror period - za tiste, ki si želite več prebrati na internetu). 
 Sam park, ki meji na Narodno univerzitetno kliniko (naš UKC, le večjo) je poln templjev in kipov, ki opominjajo na nevidno dlan takratne Kitajske prebežniške (ROC) nadvlade, ki želi Taiwan kljub njegovemu stalnemu uporu, držati v pesti. Ogled parka zelo priporočava z ogledom lokalnega vodiča, saj je poln zgodovine. Najpreprosteje je to storiti s Taiwan Free Walking tours, kjer gre za brezplačne vodene oglede. Manj znano dejstvo o Taiwanu je, da je bil do približno leta 1995 pod “martial law” oz. v vojnem stanju, kar je v bistvu pomenilo dikraturo takratne prebežniške kitajske vlade (ROC). 
 
-![](/images/blog/ogled_taipeia/taipei_18.webp)
+![Taipei 18](/images/blog/ogled_taipeia/taipei_18.webp)
 
 
 
@@ -62,7 +63,7 @@ Po nekdanji okupaciji Japonske in ROC-Kitajske, si je Taiwan končno uspel pribo
 
 V večernih urah zaživi tudi moderen Dadaocheng, ki je priljubljena točka za mlade. Pomol, ki ob večernih urah ponuja prelep pogled na mesto, ki se barva v oranžnih barvah, gosti številne bare in restavracije, ki se vijejo vzdolž sprehajalnih poti in trat za rekreacijo.
 
-![](/images/blog/ogled_taipeia/taipei_7.webp)
+![Taipei 7](/images/blog/ogled_taipeia/taipei_7.webp)
 
 
 **Nočne tržnice**

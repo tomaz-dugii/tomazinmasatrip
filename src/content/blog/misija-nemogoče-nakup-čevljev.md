@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: true
-secondAuthor: false
 readTime: 7 minut
 thumbnail: /images/videos/sladoled_in_puma_thumbnail.webp
 featureImage: /images/videos/sladoled_in_puma_feature.webp
-tranding: true
+showOnSidebar: true
 description: Nakupujeva Puma čevlje v Kumamoto.
 youtubeUrl: 'https://www.youtube.com/watch?v=AOEinibagyk'
 contentType: Vlog
+authorId: tomaz
+fmContentType: vlog-post
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AOEinibagyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

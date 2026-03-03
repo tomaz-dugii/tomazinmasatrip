@@ -7,12 +7,13 @@ tags:
 categories:
   - Južna Koreja
 video: false
-secondAuthor: true
 readTime: 10 minut
 thumbnail: /images/blog/hodori_in_ryan/hodori_3_thumbnail.webp
 featureImage: /images/blog/hodori_in_ryan/hodori_ 3_feature.webp
-tranding: false
+showOnSidebar: false
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Večina nas je že kdaj slišala za japonsko besedo Kawaii, ki opisuje obnašanje ali stvari, ki so prikupne. V korejščini tovrstni spekter opisuje beseda Aegyo. 
 

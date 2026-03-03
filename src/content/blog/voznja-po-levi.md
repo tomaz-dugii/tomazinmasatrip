@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 6 minut
 thumbnail: /images/blog/Voznja_po_levi/Voznja_po_levi_thumbnail.webp
 featureImage: /images/blog/Voznja_po_levi/Voznja_po_levi_header.webp
-tranding: false
+showOnSidebar: false
 description: Najem avtomobila in prva vožnja po levi strani ceste na Japonski.
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Japonska slovi po mnogih avtomobilskih zmakah - Toyota, Honda,  Nissan, Mazda, Subaru, Mitsubishi, Suzuki, Lexus, ... da o motorjih sploh ne začenjam. Po cestah se stalno vozijo zanimivi modeli, ki jih na evropskem trgu ne vidimo. S Tomažem imava najraje škatlaste avtke, kot sva jih poimenovala, ki po svoji obliki spominjajo na kocko.
 
@@ -21,7 +22,7 @@ Pred odhodom je Tomaž večkrat omenil, da želi na Japonskem vsaj za dan najeti
 
 Sam prevzem avtomobila je mignil kot strela. Skenirali so nama pasuž in mednarodno vozniško dovoljenje, dali ključ in pokazali kateri avto je najin. Nobenega plačila, razlage osnovnih funkcij, pravil, … tukaj je avto in pojdi. Po prvotnem mini šoku, ker nisva planirala, da se bova na cesti znašla že pet minut po prihodu v poslovalnico, sva se podala na levo stran ceste.
 
-![](/images/blog/Voznja_po_levi/Voznja_po_levi.webp)
+![Voznja Po Levi](/images/blog/Voznja_po_levi/Voznja_po_levi.webp)
 
 Če te zanima kako izgleda vožnja po levi, je tukaj kratek opis. Z avtom se opravlja in sedi na desni strani. Žmigavci in brisalci so obrnjeni, na kar se je treba malo navaditi. Še dobro, da je ta dan deževalo in nisva sredi sončnega dne po pomoti na trenutke vklopila brisalca. To se je namreč pogosto zgodilo. Včasih se malo pozabiš in se postaviš k napačnim vratom. Čudno je gledati v ogledala, ker preprosto nisi navajen gledati na drugo stran. Tako je Tomaž vsakič, ko je želel pogledati levo, najprej pogledal v ekran z navigacijo. Prav tako nisi navajen uporabljati vzvratnega ogledala. Še dobro, da sva avto najela izven Fukuoke in tako nisva potrebovala manivrirati v gneči.
 

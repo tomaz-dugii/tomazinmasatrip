@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 10 minut
 thumbnail: /images/blog/7eleven/7eleven_thumbnail.webp
 featureImage: /images/blog/7eleven/7eleven_header.webp
-tranding: false
+showOnSidebar: false
 description: '7elevenje je tip majhnih priročnih trgovin, ki obiskovalcem ponujajo vse najnujnejše.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Convenience store je tip majhnih priročnih trgovin, ki obiskovalcem ponujajo vse najnujnejše. Po svetu so precej pogoste in se nahajajo na vsakem vogalu. V Sloveniji tovrstnih trgovin, ki so odrpte 24 ur na dan, vsak dan v tednu, nimamo. Najbližje jim pridejo trgovine na bencinskih črpalkah. Za lažje razumevanje si lahko predstavljaš majhno Petrol trgovino na vsakem koraku.
 
@@ -23,7 +24,7 @@ Najpopularnejša izmed njih je 7eleven, ki ji sledi japonska franšiza FamilyMar
 
 Ne morem opisati kako super so te trgovine in kako pogosto v njih zajava s Tomažem. Ne bi se lagala, če bi rekla, da sva v eni izmed njih vsak enkrat dnevno. Naj bo to zajtrk, mini prigrizek ali večerja, Za hiter nakup kave ali čipsa, kot tudi nakup zobne paste, je potreben le kratek sprehod. V njih najdeš vse kaj potrebuješ in vsa ponudba je prioročno pripravljena za takojšnjo uporabo.
 
-![](/images/blog/7eleven/7eleven_2.webp)
+![7eleven 2](/images/blog/7eleven/7eleven_2.webp)
 
 Ko vstopiš vanje te najprej pričaka stalaža izdelkov za osebno higieno. Tukaj najdeš vse - od krem, do zobnih krtačk, do nogavic, dežnikov, rokavic, robčkov, kot tudi obližev. 
 
@@ -33,7 +34,7 @@ Vzdolž prve stene se vrstijo hladilniki z razno pijačo. Od nešteto vrst kave,
 
 Za stalažami sledijo velike skrinje z zmrzjeno hrano. Tukaj le redko kaj kupiva, saj zmrzovalnika ponavadi nimava. Tako Tomaž le občasno kupi sladoled.
 
-![](/images/blog/7eleven/7eleven_1.webp)
+![7eleven 1](/images/blog/7eleven/7eleven_1.webp)
 
 Na koncu trgovine, pa se skriva zlata vreden oddelek, zaradi katerega vsi pridejo v trgovino. Predel s predpripravljeno hrano. Tukaj se na policah vrstijo razni predpripravljeni sendviči, tortilije, onigiri zavitki in tortice. Prav tako so predpripravljena prava kosila špagetov, pečenega mesa, riža z morskimi sadeži in druge opcije. Izbire je ogromno. Ta se tekom dneva stalno spreminja in vedno naletiš na nekaj novega.
 

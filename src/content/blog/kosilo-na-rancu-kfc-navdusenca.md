@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 3 minute
 thumbnail: /images/blog/kosilo_na_rancu_kfc_navdusenca/pizza_thumbnail.webp
 featureImage: /images/blog/kosilo_na_rancu_kfc_navdusenca/pizza_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Uro vožnje od mesta Hakodate, ki vrata odpira v prostrane planote najsevernejšega japponskega otoka, se nahaja restavracija Harvester Yakumo.'
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Tik na vznožju otoka Hokkaido, uro vožnje od mesta Hakodate, ki vrata odpira v prostrane planote najsevernejšega japonskega otoka, se nahaja restavracija Harvester Yakumo. No, bolje kot beseda restavracija, jo opiše beseda ranč, saj ogromno poslopje na vrhu griča  po videzu spominja na ogromno kmetijo.
 

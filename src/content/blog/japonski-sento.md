@@ -7,13 +7,14 @@ tags:
 categories:
   - Japonska
 video: false
-secondAuthor: true
 readTime: 5 minut
 thumbnail: /images/blog/japonski_sento/sento_thumbnail.webp
 featureImage: /images/blog/japonski_sento/sento_header.webp
-tranding: false
+showOnSidebar: false
 description: 'Sento so po igledu manjše lesene stavbe, ki v pritličju ponujajo tople kadi, kjer se lahko namakaš že za tri evre. '
 contentType: Blog
+authorId: masa
+fmContentType: blog-post
 ---
 Obalno mesto Yakumo, katerega občinska meja sega vse od Japonskega morja na eni, in Tihega oceana na drugi strani, se nahaja na južnem delu otoka Hokkaido. Hokkaido je najsevernejši otok Japonske, ki se zaradi svoje veličine in precej hladnega podnebja, precej razlikuje od glavnega otoka Tohoku. Zime se tukaj vlečejo še daleč v pomlad in češnje, naznanilke japonske pomladi, tu zacvetijo z majem. Ob ledenih temperaturah in brezmilostnem vetru, so kopališča sento in onsen nadvse priljubljena.
 
@@ -25,7 +26,7 @@ Sento so po igledu manjše lesene stavbe, ki v pritličju ponujajo tople kadi, k
 
 Sento v katerem sva bivala midva, je star več kot sto let in je po daljšem obdobju nedelovanja bil pred dvajsetimi leti preurejen v nastanitev. V nekdanjih prostorih s kopelmi se nahaja restavracija, kjer hrano lahko uživaš kar znotraj stare kopeli. Brez vode seveda. Predel nekdanje restavracije in sob za počitek pa je bil preurejen v bivalni prostor, kjer lahko hkrati živi dvanajst gostov. Najina soba se je nahajala v zgornjem prostoru, kjer so počivali tudi nekoč. Kot se spodobi za stare dobre čase, so lesena tla pregrnjena s tatami in na njih položen futom za spanje. 
 
-![](/images/blog/japonski_sento/sento_3.webp)
+![Sento 3](/images/blog/japonski_sento/sento_3.webp)
 
 Stare japonske stavbe na imajo svoj čar. Temen les in ozka okna z drsnimi šipami je precej ikonična podoba za Japonsko. Vendar pa bivanje v njih vseeno ni tako prijetno; so vendarle stare več destletij. Kljub čvrstim tramovom in preurejeno notranjostjo, so vse starejše stavbe izjemno slabo toplotno in zvočno izolirane. Za otok kjer ni nič presenetljivega, da temperature več tednov ne preskočijo ničle, bi pričakoval zatesnjena okna in debele stene. No, stene in okna so tanki, tla ob vsakem koraku izdajajo tvojo lokacijo in edini prijatelj pri ohranjanju telesne temperature, je majhna pečka v kotu. Radiatorjev tudi na tako mrzlem otoku ni.
 

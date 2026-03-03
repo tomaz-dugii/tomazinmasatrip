@@ -7,14 +7,15 @@ tags:
 categories:
   - Japonska
 video: true
-secondAuthor: false
 readTime: 13 minut
 thumbnail: /images/videos/Nagasaki_vlog_thumbnail.webp
 featureImage: /images/videos/Nagasaki_vlog_feature.webp
-tranding: false
+showOnSidebar: false
 description: "Divji prašiči in srne sred Nagasakija | Avto | Japan \U0001F1EF\U0001F1F5 | Vlog 8"
 youtubeUrl: 'https://www.youtube.com/watch?v=GVcsqK6JIUA'
 contentType: Vlog
+authorId: tomaz
+fmContentType: vlog-post
 ---
 Raziskujeva mesto Nagasaki, kjer naletiva na prijetno presenečenje v živalski obliki. Ze več poglejte vlog.
 
