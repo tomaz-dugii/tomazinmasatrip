@@ -15,6 +15,8 @@ description: 'Sredi Tihega ocena, na otočju Okinawa, sva raziskovala plaže in 
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/sredi_tihega_oceana/tihi_ocean_6.webp
 ---
 Ali veš, da japonsko otočje sestavlja skoraj osem tisoč otokov? Da, teh 7.852 kopen, ki se iz morja dviga v najrazličnejših oblikah, skupaj tvori državo Japonsko. Seveda se ti med sabo precej razlikujejo po velikosti. Manjši komaj dosegajo površino štirih kilometrov, medtem ko največji izmed njih, otok Honshu, gosti največje mesto na svetu.
 
@@ -29,7 +31,3 @@ Okinawa se od Honshuja razlikuje tako po ozračju, kot tudi naravi. Na tropskih 
 Največja razlika med otočjema pa ni v naravi, temveč v ljudeh. Okinawa gosti eno izmed največjih ameriških baz v Vzhodni Aziji, ki ob trenju med Taiwanom in Kitajsko le še veča svojo prisotnost. Na celotni Japonski ameriške baze zasedajo 0.6% njenega ozemlja in od teh 0.6%, jih je kar 70% na Okinawi. Velika prisotnost ameriške kulture, ki sega v preteklost vse do druge svetovne vojne, se močno pozna na ulicah.
 
 S stalno prisotnostjo kar 50.000 tujih vojakov, so otočje poleg baz poselile številne ameriške trgovine in restavracije. Domačini bolj posegajo po uličnem stilu oblačenja, kjer nosijo ohlapna oblačila in veliko pogosteje kažejo svoje tattooje. Prav tako so bolj zgovorni in se dolgo v večer potikajo po barih. Za primerjavo s korporativnim Tokiom, kjer gruče ljudi nosijo iste črne obleke s kravatami, je Okinawa pravcaten oddih. Le na stalen hrup reaktivcev se je treba kar hitro navaditi.
-
-
-
-<!-- gallery -->

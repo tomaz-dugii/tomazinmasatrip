@@ -15,6 +15,7 @@ authorId: "tomaz"
 readTime:
 thumbnail:
 featureImage:
+galleryImages: []
 youtubeUrl:
 showOnSidebar: false
 ---

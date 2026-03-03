@@ -15,6 +15,8 @@ description: 'Sento so po igledu manjše lesene stavbe, ki v pritličju ponujajo
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/japonski_sento/sento_3.webp
 ---
 Obalno mesto Yakumo, katerega občinska meja sega vse od Japonskega morja na eni, in Tihega oceana na drugi strani, se nahaja na južnem delu otoka Hokkaido. Hokkaido je najsevernejši otok Japonske, ki se zaradi svoje veličine in precej hladnega podnebja, precej razlikuje od glavnega otoka Tohoku. Zime se tukaj vlečejo še daleč v pomlad in češnje, naznanilke japonske pomladi, tu zacvetijo z majem. Ob ledenih temperaturah in brezmilostnem vetru, so kopališča sento in onsen nadvse priljubljena.
 
@@ -32,8 +34,4 @@ Stare japonske stavbe na imajo svoj čar. Temen les in ozka okna z drsnimi šipa
 
 Kljub temu je bivanje v starem sento, ki ga krasijo mnoge lesene figurice izklesanih medvedov, ki so za Hokkaido pogost spominek, samosvoja izkušnja. Po starih tleh iz masivnega lesa drsiva v toplih copatih, ob prečkanju hodnika se skloniva, da čelo ne poljubi nizkega tramu, pripravljeno večerjo pa jeva kar kleče ob majhni mizici.
 
-Še zadnja zanimivost, stara gradnja, ki je tukaj stala dolgo preden so čez cesto začeli voziti hitri vlaki, se ob vsakem snidenju z drvečimi vagoni strese do temeljev. 
- 
-
-
-<!-- gallery -->
+Še zadnja zanimivost, stara gradnja, ki je tukaj stala dolgo preden so čez cesto začeli voziti hitri vlaki, se ob vsakem snidenju z drvečimi vagoni strese do temeljev.

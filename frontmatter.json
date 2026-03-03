@@ -173,6 +173,11 @@
           "title": "Show on sidebar",
           "name": "showOnSidebar",
           "type": "boolean"
+        },
+        {
+          "name": "galleryImages",
+          "type": "image",
+          "multiple": true
         }
       ]
     },
@@ -271,6 +276,11 @@
           "title": "Show on sidebar",
           "name": "showOnSidebar",
           "type": "boolean"
+        },
+        {
+          "name": "galleryImages",
+          "type": "image",
+          "multiple": true
         }
       ]
     },
@@ -364,7 +374,8 @@
         },
         {
           "name": "galleryImages",
-          "type": "image"
+          "type": "image",
+          "multiple": true
         }
       ]
     }

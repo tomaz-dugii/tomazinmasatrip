@@ -10,12 +10,13 @@ readTime: 7 minut
 thumbnail: /images/blog/spane_na_tleh/spanje_na_tleh_thumbnail.webp
 featureImage: /images/blog/spane_na_tleh/spanje_na_tleh_header.webp
 showOnSidebar: false
-description: Spanje na tleh, s futonom na japonskem tatami.
+description: 'Spanje na tleh, s futonom na japonskem tatami.'
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/spane_na_tleh/spanje_na_tleh_4.webp
 ---
-
 Za Japonsko so postelje, kot jih poznamo doma, precej pozen dodatek. Preden so ladje s tujimi dobrinami priplule na otok, so za udoben spanec stoletja uporabljali dobro premišljeno kombinacijo tatami in futona.
 
 Tudi v letu 2023, ko se po Japonski potivaka midva, je tradicionalna spalna oprema še vedno prisotna. Najde se v tradicionalnih hišah in nastanitvah, ki obiskovalcem ponujajo staromoden obisk. Tradicionalne japosnke nastavitve, ki za goste ponujajo bogato ponudbo tradicionalne hrane, kopeli, sobnih oblačil in sob, se imenujejo Ryokan. S ponudbo, ki jo izvajajo na visokem nivoju, so visoke tudi cene. Tako se nočitve v ryokanih, kjer je v ceno vedno všteta tudi vsaj večerja, gibljejo med 150-500 evri na noč. In to po osebi, saj v ryokanih ne plačaš za sobo, temveč doživetje, ki se šteje po glavah.
@@ -37,5 +38,3 @@ Za tovrstna ležišča je značilno, da jih lastniki na novo postavijo vsak več
 Kot preizkuševalca takšne spalne namestitve lahko rečeva, da je zelo udobna in sigurno za sprobati. Sicer bi oba želela, da bi futon bil malo debelejši, kar brez skrbi, tudi obstaja, drugače pa je spanje zelo udobno.
 
 Četudi se spanje na futonu doma ne bo prijelo, je tovrstna raba prostora odlična ideja za kakšno odvečno sobo, ki jo uporabljamo za likanje, šport, občasno sobo za goste, ali pisarno. Le v pičlih minutah lahko soba povsem spremeni svojo podobo.
-
-<!-- gallery -->

@@ -49,11 +49,8 @@ function transformBody(body, isVideo) {
     },
   );
 
-  // Replace {{< gallery >}} with empty string (or comment for future component)
-  result = result.replace(
-    /\{\{<\s*gallery\s*>\}\}/g,
-    "\n\n<!-- gallery -->\n\n",
-  );
+  // Replace {{< gallery >}} with empty string (gallery driven by frontmatter galleryImages)
+  result = result.replace(/\{\{<\s*gallery\s*>\}\}/g, "");
 
   return result.trim();
 }

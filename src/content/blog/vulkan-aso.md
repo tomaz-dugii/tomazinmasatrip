@@ -33,7 +33,3 @@ Po obisku vrhov in topli kavi, ki nama je pogrela mrzle okončine, sva se podala
 Ob visokih vrhovih s katerih se dviga dim in vročih vrelcih, v katerih brbota vrela voda, je Kyushu otok ognja in vode.
 
 ![Feature-Image-07](/images/blog/feature-image-07.jpg)
-
-
-
-<!-- gallery -->

@@ -25,7 +25,3 @@ Ne glede na italijanske dobrote, pa so glavna zvezda restavracije ocvrte bedrce.
 Kljub popularnosti ocvrtih piščancev, ki jih ponujajo v Harvester Yakumo, pa mnogi raje posegamo po italijanski ponudbi raznih testenin, tiramisujev in pic. 
 
 Uživanje kosila ob ogromnih oknih, ki ponujajo pogled na prostrane zelene travnike, pritegne mnoge turiste. Tako se pred vrati restavracije stalno nabira vrsta lačnih obiskovalcev, ki le čakajo, da bodo uživali v mastni hrani. Od hrane do opečnate stavbe, te grič na japonskem otoku Hokkaido popelje med daljne travnike Kentchukiya. To popoldne si nekje na drugi strani Tihega oceana.
-
-
-
-<!-- gallery -->

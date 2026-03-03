@@ -15,6 +15,8 @@ description: Najem avtomobila in prva vožnja po levi strani ceste na Japonski.
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/Voznja_po_levi/Voznja_po_levi.webp
 ---
 Japonska slovi po mnogih avtomobilskih zmakah - Toyota, Honda,  Nissan, Mazda, Subaru, Mitsubishi, Suzuki, Lexus, ... da o motorjih sploh ne začenjam. Po cestah se stalno vozijo zanimivi modeli, ki jih na evropskem trgu ne vidimo. S Tomažem imava najraje škatlaste avtke, kot sva jih poimenovala, ki po svoji obliki spominjajo na kocko.
 
@@ -35,7 +37,3 @@ Poleg parkingov je pot do prve točke minila brez drugih zapletov, sva pa večji
 So pa omejitve na Japonskem precej nizke. Po regionalnih cestah je vožnja omejena ka 60km/h, same avtoceste pa so omejene na 100km/h. Torej se pri njih po avtocesti voziš isto hitro kot pri nas po regionalni. Številna mesta vožnjo omejujejo celo na 40km/h, veliko odsekov pa tudi na 30km/h. Takšne omejitve, ki se jih seveda vsi držijo, sva izkoristila za sproščeno vožnjo in opazovanje okolice, kar se je po svoje tudi splačalo.
 
 Nasplošno je prvi dan vožnje po levi minil precej preprosto. Z izjemo treh kiksov, sva dobro manivrirala. Dokler ne sedeš za volan v milijonskem mestu, bi moral vsak biti v redu.
-
-
-
-<!-- gallery -->

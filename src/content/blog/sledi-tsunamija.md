@@ -15,6 +15,9 @@ description: Iskanje sledi smrtonosnega tsunamija na Japonski v mestu Ishinomaki
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/sledi_tsunamija/tsunami_4.webp
+  - /images/blog/sledi_tsunamija/tsunami_5.webp
 ---
 Popotovanje okoli sveta me stalno opozarja kako smrtonosna je neskončna modrina oceana. Morje brez razburkanih valov, ogromnih razlik v plimovanju in uničujočih tsunamijev, mi je doma povsem samoumevno. Na vzhodni obali Japonske, kjer večmetrski valovi požirajo pomole, je zgodba povsem drugačna.
 
@@ -33,9 +36,3 @@ Danes v Ishinomaki na spomine izpred dvanajstih let opominja spominski park na o
 Marsikdo je tistega dne življenje izgubil zaradi podcenjevanja narave. Človeška radovednost jih je gnala na ulice, med katerimi so se ob trku vode znašli brez ishoda. Spet drugi so zatočišče iskali na strehah hiš, ki jih je močan tok popeljal s sabo. 
 
 Preživeli, ki so dereči vodi ubežali z zatočiščem vrh pobočja in blokov, pravijo "teči dlje in teči višje".
-
-
-
-
-
-<!-- gallery -->

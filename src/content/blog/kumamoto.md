@@ -15,6 +15,8 @@ description: 'Kumamoto se nahaja v središču otoka, obdano s pobočji največje
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/kumamoto/kumamoto_2.webp
 ---
 Če je Fukuoka vhod v hribovit Kyushu, je Kumamoto njegovo srce. Mesto, ki se nahaja v središču otoka, obdano s pobočji največjega japonskega vulkana Aso in Ariaškim morjem na drugem obrežju, dom predstavlja skoraj polovici milijona ljudi.
 
@@ -31,7 +33,3 @@ Njegova usoda pa ni bila zapečatena le s prestopom v novo tisočletje. Manj kot
 Moč potresa se vidi še v leto 2023, ko na območju gradu potekajo rekonstrukcijska dela. Glavna palača in pobočje sta bila ponovno postavljena. Tokrat s poudarjeno protipotresno gradnjo, ki zagotavlja, da se grad ne bo posedel še v tretje. Kljub temu pa številne stavbe še vedno manjkajo, na kar nakazujejo fotografije, ki prikazujejo njegovo mogočnost iz leta 1960.
 
 Temen grad z belimi ornamenti, obdan z rožnatimi drevesi, tako že v tretje krasi ulice Kumamota.
-
-
-
-<!-- gallery -->

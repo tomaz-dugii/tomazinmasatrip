@@ -15,6 +15,10 @@ description: 'Osaka, drugo največje japosnko mesto in nekdanje mesto trgovcev, 
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/osaka/osaka_1.webp
+  - /images/blog/osaka/osaka_6.webp
+  - /images/blog/osaka/osaka_7.webp
 ---
 Osaka, drugo največje japonsko mesto in nekdanje mesto trgovcev, se ponosno predstavlja z vzdevkom japonska kuhinja. Prav tu, v neštetih kanalih kjer so z ladjami uvažali dobrote celotnega otoka, so se razvili mnogi recepti znane japonske kuhinje.
 
@@ -41,7 +45,3 @@ Kot japonska kuhinja Osaka ponuja še številne vrste dobrot, od Kobe mesa, do s
 Kot zanimivost sva nevede obiskala tudi restavracijo, kjer so ribo lahko uloviš sam. Da, sredi restavracije plavajo številne vrste rib, ki jih gosti lovijo z ribiškimi palicami. Ko jo uloviš, ti jo popečejo, ali pa ti jo še napol živo pripravijo kot svež sashimi. Tako je par ob nama užival v ribi, ki je bila tako sveža, da je še migala z repom.
 
 Kot hrana, so zanimive tudi same restavracije, ki na večerjo ne vabijo le s svojo ponudbo hrane, temveč tudi z velikimi robotskimi morskimi živalmi, ki že na daleč oznanjajo kaj je specialiteta restavracije. Po ulicah se sprehajaš obdan z velikimi rakovicami, hobotnicami in ribami napihovalkami. Kot bi se sprehajal čez ogromno kuhinjo.
-
-
-
-<!-- gallery -->

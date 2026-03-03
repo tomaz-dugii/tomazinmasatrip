@@ -15,6 +15,8 @@ description: Unzen je gorsko mesto polno vročih vrelcev in kopeli tople mineral
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/unzen/unzen.webp
 ---
 Japonsko otočje je močno prepleteno z vulkani, ki s svojim delovanjem krojijo življenje otočanov. Najznamenitejši vulkan je nedvomno Fuji, gorovje glavnega otoka, ki se razprostira med Tokyom in Kyotom.
 
@@ -31,7 +33,3 @@ Ob vrelcih se dvigajo številni ryokani in onseni, ki preko cevi črpajo vodo gr
 Ob pari in brboreči vodi peljejo urejene poti, ki dopuščajo občudovanje vrelcev od blizu. Med obiskom si privoščiva tudi trdo kuhana jajca, ki so se kuhala na vroči pari vrelca. Ta so tukaj pravcata zanimivost, saj te vročina lupine preseneti. Kot bi v dlan prijel žgoč kamen. Po obedu si noge ogrejeva na toplem podu in roke namočiva v toplo vodo bližnjega potoka.
 
 Ko nad gorovjem zapade mrak, se nad naselje spusti gosta megla. Ulice se spraznejo in obiskovalci se zatečejo v tople kopeli ryokanov. Po praznih ulicah se s tal dviga topla para in edini zvok je brbotanje vročih potokov.
-
-
-
-<!-- gallery -->

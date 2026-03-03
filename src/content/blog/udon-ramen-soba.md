@@ -15,12 +15,15 @@ description: 'Glavne tri vrste, ki jih najdeš povsej japosnki so udon, ramen in
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/udon_ramen_soba/udon_ramen_soba_1.webp
+  - /images/blog/udon_ramen_soba/udon_ramen_soba_2.webp
+  - /images/blog/udon_ramen_soba/udon_ramen_soba_3.webp
 ---
 Ko doma govorimo o japonski hrani, najprej pomislimo na sushi. Kroglice riža s svežo ribo nas še vedno delijo na strastne ljubitelje in skeptike, ki še poskusiti ne želijo. No, sicer je sushi res povsod po japosnki, vendar še zdaleč ni tako tipična hrana kot so rezanci. Japonci obužujejo svoje rezance in drznem si reči, da znajo z njimi pripraviti več jedi kot naši zahodni sosedje.
 
 Glavne tri vrste, ki jih najdeš po vsej japosnki so udon, ramen in soba rezanci. Vsaka izmed njih se pripravlja malo drugače in postreže na drug način, vse pa so odlične. 
 Pa si jih poglejmo.
-
 
 Začnimo pri najbolj ikoničnih ramen rezancih. Ramen rezanci so najtanjši izmed treh vrst. Postreženi so v miso omaki, skupaj z mehkim jajcem, nori algami, kosom mesa in mlado čebulo.
 
@@ -38,7 +41,6 @@ Udon rezanci veljajo za poceni hrano in odličen hiter obrok. Velikokrat so post
 
 Za posebno izkušnjo je treba naročiti Kamatama udon. Ta preprosta jed se ponuja po celotni državi in tople udon rezance postreže s surovim jajcem. To rezance prepoji z rumenjakom in jih naredi svilnate. Kamatama udon so tudi Tomaževa najljubša jed, ki ji doda še sojino omako, mlado čebulo in ocvrtke.
 
-
 ![Udon Ramen Soba 2](/images/blog/udon_ramen_soba/udon_ramen_soba_2.webp)
 
 Moji najljubši rezanci pa so soba. Soba rezanci so narejeni iz polnozrnate moke in so za razliko od drugih vrst, rjave barve. Velikorat so posreženi hladni na bambusovem podstavku. Po tem se razlikujejo od ramen in udon rezancev, ki vedno pridejo s prilogo. 
@@ -52,7 +54,3 @@ Rezanci so velikokrat postreženi še z mnogimi dodatki, ki jedi dodajo raznolik
 Ne glede na to, za katero vrsto rezancev gre, so ti najino najpogostejše kosilo. Pripravljeni so izjemno hitro in velikokrat jih dobiš že za pet evrov. Za nekaj evrov več, lahko ob rezancih dobiš še skledo riža in gyoza žlikrofe, kar je precej pogosto kosilo.
 
  Če bom kaj pogrešala iz japonske, so to definitivno rezanci.
-
-
-
-<!-- gallery -->

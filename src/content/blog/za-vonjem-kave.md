@@ -26,7 +26,3 @@ Pri takšni prenatrpanosti kavarn, mogoče pomisliš, da je trg prenasičen in k
 So strastni ljubitelji kave, saj jo glede na svetovno povprečje spijejo celo več kot mi. Torej vsaj kavo ali dve na dan, ki si ju ne privoščijo doma, temveč v kavarni. Večina si prvo privošči okoli deste, ki je v službah čas za odmor. Takrat se v kavarnah ustvari vrsta do vrat. Asistenti naročajo po štiri ali šest kav, ki jih odnesejo svojim kolegom. Spet se kavarne zapolnijo okoli šeste zvečer, ko si telo po napornem delavniku zaželi ponovne energije.
 
 Tudi midva sva si jo privoščila na dnevni ravni in vedno je ta bila odlična. Od bele kave, do kave z okusom, vse do jagodnih frapejev. Tako dobre in hkrati lepe pijače v tako kratkem času in na tako konsistentni ravni že dolgo nisva našla nikjer.
-
-
-
-<!-- gallery -->

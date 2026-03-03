@@ -13,5 +13,6 @@ authorId: "tomaz"
 readTime:
 thumbnail:
 featureImage:
+galleryImages: []
 showOnSidebar: false
 ---

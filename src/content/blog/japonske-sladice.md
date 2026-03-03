@@ -15,6 +15,10 @@ description: 'Pregled zanimivih japonskih sladic, ki sva jih okusila na poti.'
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/japonske_sladice/sladice_2.webp
+  - /images/blog/japonske_sladice/sladice_3.webp
+  - /images/blog/japonske_sladice/sladice_4.webp
 ---
 Izjemen rezultat japonskega perfekcionizma in ljubezni do mešanja nenavadnih okusov so njihove sladice.
 
@@ -39,9 +43,3 @@ Ker jih je preveč in vse tudi sama ne poizkusiva, drugače bova nazaj prišla s
 6. Sakura mochi - Kepica sladkega riža, v kateri se ponovno nahaja fižolova pasta, pritegne pogled s svojo rožnato barvo. Sladicaje je ovita v slan češnjev list, ki sladici daje ime “sakura”. Kiselkasta kombinacija je popularna izbira v času cvetenja češenj.
 
 7. Matcha sladoled - Na zadnje lahko omenim še matcha sladoled ali kakršno koli sladico iz matche. Matcha je vrsta zelenega čaja, ki je na otoku zelo popularna. Če želiš, lahko ješ matcha tortice, matcha mochi, matcha puding, matcha kavo. Kar ti srce poželi. Nama ta okus ni precej ljub in kot pravijo ostali turisti, s katerimi sva se pogovarjala, ni slab, ni pa dober. Pač je. Matcha sladoled je še edina oblika, ki nama je bila vsaj nekako dobra.
-
-
-
-
-
-<!-- gallery -->

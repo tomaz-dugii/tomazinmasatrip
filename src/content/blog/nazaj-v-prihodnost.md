@@ -15,6 +15,8 @@ description: 'Japonska, znana po svojih naprednih tehnologijah, uporabi obotov, 
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/nazaj_v_prihodnost/back_to_the_future.webp
 ---
 Če se želiš preleviti v Martya iz kultnega filma Nazajv prihodnost, za to ne potrebuješ časovnega stroja. Dovolj je že enosmerna karta za Japosnko, kjer odputuješ nazaj v prihodnost. Svetovno znana po svojih naprednih tehnologijah, uporabi robotov, hitrih vlakih in futurističnem izlgedu, je hkrati ujeta v staro tehnologijo prejšnjega stoletja. Posebno ravnovesje med prihodnostjo in zgodovino, ki sobivata na otoku, omogoča, da lahko hkrati izkusiš obe skrajnosti.
 
@@ -27,8 +29,3 @@ Medtem ko naš svet drvi od bančnih kartic k mobilnem bančništvu, je na Japon
 Celoten sistem, ki deluje brezhibno in omogoča točnost vlakov do sekunde natančno, se ureja preko dokumentacije na papirju in pošiljanja faksov med ustanovami. Tako sistem deluje po starih načinih, vpeljanih v dobi gospodarskega vrha, ki od tedaj ni bil moderniziran. Na trenutke, ko ti avtomat za nakup vozovnice sprejema le gotovino, ali ko v trgovini lahko kupiješ filme na kasete, se res počutiš kot da si potoval v nekakšno čudno modernsistično preteklost.
 
 Kot kultura, ki namesto testiranja novosti, raje sledi načelom izpopolnjevanja obstoječih sistemov, jo njena nenaklonjenost kakršnimkoli tveganjem, drži v preteklosti, medtem ko svet drvi v prihodnost.
-
-
-
-
-<!-- gallery -->

@@ -51,8 +51,4 @@ Za deset milijonsko mesto je Seoul precej tih. V parkih je mnogokrat edin zvok p
 
 V večini vsi nosijo slušalke in so v svojem svetu. Da bi se kdo sprehajal po parku in na glas predvajal svojo glasbo, kot je velikokrat primer pri nas, je tukaj nevidljivo.
 
-
-To je seznam šestih zanimivosti, ki sva jih opazila v dveh tednih potovanja po Južni Koreji. Sama imam najraje majhne priklone, ki jih izmenjaš s sogovorci. Naj bo to prodajalec v trgovini ali sprehajalec po parku. Poklon je znak spoštovanja, ki ga je vreden vsak.  
-
-
-<!-- gallery -->
+To je seznam šestih zanimivosti, ki sva jih opazila v dveh tednih potovanja po Južni Koreji. Sama imam najraje majhne priklone, ki jih izmenjaš s sogovorci. Naj bo to prodajalec v trgovini ali sprehajalec po parku. Poklon je znak spoštovanja, ki ga je vreden vsak.

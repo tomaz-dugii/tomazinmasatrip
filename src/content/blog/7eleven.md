@@ -15,6 +15,10 @@ description: '7elevenje je tip majhnih priročnih trgovin, ki obiskovalcem ponuj
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/7eleven/7eleven3.webp
+  - /images/blog/7eleven/7eleven_1.webp
+  - /images/blog/7eleven/7eleven_2.webp
 ---
 Convenience store je tip majhnih priročnih trgovin, ki obiskovalcem ponujajo vse najnujnejše. Po svetu so precej pogoste in se nahajajo na vsakem vogalu. V Sloveniji tovrstnih trgovin, ki so odrpte 24 ur na dan, vsak dan v tednu, nimamo. Najbližje jim pridejo trgovine na bencinskih črpalkah. Za lažje razumevanje si lahko predstavljaš majhno Petrol trgovino na vsakem koraku.
 
@@ -45,7 +49,3 @@ Poleg stalaž s svežo hrano, pa zaposleni ob blagajni stalno pečejo tudi ocvrt
 Ne glede na to, ali kupiš ocvrtega piščanca, ali pečeno meso iz sekcije svežepripravljene hrane, oboje lahko dobiš pogreto. Vsaka trgovina ima namreč tudi mikrovalovno pečico za gretje kupljene hrane. Ob vsakem nakupu zraven dobiš tudi pribor in robčke, kar je nadvse proiročno, če želih hrano pojesti takoj.
 
 Še dobro da teh trgovin nimamo v Sloveniji. Trgovine so tako dobro zasnovane, da bi sigurno dnevno v njih porabljaja prislužen denar. Pa naj bo to tik po službi, ko si zaželim hiter prigrizek, ali ob enajstih zvečer, ko mi sredi filma zapaše čips. Samo pogledati moraš čez okno in že se v temi sveti logo ene izmed priročnih trgovin.
-
-
-
-<!-- gallery -->

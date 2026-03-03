@@ -15,6 +15,8 @@ description: Sendai se po Japonski oglašuje kot mesto dreves.
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/mesto_dreves/sendai_5.webp
 ---
 Sendai se po Japonski oglašuje kot mesto dreves. Za državo, ki je precej zelena in tudi mesta ogromno vlagajo v urejanje parkov ter zelenih površin, se nama je takšen slogan zdel malce privlečen za lase. Da resnici prideva do dna, sva se usedla na vlak in odpeljala v samooklicano mesto dreves.
 
@@ -28,10 +30,4 @@ Krožna turistična vožnja je vedno odlična izbira za dnevne obiske, saj na hi
 
 V času obiska se je v Sendai odvijal festival cvetja, ki je še dodatno poživil sivino. Sončen dan sva preživela ob občudovanju cvetočih rož, ki so se vzdolž parkov vile v najrazličnejših oblikah in vzorcih. 
 
-Na koncu dneva nisva obiskala ne gradu, ne muzeja, pa tudi galerija se nama je izmuznila. Sva pa namesto zgradb, občudovala zelena drevesa in cvetlice vseh barv. 
-
-
-
-
-
-<!-- gallery -->
+Na koncu dneva nisva obiskala ne gradu, ne muzeja, pa tudi galerija se nama je izmuznila. Sva pa namesto zgradb, občudovala zelena drevesa in cvetlice vseh barv.

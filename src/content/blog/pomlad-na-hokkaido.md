@@ -24,9 +24,4 @@ Narava belo obleko zamenja za rožnato tik v času japonskega zlatega tedna, ko 
 
 Tako sakura sezona cvetočih češenj svojo štirimesečno potavnje po Japonski zaključi v objemu prebivalcev Hokkaida. 
 
-
 ![Feature-Image-07](/images/blog/feature-image-07.jpg)
-
-
-
-<!-- gallery -->

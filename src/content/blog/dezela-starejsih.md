@@ -15,6 +15,8 @@ description: Japonska je znana kot dežela starejših z zelo nizko rodnostjo. To
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/Dezela_starejsih/Dezela_starejsih.webp
 ---
 Japonska je druga najhitreje starajoča se država. Pred kratkim jo je uspelo prehiteti le Južni Koreji z indeksom 0.8.
 
@@ -33,7 +35,3 @@ S hitrim razvojem mest so se urbana območja zelo razvila, medtem ko je podežel
 Tako te v turističnem centru sredi ničesar, v oddaljeni vasici, pričaka starejši gospod, ki bi pri nas že zdavnaj užival v penziji. Na obalah vidiš ribiče, ki so vsi že krepko v zrelih letih. Mladi se le po redko vrnejo na obisk.
 
 Vprašanje je, kaj se bo zgodilo z Japonsko, ko bodo čez leta izginile še te generacije in bodo vasi še praznejše kot so.
-
-
-
-<!-- gallery -->

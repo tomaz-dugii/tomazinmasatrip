@@ -25,7 +25,3 @@ Leta vojn, političnih preobratov, potresov in požarov, so prizanesla le redkim
 Zgodovisnko pomemben Kumamoto grad, je bil požgan do tal, medtem ko ga je drugič v prah skoraj zdrobil potres leta 2016. Prav tako je do tal bil med vojno zbombandiran grad v Osaki, s koder je Toyomi združil celotno japonsko. Na grad v Fukuoki še vedno spominjajo le kamnite ruševine.
 
 Usoda japonskih gradov je tragična. V večini nanje spominjajo le rekonstrukcije, ki so sicer narete v detajle in od zunaj niti ne opaziš, da to ni original. Zato je obisk Himeji še tako bolj poseben.
-
-
-
-<!-- gallery -->

@@ -15,6 +15,14 @@ description: 'Številna središča Tokia poskrbijo, da je mesto raznoliko in ved
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/sredisca_tokia/srediscatokia_1.webp
+  - /images/blog/sredisca_tokia/srediscatokia_11.webp
+  - /images/blog/sredisca_tokia/srediscatokia_3.webp
+  - /images/blog/sredisca_tokia/srediscatokia_4.webp
+  - /images/blog/sredisca_tokia/srediscatokia_5.webp
+  - /images/blog/sredisca_tokia/srediscatokia_7.webp
+  - /images/blog/sredisca_tokia/srediscatokia_9.webp
 ---
 Ne glede na kateri izmed stoterih postaj izstopiš v Tokiu, te bo mesto pričakalo s pestro ponudbo. Na ulicah se stalno kaj dogaja in ni treba daleč, da se med visokimi zgradbami prikaže novo svetišče. Mesto, ki nikoli ne spi, se spreminja iz dneva v dan, in medtem, ko nekatera središča ob mraku ugasnejo luči, se v drugih življenje šele prične.
 
@@ -51,9 +59,4 @@ ROPPONGI
 Eno izmed najprestižnejših in najdražjih predelov za življenje na svetu je Roppongi. Njegova bližina centru Tokia in številne nove modernistične zgradbe so cene stanovanj dvignile v višave. Med sprehanjem te stalno obdajajo mega avtomobili, kjer vsako minuto mimo tebe pripelje kak Porsche ali Lamborghini. Nov projekt Roppongi hribovje, ki zajema povsem novo zgrajeno okrožje stolpnic privablja mnoge ljubitelje luksuza, ki nakupujejo v trgovinah, pred katerimi stojita po dva varnostnika. Mnoge drage trgovine in Michellin restavracije dopolnjujejo številna mednarodna podjetja, zaradi katerih številni tuji uslužbenci mestu dajejo mednarodni pridih.
 
 AOYAMA 
-Aoyama je severno okrožje Minato predela, ki meji na Roppongi. Kratek desetminutni sprehod od Roppongija do Aoyame okolje povsem spremeni. Aoyama je namenjena predvsem bivalnim stoplnicam, namenjenim vsem zaposlenim, ki delajo v okoliških centrih. Ob glavni postaji se nahaja Honda Miles cafe, kjer se vsak dan pred odprtjem čakajoč v vrsti gosti stotine obiskovalcev. Znotraj kavarne Honda gosti številne avtomobile, motorje in druge ikonične izdelke, ki si jih lahko ogledaš ob dobri kavi. 
-
-
-
-
-<!-- gallery -->
+Aoyama je severno okrožje Minato predela, ki meji na Roppongi. Kratek desetminutni sprehod od Roppongija do Aoyame okolje povsem spremeni. Aoyama je namenjena predvsem bivalnim stoplnicam, namenjenim vsem zaposlenim, ki delajo v okoliških centrih. Ob glavni postaji se nahaja Honda Miles cafe, kjer se vsak dan pred odprtjem čakajoč v vrsti gosti stotine obiskovalcev. Znotraj kavarne Honda gosti številne avtomobile, motorje in druge ikonične izdelke, ki si jih lahko ogledaš ob dobri kavi.

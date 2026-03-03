@@ -15,6 +15,8 @@ description: 'Himeji grad, ki se nahaja v mestu Himeji, velja za nacionalni pono
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/grad_himeji/himeji_1.webp
 ---
 Tipično razglednico Japonske krasi fotografija vulkana Fuji, Tokio stolpa ali grada Himeji. Po mesecu dni potepanja po Japonski, sva končno prispela na eno izmed teh ikoničnih točk - grad Himeji.
 
@@ -39,7 +41,3 @@ V času Edo vladavine, ki je odstranila fevdalni sistem, so grad zanemarili in p
 Kljub ne tako zanimivi zgodovini, je grad res poseben. V nobenem drugem gradu ne vidiš stare notranjosti. Tukaj pa se sprehajaš ob mogočnih lesenih tramovih in drsiš po starih lesenih deskah. Vse do vrha se po strmih stopnicah dvigaš bos, saj je obutev prepovedana.
 
  Prav prijetna razlika od vseh ostalih gradov, kjer si ogleduješ kako je potekala prenova.
-
- 
-
-<!-- gallery -->

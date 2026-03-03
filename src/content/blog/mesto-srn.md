@@ -15,6 +15,8 @@ description: 'Japosnke Sika srne, ki so precej manjše od naših, na japonskem �
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/mesto_srn/nara_2.webp
 ---
 Na japonskem srne veljajo za svete živali. Sika srne, ki so precej manjše od naših, že stoletja uprizarjajo kot kurirje božanstev. Že v dalnem osmem stoletju, ko je Nara, takrat po imenu Yamato, bila prva japonska prestolnica, so srne veljale za svete, kar se je obdržalo do danes.
 
@@ -27,7 +29,3 @@ V današnjih časih je Nara, bolj kot po statusu nekdanje prestolnice, znana po 
 Poleg srn je Nara dom tudi najpomembnejšemu kipu sedeče Budhe na japonskem. Ta prav tako biva v parku. Tempelj Todai-ji je obdan z drevjem in številnimi srnami, v notranjosti pa se vse do stropa dviga kip Budhe, visok petnajst metrov. Bronasta Budha je zadnja še stoječa Budha izmed velikih Budh Japonske in v mesto privablja številne romarje.
 
 Nara, mesto templjev, svetišč in srn, je mesto z bogato zgodovino in še danes eno izmed svetih mest Japosnke. Turisti pa jo, roko na srce, obiščemo zaradi prikupnih srn, kot je razvidno že iz slik.
-
-
-
-<!-- gallery -->

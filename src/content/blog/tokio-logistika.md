@@ -15,6 +15,9 @@ description: Premišljena Tokio logistika in urbanistično planiranje mega mesta
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/tokio_logistika/tokio_4.webp
+  - /images/blog/tokio_logistika/tokio_5.webp
 ---
 Območje Tokia že dve desetletji velja za najbolj poseljen predel sveta. Megamesto, ki je nastalo s širitvijo večih milijonskih mest v eno, je dom že skoraj 40 milijonom ljudem. Če tem prištejemo še dnevne migrante iz okolice, ki se vozijo v službo in tisoče turistov, je število precej višje. Za mesto, ki je veliko približno toliko kot Dolenjska, gosti pa dvajsetkrat več prebivalcev kot celotna Slovenija, je pretočnost izjemnega pomena.
 
@@ -41,14 +44,6 @@ Takšno efektivnost sva po dnevih opazovanja pripisala sedmim faktorjem, ki prik
 6. Avtobus -Izjemno dobro mrežo tirnic dopolnjuje še dodatnih 200 avtobusnih linij, ki povprečnemu prebivalcu zagotavljajo brezskrbno življenje v mestu. 
 
 7. Ulice za pešče - Odličen javni promet in malo avtomobilov omogoča, da je veliko ulic namenjenim le pešcem. Veliko središč je povsem zaprtih za promet, kar sprehajanje po mestu naredi zelo prijetno. Številna drevesa in urejene površine naredijo okrožja še prijetnejša za hojo in spodbujajo ljudi, da se do trgovin in kavarn sprehodijo.
-
-
-
-
-
-<!-- gallery -->
-
-
 ---
 title: Središča Tokia
 date: 2023-07-30T08:22:48.281Z
@@ -89,7 +84,3 @@ Eno izmed najprestižnejših in nadražjih predelov za življenje na svetu je Ro
 AOYAMA je severno okrožje MInato predela, ki meji na Roppongi. Kratek desetminutni sprehod od Roppongija do Aoyame okolje povsem spremeni. Aoyama je namenjena predvsem bivalnim stoplnicam, namenjenim vsem zaposlenim, ki delajo v okoliških centrih. Ob glavni postaji se nahaja Honda Miles cafe, kjer se vsak dan pred odprtjem vrsta navdušencev čaka, da odpro vrata. Znotraj kavarne Honda gosti številne avtomobile, motorje in druge ikonične izdelke, ki si jih lahko ogledaš ob dobri kavi. 
 
 ![Feature-Image-07](/images/blog/feature-image-07.jpg)
-
-
-
-<!-- gallery -->

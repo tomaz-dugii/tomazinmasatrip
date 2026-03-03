@@ -16,6 +16,9 @@ showOnSidebar: false
 contentType: Blog
 authorId: tomaz
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/rdeca-dzungla/lanterne_1.webp
+  - /images/blog/rdeca-dzungla/lanterne_3.webp
 ---
 Eden izmed lepših trenutkov, ki jih bom nekoč upam, da uspela doživeti v živo, je nočno nebo osvetljeno s tisočimi papirnatimi lanternami, ki se dvigajo v nočno nebo in za sabo puščajo svetlo sled. Stara tradicija, ki izhaja iz budizma, je prisotna v vseh budističnih državah in je del številnih praznikov in obredov. Višje kot se lanterna vzdigne, več obilja, sreče in zdravja, naj bi prinesla. Vsaj tako pravi stoletja staro verovanje.
 
@@ -30,10 +33,3 @@ Tako skozi celotno leto, ne glede, ali je čas festivala, ali le navadna sreda, 
 Vožnja po vijugastih cestah obdanih z gostim gozdom kaže številne prizore zapadlih lantern, ki zavržene ležijo v gozdu in onesnažujejo tamkajšnjo naravo. Tako se bujen zelen gozd spreminja v živo-rdečega, saj je število lantern iz dneva v dan večje. Voščeni papir, ki se ne razgraja in je odporen na visoke temperature ter vlago, ki je značilna za gozdnata pobočja Taiwana, tako za veke ostaja del narave. 
 
 Tako lanterne, ki plapolajo v vetru in za trenutek osrečijo pošiljatelje, za večno postanejo del rdeče džungle.
-
-
-
-
-
-
-<!-- gallery -->

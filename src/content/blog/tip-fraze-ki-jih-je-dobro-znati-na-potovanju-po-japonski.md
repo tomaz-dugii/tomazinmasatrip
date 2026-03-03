@@ -15,7 +15,6 @@ contentType: Blog
 authorId: tomaz
 fmContentType: blog-post
 ---
-
 Preden zaključiva z objavami iz Japonske, pa ne moreva brez nasvetov za vse bodoče belokranjske popotnike v to prečudovito deželo. Tri najpomembnejši nasveti: kako se sporazumevati, kako navigirati in kako naročiti sushi. Enega razloživa v tem članku,ostale pa v naslednjih dveh, ki pa bodo hkrati zadnji članki na temo Japonske.
 
 Kljub številnim turistom in priljubljenosti države, mnogi Japonci še vedno ne znajo angleško. Čeprav te bo v večini situacij rešila internetna povezava in google translate, je vseeno dobro znati vsaj nekaj fraz. Tukaj sva nabrala tiste, ki sva jih pogosto uporabljala. Za lažje razumevanje so zapisane tako, kot jih izgovarjajo, ne kot se dejansko zapišejo.
@@ -71,5 +70,3 @@ Precej pomembna je tudi telesna govorica. Vedno govori tiho in počasi, da te la
 Zadnje in najpomembnejše priporočilo je uporaba Google Translate aplikacije na mobilnih telefonih. Aplikacija omogoča prevod direktno iz fotografije. Torej z aplikacijo narediš sliko nekega besedila in ti iz japonščine direktno prevede v željeni jezik. Midva sva uporabljala angleščino, ker je ponavadi najbolj zanesljiv prevod. Prav tako omogoča način pogovora, kjer izbereš jezik sogovornika in tvoj jezik, stisneš na gumb za začetek in se začneš pogovarjati. Aplikacija med pogovorom prevaja iz japonščine tebi v angleščino in obratno. Pogovor poteka počasneje, endar se lahko vse zmeniš.
 
 Prevod iz slike je bila najbolj koristna stvar kar sva jih lahko ugotovila za potovanje po Japonski in ti odpre zelo veliko možnosti dodatnega raziskovanja, še posebej odkrivanja menijev v majhnih lokalnih restavracijah, kjer ti hrano postreže in pripravi starejša gospa ali gospod, saj tam menija v angleščini ne bo.
-
-<!-- gallery -->

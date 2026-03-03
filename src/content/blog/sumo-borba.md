@@ -15,6 +15,12 @@ description: 'Sumo borba in ogled Sumo Basho v Tokio, Japonska tekom maja.'
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/sumo_borba/sumo_1.webp
+  - /images/blog/sumo_borba/sumo_3.webp
+  - /images/blog/sumo_borba/sumo_4.webp
+  - /images/blog/sumo_borba/sumo_5.webp
+  - /images/blog/sumo_borba/sumo_8.webp
 ---
 Vsaka država ima svoj državni šport. Za Slovenijo bi nekateri izbrali plezanje, kolesarjenje, košarko ali nogomet, da jih naštejem le nekaj. Vsi so priljubljeni in igrani v mnogo državah po svetu. Japonska pa mora biti posebna tudi v tej kategoriji, saj je edina država na svetu, kjer je nacionalni šport sumo.
 
@@ -45,8 +51,3 @@ Najvišji status, ki ga lahko doseže sumo borec je Yokozuna. Ta je dosežen ob 
 Hitre, vendar spektakularne borbe, kjer udarci odmevajo po dvorani so glavna atrakcija. Zanimive pa so tudi zastave sponzorjev pred vsako borbo, ki nakažejo kdo sponzorira trenutno borbo. Po vsaki borbi zmagovalec prejme kup denarja kar v roke. Več kot je zastav, več denarja. Večinoma jih je nekje od dve do pet, za glavno tekmo večera, pa je vihralo kar 28 zastav.
 
 Redna plača, sponzorstva, honorarji in plačila na roko za vsako dobljeno tekmo, sumo naredijo kar privlačen šport za dober prihodek.
-
-
-
-
-<!-- gallery -->

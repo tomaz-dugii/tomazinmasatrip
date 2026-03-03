@@ -14,8 +14,9 @@ showOnSidebar: false
 contentType: Blog
 authorId: tomaz
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/tip_kura_sushi/kura.webp
 ---
-
 Japonska je dežela sušija in kot se za naziv spodobi, ga lahko ješ vsak dan, kadarkoli si ga srce poželi. Seveda bolj kot sushi, priporočam sashimi, kjer gre za kvalitetnejše kose surove ribe brez riža, kar poskrbi še za večji užitek. Vendar je za sprobat tudi sushi. Za dober sushi moraš biti pripravljen odšteti isto ceno kot doma. Še posebej, če se na sushi odpraviš v večernem času, ko so cene pogosto višje.
 
 Če pa si sushi zaželiš pogosteje ali ti ni pomembno, da probaš zelo kvalitne kose (ki, roko na srce, ne okusiš neke velike razlike po določeni točki), je odlična izbira Kura sushi. Kura sushi je veriga sushi restavracij, ki se nahajajo po celotni Japonski in ponuja sushi po zelo ugodni ceni. Midva sva tam po navadi odštela okoli 15-20 evrov na večerjo za obe osebi, kar je cena za eno osebo v drugih restavracijah. Pa še večje porcije in izbiro imajo. Če želiš torej probati raznovrsten sushi po nizki ceni, potem kar beri dalje.
@@ -61,5 +62,3 @@ Super stvar Kura sushija je njegov sistem naročanja in plačevanja. Ta poteka p
 3. Če le lahko, pojdi v kakršnokoli restavracijo med 15:00 in 18:00. Za kosilo in večerjo so gužve precej dolge.
 4. Če ti na koncu zmanjka le še en krožnik do ponovne igre na srečo in bi jo želel poskusiti še enkrat, vzami še en sushi. Ne naroči sladic, pijače ali druge hrane, saj te ne štejejo h krožnikom za igro na srečo.
 5. Tudi če nisi ljubitelj morske hrane, preizkusi Kura sushi, saj imajo ogromno mesnih in zelenjavnih opcij. Tako lahko poizkusiš sushi z wagyu mesom ali pečenimi polpetki mesa.
-
-<!-- gallery -->

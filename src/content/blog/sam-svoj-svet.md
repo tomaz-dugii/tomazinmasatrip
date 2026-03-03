@@ -15,6 +15,11 @@ description: 'Hokkaido, drugi največji otok Japonske po mnogih značilnost prej
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/sam_svoj_svet/svoj_svet_4.webp
+  - /images/blog/sam_svoj_svet/svoj_svet_7.webp
+  - /images/blog/sam_svoj_svet/svoj_svet_8.webp
+  - /images/blog/sam_svoj_svet/svoj_svet_9.webp
 ---
 Hokkaido, drugi največji otok Japonske, ki se tik za otokom Tohoku baha s svojimi prostranimi planotami in visokimi gorovji, po mnogih značilnostih prej kot na Japonsko, spominja na Skandinavijo. Medtem, ko se po japonskem veselijo zmag baseball skupin, ali občudujejo svoje svetovno znane drsalce, na Hokkaido slavijo smučarske skoke. Te lahko enkrat letno iz oddaljenega Sappora, spremljamo tudi na udobnih kavčih. Da se z domačega udobja na Hokkaido odpraviš tudi, ko se naši orli ne potegujejo za medalje, je tukaj nekaj značilnosti, ki Hokkaido loči od preostale Japonske.
 
@@ -46,9 +51,4 @@ Polja kamor seže pogled - Prostrane planote so idealne za ogromne kmetije in pr
 
 Pozna pomlad - Češnje na japonskem cvetijo v marcu in začetku aprila, na Hokkaido pa jih pomlad prinese šele z začetkom maja. Hokkaido je namreč s svojo severno lego in visokimi nadmorskimi višinami skoraj pol leta prekrit z visko snežno odejo. Ta brez problema znaša tudi več metrov v višino. Raj za smučanje in ljubitelje zimskih športov, kjer je sneg vse do sredine aprila.
 
-
 Hokkaido je svet zase. Z zahodno arhitekturo, ameriškim urbanističnim planiranjem, srnami na vsake par metrov in najpopularnejšo japonsko znamko piva Sapporo, res nikoli ni dolgčas. Pravi užitek se je voziti po vijugastih cestah v gozdnata hribovja ali ob obalah, kjer razburkan ocean na obalo nanaša morkse zvezde. Super izkušnja, dokler se pred tabo ne pojavi počasen avtomobil, ki se vozi po omejitvah in ga nikakor ne moreš prehiteti.
-
-
-
-<!-- gallery -->

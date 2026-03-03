@@ -14,6 +14,8 @@ showOnSidebar: false
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/S_kolesom_po_obali_Itoshime/itoshima_5.webp
 ---
 Če smo si z Japonci pri čem podobni, je to kolesarjenje. Tako kot Ljubljana, je tudi Fukuoka polna kolesarjev, ki drvijo čez ulice. Le, da te tukaj bolj po redko zbijejo.
 
@@ -38,7 +40,3 @@ Beli Torri, ki se je dvigal nad morjem je označeval sveti kraj para skalovja, k
 Po naporni vožnji sva se tik pred zadnjim rtom ustavila še v prikupnem hotdog štantu, kjer sva si vzela hotdog z lokalnimi sestavinami in hotdog z jagodami. Mislim, da bom na japonskem pojedla več jagod kot kdajkoli prej. Šele tri dni sva tukaj, pa sem že imela jagodno mleko, sendvič z jagodami in stepeno smetano, sedaj pa še hotdog.
 
 Po osvojenem rtu, naju je pričakala še mučna vožnja do mesta, ki je ni bilo konca. Ko sva končno odložila kolesi, je ura bila že krepko proti šesti zvečer. Šele v hostlu pa sva opazila, da naju je današnje potepanje obdarilo z močno rdečico. Četudi je pričetek marca (da, precej zaostajava z objavami), je sončna krema tukaj že kar nujna.
-
-
-
-<!-- gallery -->

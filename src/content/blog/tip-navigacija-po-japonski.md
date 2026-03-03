@@ -14,8 +14,9 @@ showOnSidebar: false
 contentType: Blog
 authorId: tomaz
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/tip_navigacija/taxi_web.webp
 ---
-
 ### Make better business
 
 Japonska je raj za vse uporabnike Google maps. Nisva še bila v državi, ki bi to imela tako urejeno kot ima Japonska. Tu se lahko njihovih navodil držiš kot pijanec plota, saj ti bodo dale točna navodila, do minute natančno. Ne samo, da povedo kateri vlak vzeti, povedo še v kateri vagon se usedi in kateri izhod vzemi, a bo tranzit čim hitrejši.
@@ -44,5 +45,3 @@ Vse kar potrebuješ za brezskrbno potovanje je SIM kartica, žal se ne moreš za
 5. Če piše 1B, se nahaja v prvem kletnem nadstropju. Če piše 3B, pomeni da je trgovina v tretjem nadstropju pod zemljo.
 
 Če ne gre drugače, se lahko zaneseš tudi na taksiste. Ti so sicer dražji, vendar je poklic na Japonski zelo reguliran, zato ni treba skrbeti, da bi ti nalašč računali več ali te peljali po daljši poti. Prav tako je zelo spoštovan poklic in tako varne ter udobne vožnje v taksiju ne boš doživel nikjer drugje. Od tega, da so vrata avtomatska in jih sam ne odpiraš niti zapiraš, od tega, da je vse dodatno oblazinjeno, okrašeno, voznik je v obleki s kravato in belimi rokavicami… Prav tako, nikoli ne zlagaš potovalk v avtomobil. To zate naredi voznik. Izkušnja 10/10.
-
-<!-- gallery -->

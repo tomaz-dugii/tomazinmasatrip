@@ -37,7 +37,3 @@ Kljub zmagi in proslavljanju, je to bilo v okviru olikanega vedenja, značilnega
 Po zaključku je vsak pobral svoje smeti, jih vrgel v koš, ter se odpravil iz igrišča. Pred stadionom se je naredila vrsta za Taxije, malo dlje pa še daljša vrsta za avtobus. Ko je prišel avtobus, se je ta napolnil lepo po vrsti in tisti, ki niso uspeli priti nanj, so naprej čakali v vrsti na naslednjega. Na tak sistem bi se z veseljem navadila. Seveda je na trenutke sistem tog, vendar se noben ne vriva, točno veš kdo je prišel pred tabo in posledično ni nobenega prerivanja takoj, ko se odpro vrata avtobusa.
 
 Povsem kulturno športno udejstvovanje.
-
-
-
-<!-- gallery -->

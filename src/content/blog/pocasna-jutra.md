@@ -24,8 +24,3 @@ Ko se kot turist zjutraj sprehajaš po praznih ulicah milijonskega mesta se ti u
 Vse jutranje ptice, ki uživajo ob jutranjih sprehodih, se bodo tu počutile kot doma. Sprehajanje po tihih ulicah, gledanje izložb, kavarn, ter ljudi, ki v njih čistijo še zadnje mize pred odprtjem, ti prikaže drugo plat te hitre države.
 
 Le škoda, da si ob jutranjem sprehodu ne moreš privoščiti tudi kave s sosednje kavarne. Za to, bo treba počakati do desetih.
-
-
-
-
-<!-- gallery -->

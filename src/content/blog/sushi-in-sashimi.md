@@ -15,6 +15,8 @@ description: ' Sushi je ena izmed svetovno znanih vrst hrane, ki se je v podobi,
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/sushi_in_sashimi/sushi_5.webp
 ---
 Na katero hrano pomisliš, ko slišiš besedo Japonska? Nedvomno se med prvimi idejami poroji beseda sushi. Sushi je ena izmed svetovno znanih vrst hrane, ki se je v podobi, kot jo poznamo danes, začela razvijati v času Edo vladavine v devetnajstem stoletju.
 
@@ -24,7 +26,6 @@ Sushi je med domačini zelo priljubljen in ga za nekaj evrov sveže pripravljene
 
 Najina najljubša restavracija je Kura sushi, kjer se sushi vrti na tekočem traku. Vsak gost dobi tudi tablico z menijem iz koder lahko naročaš željene kose. Možnosti je OGROMNO. Na japonskem je sushi z lososom tako osnovna opcja, da je ne naroča nihče. Zakaj bi jedel lososa, ko lahko ješ sushi z raznimi školjkami, ribami iz ocena ali celo s konjskim mesom.
 
-
 Ogromna izbira sushija po kakšni uri postane precej monotona, saj ob sveži morski hrani poješ toliko riža, da na koncu okušaš le še tega. Zato poleg sushija obstaja še bolj plemenita opcija imenovana sashimi. Sashimi je ime za svežo in surovo mosrko hrano (ali meso), ki je dovolj kvalitetna, da jo lahko uživaš surovo.
 
 ![Sushi 5](/images/blog/sushi_in_sashimi/sushi_5.webp)
@@ -32,9 +33,3 @@ Ogromna izbira sushija po kakšni uri postane precej monotona, saj ob sveži mor
 Sashimi velikokrat ponujajo v večernih restavracijah ali restavracijah namenjenim prav sveži mosrki hrani in njegove cene so precej višje od sushija. Vseeno je vsaj zame vreden vsakega dodatnega evra. Svež kos tune, ki ga po želji namočiš v omako se v ustah stopi sam od sebe. Specifični sashimiji, še posebej sveže ujete školjke, lahko dosežejo po ceno večih evrov na kos.
 
 Japonska ima ogromno odlične in edinstvene hrane, ki ji ni para. Meni osebno, je najboljši sashimi sveže tune. Blizu mu pride tudi sashimi pokrovače ali Hokkigai (ne vem kako to prevesti), medtem ko surovo meso raje prepuščam Tomažu.
-
-
-
-
-
-<!-- gallery -->

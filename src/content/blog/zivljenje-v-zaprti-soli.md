@@ -36,15 +36,8 @@ Preko treh nadstropij se vrstijo številni skupni prostori, od kuhinje, do prost
 
 Prostore šole Hamahiga otoka, si lahko podrobneje ogledaš v spodnjem posnetku.
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vytJCkm9VQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 Veliko jih v šoli preživi več tednov ali celo mesece v eno, preden šolo zamenja za nastanitev nekje drugje. Spet drugi, kot midva, pridejo le za nekaj dni. Tekom dneva mnogi tipkajo za ekrani, drugi se zapeljejo v službo, spet tretji oddidejo surfat med razburkane valove. Vsak živi po svoje. Zvečer pa se vsi zberejo v kuhinji in uživajo v skupni večerji vse do poznih večernih ur. 
 
 Po prenovljeni šoli otoka Hamahiga copati tako ne tekajo več le tekom šolskih dni, temveč vsak dan od zgodnjega jutra do pozno v noč.
-
-
-
-<!-- gallery -->

@@ -1,7 +1,7 @@
 ---
 title: Zeleno-rdeča
-pubDate: "2023-03-28T09:59:39.933Z"
-draft: ""
+pubDate: '2023-03-28T09:59:39.933Z'
+draft: ''
 tags:
   - potovanje
   - seoul
@@ -16,8 +16,10 @@ description: Južna Koreja v zadnjih letih poževa slavo na globavni ravni.
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/Zeleno-rdeca/colored_ruf.webp
+  - /images/blog/Zeleno-rdeca/seoul_palace@2x.webp
 ---
-
 Južna Koreja v zadnjih letih poževa slavo na globavni ravni. Naj bo to uspeh K-pop idolov, kozmetične industrije, plastične kirurgije, pametnih telefonov, avtomobilov, ali popularnih serij. Ne glede na to, v katerem kotičku sveta se skrivaš, vest o tej državi prodira tudi tja.
 
 Uspeh moderne države pa gradita tudi bogata tradicija in pretresljiva zgodovina.
@@ -43,5 +45,3 @@ Kljub temu, da so stavbe namenjene vladarjem in duhovom, se njihova arhitektura 
 Vse zeleno-rdeče stavbe krasijo prelepi slivovi cvetovi, ki so nacionalni simbol. V arhitekturi tako opazimo veliko navezanost ljudi na naravo in zlitje naravnega ter človeškega sveta preko spiritualnosti, arhitekture in vsakdanjega življenja.
 
 V novodobni državi staro sožitje z duhovi nadomeščata budizem in krščanstvo, lesene stavbe pa visoke stolpnice vseh oblik in barv. Vseeno pa te sprehod po nekdanjih palačah in svetiščih vsaj za trenutek popelje v življenje nekdanjega kraljestva jutranjega miru.
-
-<!-- gallery -->

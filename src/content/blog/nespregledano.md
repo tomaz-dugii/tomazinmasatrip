@@ -15,6 +15,9 @@ description: 'Opažene zanimivosti japonke, da se jih bova čez leta z užitkom 
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/nespregledano/nespregledano_1.webp
+  - /images/blog/nespregledano/nespregledano_3.webp
 ---
 Japonska s svojo oddaljenostjo in posebnostjo stalno ponuja nove kulturne šoke. Večina, kot je vožnja po levi, olikanost, držanje vrst in pravil, ter podobno, so mnogim že znani. Vseeno pa dnevno opažava majhne zanimivosti, ki jih z doma nisva vajena. Da jih ne pozabiva in se bova čez leta z užitkom spominjala teh podrobnosti, sva jih zapisala v prispevku.
 
@@ -47,7 +50,3 @@ Japonska s svojo oddaljenostjo in posebnostjo stalno ponuja nove kulturne šoke.
 12. Zapuščene stavbe kamorkoli greš. Na Japonskem se nahaja več kot osem milijonov zapuščenih domov. Če temu pripišeš še vse zapuščene šole, obrate in druga poslopja, število še dodano naraste. Kamorkoli greš, te spremljajo zapuščene stavbe, tako na podeželju, kot zelo turističnih mestih. 
 
 13. Urejene poti. Naj bo to na vulkanu ali otoku sredi morja, vse uradne poti so brezhibno urejene. Povsod najdeš oznake in urejeno pot, kjer je postriženo še grmičevje naokoli. Res škoda, da toliko Japoncev raje še na kratko razdaljo vzame prevoz, kot pa izkoristi sprehajalne poti.
-
-
-
-<!-- gallery -->

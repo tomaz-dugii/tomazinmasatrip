@@ -16,6 +16,13 @@ description: Obisk Osake ne more biti popoln brez dneva v ogromnem zabaviščnem
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/universal_studios_japan/universal_1.webp
+  - /images/blog/universal_studios_japan/universal_10.webp
+  - /images/blog/universal_studios_japan/universal_2.webp
+  - /images/blog/universal_studios_japan/universal_4.webp
+  - /images/blog/universal_studios_japan/universal_5.webp
+  - /images/blog/universal_studios_japan/universal_7.webp
 ---
 Obisk Osake ne more biti popoln brez dneva v ogromnem zabaviščnem parku Universal Studios. Eden izmed največjih, najbolj obiskanih in najbolj popularnih zabaviščnih parkov na svetu, ki ga letno obišče na milijone oboževalcev, se nahaja kar v centru mesta. Le deset minut vožnje s podzemno železnico iz glavne postaje in že si tam.
 
@@ -68,8 +75,4 @@ Prav tako zanimiva je vožnja z vlakcem v Holywoodu, ki poleg navadne vožnje, p
 
 Poleg omenjenih predelov se v Universal Parku nahaja tudi vožnja Jaws, kjer kot pove že ime, ubežiš smrtnonosnemu moskemu psu, Waterworld in drugi predeli namenjeni mlajšim obiskovalcem. Obisk na sredo nama je omogočil, da sva imela čas obiskati vse svetove in preizkusiti vse atrakcije, ki sva jih želela, nekatere tudi dvakrat. 
 
-Po dolgem dnevu, ki se je zaključil malo po sedmi uri zvečer, sva se od Universal Studios Japan poslovila z norimi spomini, novo čarovniško palico in bolečimi nogami, ki jih čutiva še dan po obisku. 
-
- 
-
-<!-- gallery -->
+Po dolgem dnevu, ki se je zaključil malo po sedmi uri zvečer, sva se od Universal Studios Japan poslovila z norimi spomini, novo čarovniško palico in bolečimi nogami, ki jih čutiva še dan po obisku.

@@ -15,6 +15,8 @@ description: Japonska hiša in življenje v več 100 let stari stavbi sredi Japo
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/najina_japonska_hisa/japonska_hisa_4.webp
 ---
 Ko sva se maja prebijala iz Hakodate v Tokio, sva se za slab teden dni ustavila v obalnem mestu Ishinomaki. To se nahaja slabo uro vožnje z vlakom iz mesta Sendai in meji na Tihi ocean. Začasen dom sva našla v stari hiši, ki je za teden dni pripadala le nama.
 
@@ -37,10 +39,3 @@ Kljub nevšečnostim, ki stari hiši dodajajo svoj čar, je izkušnja pravcata z
 Stalno sva se trudila odpirati in zapirati papirnata vrata, ki so se zatikala in tresla vso hišo. Prav tako nama je povsem jasno zakaj so vsi starejši prebivalci povsem zviti in se ne morejo več zravnati. Stare hiše so brez miz in stolov tako, da si prisiljen klečati in se upogibati nad nizkimi mizami. Po štirih dneh me je že tako bolel hrbet, da nisem bila več sposobna sedeti na na tleh. Še dobro da je odprt prostor dober tudi za raztezne vaje.
 
 Vsako jutro naju je Sonce zbudilo že okoli četrte zjutraj, ko je razsvetlilo sobo, kot da je uzunaj že popoldne. Kasneje, pa naju je iz postelje dokončno pognala glasba osnovne šole, kjer so vsako jutro ob pričetku pouka, prvih pet minut preko zvočnikov igrali glasbo iz filma Kiki’s Delivery service - Mesto ob morju. Za mesto ob morju, boljše glasbe ne bi mogli izbrati.
-
-
-
-
-
-
-<!-- gallery -->

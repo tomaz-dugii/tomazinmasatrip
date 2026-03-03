@@ -15,6 +15,8 @@ description: 'Slava japonskim grelcem. Vsak pričetek aprila se v Beppu zgrne ti
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/slava_grelcem/slava_grelcem.webp
 ---
 Zadnja točka najinega potepanja po otoku Kyushu se nahaja na severni obali, tik ob mestu Oita. Beppu je obalno mesto, nekakšne velikosti Maribora, ki na otoku slavi po (kdo bi uganil) številnim termalnim vrelcem, ki mesto obdarjajo s toplo vodo.
 
@@ -31,7 +33,3 @@ Okusila sva mochije, ki so jih brezplačno delili v skladu dogajanja in se grela
 Uspela sva si ogledati tudi dve Shonai Kagura predstavi. Pri tem gre za triurno predtsavo iz večih dejanj, ki jo domačini uprizarjajo že iz Edo vladavine. Kar 200 let staro uprizoritev pripoveduje šest igralcev, oblečenih v tradicionalne maske, ki jih na odru spremlja glasbeni kvartet. Na japonskem tovrstno zgodbo igra dvanajst znanih skupin in eno izmed njih sva po sreči ujela tudi midva. Za razliko od naših predstav, je ta zvrst zelo interaktivna in tako igralci stalno skačejo iz odra in v igro vključujejo publiko. Tako ugrabljajo otroke, obiskovalce zasuvajo z bonboni ali nekatere, kot sem srečo imela jaz, popeljejo naravnost na oder, kjer z njimi malo zaplešemo. 
 
 Prvi vikend v aprilu se Beppu spremeni v veliko predstavo, kjer se po ulicah gostijo mnoge igre in zabava za tisoče obiskovalce.
-
-
-
-<!-- gallery -->

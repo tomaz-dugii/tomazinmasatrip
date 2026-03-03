@@ -16,7 +16,6 @@ preview: null
 authorId: masa
 fmContentType: blog-post
 ---
-
 Ko gre seljak u grad, ali ko se Slovenec znajde v Južni Koreji.
 
 Seveda, vsi imamo radi našo majhno zeleno državo, objeto z zasneženimi vrhovi in slanim Jadranskim morjem. Navajeni smo življenja v hiši, vrtnarjenja, vožnje z avtomobilom do vsake trgovine, in goveje juhe za nedeljsko kosilo. Življenje v redko poseljeni gozdnati državi nam je samoumevno. Že krajši obisk v Ljubljano nam je dostikrat stresen, ker je pač preveč ljudi in nestrpnih voznikov na vsakem krožišču.
@@ -102,5 +101,3 @@ Ker je lastništvo avtomobila tako velik strošek in se večina prebivalstva po 
 To je najinih deset zanimivih opažanj, ki sva jih opazila že v prvem dnevu potikanja po mestu, v katerega bi stlačil prebivalsto kar petih Slovenij. Za več zanimivosti pa sva pripravila tudi dodatne zanimivosti vezane na samo kulturo obnašanja Korejcev.
 
 ![Feature-Image-07](/images/blog/feature-image-07.jpg)
-
-<!-- gallery -->

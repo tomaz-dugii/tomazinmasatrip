@@ -15,6 +15,8 @@ description: 'Ago-riba se uporablja le na otoku in je znana le okoli 15.000 ljud
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/agoriba/agoriba_4.webp
 ---
 Japonci pred uživanjem obroka izrečejo besedo “itadsakimasu”. Ta beseda v direktnem prevodu pomeni ponižno sprejemam. V okolju s hrano, pa bolj kot direkten prevod, pomeni zahvalo za hrano ali nakazilo, da začenjamo jesti.
 
@@ -48,7 +50,3 @@ V gostilni nista enaki niti dve deski. Celotna stavba je bila tekom let deska za
 Lastniki restavracije so dolgoletni prijatelji, ki so se po travniku skupaj podili že kot mulci. V zrelih letih, ko so tekanje po travnikih in kasneje tekanje za službami, zamenjali za počivanje v pokoju, se jim je ta zdel nadvse dolgočasen. Skupaj so se odločili odpreti restavracijo in na pomoč jim je stopila vsa vas. Tako gostilno odprejo vsak vikend, kjer se družijo, brenkajo na kitaro in vmes še spečejo kakšno kosilo. Star možakar, ki nama je na vroči dan pripravljal kosilo, je v kuhinji, polni dima, to pekel s kisikovo masko na obrazu. Pri tem je užival in si popeval.
 
 Obe ago-ribi bi nama ostali povsem neznani, če dopusta na Okinawi ne bi preživela stran od turističnih točk, v stari šoli med domačini. Teden na otoku Hamahiga nama je še sedaj, ko sva se prebila že vse do severa, ena izmed najljubših izkušenj. Če bi se odločila vrniti kamorkoli na Japonsko, bi to bila brez dvoma Okinawa.
-
-
-
-<!-- gallery -->

@@ -37,7 +37,3 @@ No, pa se vrnimo nazaj na potovanje z nahrbtnikom. Prednosti potovanja z ogromni
 Ne glede na to, ali bi se odločila za potovanje z nahrbtnikom ali kovčkom dejstvo, da je stalna menjava bivališča naporna, ostaja isto. Včasih posteljo menjaš na vsako noč, spet drugič se nekje ustaviš za nekaj dni. Tako je večkrat na teden potrebno vse razpakirati in ponovno spakirati. Ker imaš s sabo le malo stvari, ki so stalno v uporabi, ves čas potrebuješ vse nositi s sabo. Pakiranje v majhnih sobah, kjer se komaj obrneš in izvajaš akrobacije, ko zlagaš majice, je brez dvoma najmanj prijeten del celotnega potovanja.
 
 Samo potovanje in premikanje iz ene točke do druge zna biti naporno. Ne samo fizično, temveč tudi psihično. Vseeno pa vsak dan prinaša toliko zanimivosti, da je do časa kosila vsa muka že pozabljena.
-
-
-
-<!-- gallery -->

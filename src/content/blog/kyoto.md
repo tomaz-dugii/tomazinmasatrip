@@ -31,7 +31,3 @@ Na drugem bregu Gion predela se razprostira še večji budistični tempelj Kenni
 Ob tisočih budističnih templih, pa je glavna znamenitost Kyota shinto svetišče Fushimi Inrai Taisha. Zgrajeno v osmem stoletju, svetišče na pobočju krasi stotine rdečih torii vrat. Te se vrstijo vse od vznožja templja do vrha hriba in slovijo po svojih ikoničnih rdečih slikah, znanih po okoli sveta.
 
 Fushimi Inari in Gion okrožje skupaj z bambusovim gozdom, ki ga nisva obiskala, predstavljajo tri glavne atrakcije Kyota, kjer se vrsti večina turistov, ki mesto obiščejo za nekaj dni. Kljub glavnim znamenistostim, tisočim templjem in stotinam svetišč, pa je Kyoto nadvse živahno mesto, kjer iz ulice v ulico odkrivaš novosti.
-
-
-
-<!-- gallery -->

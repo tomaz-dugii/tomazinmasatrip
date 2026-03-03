@@ -31,8 +31,3 @@ Otroci so svoje brate in sestre na hrbtu nosili na masovne kresove, kjer so trup
 Od uničenja se je v centru ohranila le peščica stavb, ki na ulicah opominjajo na preteklost. Ena izmed teh so enonožna torii vrata, ki so ohranila le dobro polovico nekdanje veličine.
 
 Danes je Nagasaki ponovno mogočno pristaniško mesto in dom več kot 400.000 prebivalcem. Vsa infrastruktura in življenje se je vrnilo. Na tragedijo opomnjijajo le še redki ostanki, ter park miru, kjer se na točki epicentra v nebo dviga monolit. Obiskovalci parka pred njim še vedno puščajo šopke rož v spomin vsem umrlim.
-
-
-
-
-<!-- gallery -->

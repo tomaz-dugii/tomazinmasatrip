@@ -27,7 +27,3 @@ Osebna higiena in urejen stil pač terjata svoj prostor in mnogi turisti, ne gle
 Odličen sistem spodbuja brezskrbno nakupovanje spominkov, saj se za prostor ne potrebuješ preveč sekirati. Samo dokupiš potovalko in jo za sabo pošiljaš po Japonski. Ko sva potovalko poslala iz Osake na Hokkaido, kjer sva jo prevzela čez devet dni, naju je ta prišla 15€. To je še ceneje, kot doplačilo dodatne prtljage na letalu, pa še do hotela si jo lahko dostaviš.
 
 Pošiljanje potovalk vzdolž otokov nama je prihranilo ogromno muk in bolečin v hrbtu. Izkusila sva razna pošiljanja z različnimi kurirji in do sedaj, se je vedno izšlo odlično. Nedvomno vredno vsakega evra.
-
-
-
-<!-- gallery -->

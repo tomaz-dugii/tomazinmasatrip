@@ -4,6 +4,7 @@ import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
+import Gallery from "../../components/Gallery.astro";
 import { authors } from "../../data/about";
 
 export async function getStaticPaths() {
@@ -73,6 +74,9 @@ const similarPosts = allPosts
       </div>
       <div class="post-body">
         <Content />
+        {(data.galleryImages?.length ?? 0) > 0 && (
+          <Gallery images={data.galleryImages ?? []} />
+        )}
       </div>
       <div class="buy-coffee">
         <div class="coffee-icon">☕</div>

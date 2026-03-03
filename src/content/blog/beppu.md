@@ -22,8 +22,3 @@ Tekom tedna, ko Onseni brezplačno gostijo obiskovalce, se po ulicah vrstijo sku
 Slavje doživi vrhunec popoldne, ko po ulicah v zrak poskoči sto ton tople vode iz vrelcev in do nog premoči vse udeležence. Topovi so neusmiljeni in svetišča ter obiskovalce brez odmora stalno kopajo v vodi. 
 
 Brez skrbi, nihče ta večer ne pride domov s suhimi nogavicami. Ljudje se zalivajo, špricajo z vodnimi pištolami in plešejo ob glasbi, ko nanje padajo tone tople vode. Ob sončnem vremenu in pijači, se na mokre lase hitro pozabi.
-
-
-
-
-<!-- gallery -->

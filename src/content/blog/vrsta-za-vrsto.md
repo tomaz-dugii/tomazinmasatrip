@@ -15,6 +15,8 @@ description: Prenatrpana mesta in omejeno število storitev je idealen recept za
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/vrsta_za_vrsto/vrsta_1.webp
 ---
 Kako pogosto doma stojiš v vrsti? Najverjetneje vsakič, ko se odpraviš v Mercator. Tam je vrsta na blagajni pač del izkušnje. 
 
@@ -35,7 +37,3 @@ Prav tako so vrste pred vsakim vlakom, kjer se ljudje vanj vkrcajo po vrsti - al
 Toliko, kot se lahko na Japonski zaneseš na točnost vlakov, se lahko tudi na prepogosto stanje v vrsti. 
 
 Vrste postanejo del vsakdana in na koncu je že povsem naravno, da se pač za vsako stvar postaviš v vrsto in čakaš. Prej kot se sprijazniš, manj trpijo živci. Še dobro, da sva šla za tri mesce, da se nama nikamor ne mudi.
-
-
-
-<!-- gallery -->

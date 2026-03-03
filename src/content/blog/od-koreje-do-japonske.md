@@ -37,8 +37,3 @@ Izbrani trajekt je pripadal japonskemu podjetju JR Beetle, ki je poskrbelo za ud
 Tako brezhibno kot je bilo potovanje s trajektom, je bil tudi imigracijski proces na obali Japonske. Najprej smo počakali v svojih sedežih, da so nam člani obmejne policije preverili telesno temperaturo, nato pa smo se v miru podali še čez ostale postopke. Ker je naša ladja bila edina v pristanišču ob tej večerni uri, ni bilo nobene gužve.
 
 Po vstopu v državo sva hitro ujela avtobus proti centru mesta, za katerega sva vsak odštela 1,7 evra in čez pol ure sva že stala v središču Fukuoke.
-
-
-
-
-<!-- gallery -->

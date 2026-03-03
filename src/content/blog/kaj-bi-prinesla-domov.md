@@ -27,7 +27,3 @@ Na Japonskem nama je všeč ogromno stvari. Nekatere bi z veseljem odnesla domov
 4. Zdrava hitra prehrana - Zakaj ne moremo pri nas imeti restavracij s hitro hrano, ki ti za pet evrov pripravi skledo rezancev z govedino in zelenjavo? Zdrava hitra prehrana je možna, kar dokazujejo številne restavracije po Japonski.
 
 5. Ptičje petje ob prečkanju ceste - Ko se na semaforju prižge zelena luč za pešče, navadno piskanje na Japonskem zamenja čivkanje ptičev. Načeloma nič posebnega, vendar zelo prijetno vsakič ko prečkaš cesto.
-
-
-
-<!-- gallery -->

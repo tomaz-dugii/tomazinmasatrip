@@ -30,7 +30,3 @@ Tako se sredi tržnice znajdeva za mizo majhne restavracije, ki se skriva za pul
 Tako sediva za mizo sredi tržnice, obdana z drugimi jedci, ki so se med službeno malico prišli mastiti z ribo. Ulov mrcvariva na kose z ničemer drugim kot palčkami. Brez skrbi, gre precej lažje kot si misliš, vendar se oba strinjava, da je ta podvig še vedno lažji z domačim nožem in vilicami.
 
 Po obedu plačava z gotovino in stopiva nazaj na živahno ulico. Zopet se premikava mimo tisočih rib, ki bodo še danes dočakale svojega kupca. Tako se vijeva po neskončno dolgi ulici in dihava vonj morske hrane, vse dokler se gneča ne preneha in kar naenkrat stojiva na koncu.
-
-
-
-<!-- gallery -->

@@ -15,6 +15,8 @@ description: 'Eno jaboko na dan te na Japonskem hitro oskubi, saj je sadje prece
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+galleryImages:
+  - /images/blog/eno_jabolko_na_dan/jabolko_thimbnail.webp
 ---
 Eno jabolko na dan, te na Japonskem precej veliko stane.
 
@@ -29,7 +31,3 @@ Kljub odlični izbiri, pa je cena še vedno tako visoka, da cene v najinih očeh
 V vzhodnih državah se sadje uživa v drugačnem kulturnem kontekstu kot pri nas. Doma je sadje le vrsta hrane, ki jo dnevno uživamo. Tu odnos do sadja izvira iz koncepta obdarovanja. Nekoč so s sadjem kot so melone ali mandarine obdarovali cesarje. Kasneje se je sadje obdarovalo kot darilo ob priložnostih. Tudi danes je obdarovanje s sadjem precej stalna praksa. Zato je to v vseh trgovinah ročno izbrano, lepo predstavljeno in precej drago. 
 
 Tretji faktor visokih cen so čas, skrb in natančnost, ki jo posvetijo vzreji sadja. Japonci so narod znan po preciznosti in letom izpopolnjevanja spretnosti. Tako resno kot se lotijo izgradnje templjev, oblikovanja nožev ali priprave sashimija, se lotijo tudi sadjarstva. Rezultat let trdega dela je izpopolnjeno sadje, ki zahteva svojo ceno. Tako lahko na Japonskem za set devetih jagod odšteješ tudi krepko čez deset evrov, vendar je vsak ugriz pravi užitek.
-
-
-
-<!-- gallery -->

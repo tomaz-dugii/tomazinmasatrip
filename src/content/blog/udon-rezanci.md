@@ -27,8 +27,3 @@ Center restavracije je odprta kuhinja, kjer kuharji stalno pripravljajo sveže r
 Obisk restavracije je pravo doživetje saj korak za korakom spremljaš pripravo svoje jedi. Opazuješ gnetenje testa, valjanje, rezanje testa v rezance, kuhanje velikih šopov testa, vse do priprave porcij. Ko prideš na vrsto in poveš izbiro, to pripravijo pred tabo. 
 
 Ker so rezanci hitro pripravljeni so odlična jed za restavracijo s hitro prehrano. Zraven si vedno vzameva še kakšne ocvrte priboljške. Ponavadi ocvrto mosrsko hrano ali zelenjavo. Vsesplošno je obrok hitro pripravljen in zdrav. Naslovna slika prikazuje obrok z resavracije, kjer sva si privoščila precej priljubljen zajtrk - udon rezance s surovim jajcem in tempuro. Pravi dokaz, da je obisk restavracije s hitro hrano lahko pravo doživetje in hrana tudi dobra za telo.
-
-
-
-
-<!-- gallery -->
