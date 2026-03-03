@@ -1,16 +1,16 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import CookieConsent from '../components/CookieConsent.astro';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import CookieConsent from "../components/CookieConsent.astro";
 
 interface Props {
   title: string;
   description: string;
-  activePage?: 'domov' | 'blog' | 'vlogi' | 'onaju';
+  activePage?: "domov" | "blog" | "vlogi" | "onaju";
 }
 
-const { title, description, activePage = 'domov' } = Astro.props;
+const { title, description, activePage = "domov" } = Astro.props;
 ---
 
 <!doctype html>
@@ -30,7 +30,7 @@ const { title, description, activePage = 'domov' } = Astro.props;
 
 <style>
   .main-content {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 2rem 24px 4rem;
   }

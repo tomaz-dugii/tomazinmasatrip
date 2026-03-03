@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import VideoCard from "../../components/VideoCard.astro";
+import { Play } from "@lucide/astro";
 import { getCollection } from "astro:content";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
 
@@ -46,7 +47,7 @@ const featuredVideo = videos.find((v) => v.data.featured) ?? videos[0];
                 )}
                 <div class="play-overlay">
                   <span class="play-icon" aria-hidden="true">
-                    ▶
+                    <Play size={24} stroke-width={2.5} />
                   </span>
                 </div>
               </div>
@@ -74,12 +75,14 @@ const featuredVideo = videos.find((v) => v.data.featured) ?? videos[0];
           </div>
 
           <h3 class="video-list-title">Vsi videi</h3>
-          <div class="video-grid">
+          <div class="row video-grid">
             {videos.map((entry) => (
-              <VideoCard
-                entry={entry}
-                featured={entry.id === featuredVideo?.id}
-              />
+              <div class="col-xs-12 col-md-6">
+                <VideoCard
+                  entry={entry}
+                  featured={entry.id === featuredVideo?.id}
+                />
+              </div>
             ))}
           </div>
         </>
@@ -156,16 +159,9 @@ const featuredVideo = videos.find((v) => v.data.featured) ?? videos[0];
     justify-content: center;
     background: rgba(0, 0, 0, 0.3);
   }
-  .play-icon {
+  .featured-section .play-icon {
     width: 48px;
     height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 999px;
-    font-size: 18px;
-    color: var(--black);
   }
   .featured-meta {
     display: flex;
@@ -197,19 +193,9 @@ const featuredVideo = videos.find((v) => v.data.featured) ?? videos[0];
     font-weight: 600;
     margin: 0 0 14px 0;
   }
-  .video-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 21px 21px;
-  }
   .no-videos {
     padding: 4rem;
     text-align: center;
     color: var(--grey-400);
-  }
-  @media (max-width: 900px) {
-    .video-grid {
-      grid-template-columns: 1fr;
-    }
   }
 </style>

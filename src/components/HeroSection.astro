@@ -1,10 +1,10 @@
 ---
-import { hero } from '../data/hero';
+import { hero } from "../data/hero";
 ---
 
 <section class="hero">
-  <div class="hero-inner">
-    <div class="hero-content">
+  <div class="row hero-inner">
+    <div class="col-xs-12 col-md-5 hero-content">
       <h1 class="hero-title">{hero.heroTitle}</h1>
       <p class="hero-description">{hero.heroDescription}</p>
       <p class="hero-small">{hero.heroSmallDescription}</p>
@@ -13,7 +13,7 @@ import { hero } from '../data/hero';
         <a href="/vlogi" class="btn-secondary">VLOGI</a>
       </div>
     </div>
-    <div class="hero-image">
+    <div class="hero-image col-md-7">
       <img
         src={hero.heroImage1200}
         srcset={`${hero.heroImage690} 690w, ${hero.heroImage1020} 1020w, ${hero.heroImage1200} 1200w`}
@@ -29,12 +29,9 @@ import { hero } from '../data/hero';
     padding: 3rem 0 4rem;
   }
   .hero-inner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
+    align-items: center;
   }
   .hero-title {
     font-family: var(--font-display);
@@ -95,13 +92,5 @@ import { hero } from '../data/hero';
     height: auto;
     border-radius: 14px;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
-  }
-  @media (max-width: 768px) {
-    .hero-inner {
-      grid-template-columns: 1fr;
-    }
-    .hero-image {
-      order: -1;
-    }
   }
 </style>

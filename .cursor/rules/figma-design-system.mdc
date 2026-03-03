@@ -60,7 +60,7 @@ All design tokens are defined in `src/styles/tokens.css`. **IMPORTANT: Never har
 - **No Tailwind**: Project uses plain CSS with scoped styles
 - **Tokens**: Import `tokens.css` via `global.css`; use `var(--token-name)` everywhere
 - **Scoped styles**: Component-level `<style>` blocks (no `is:global` unless necessary)
-- **Layout**: CSS Grid and Flexbox; max-width 1200px for main content (BaseLayout)
+- **Layout**: CSS Grid and Flexbox; max-width 1250px for main content (BaseLayout)
 
 ---
 

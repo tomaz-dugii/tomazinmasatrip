@@ -92,26 +92,28 @@ const similarPosts = allPosts
         similarPosts.length > 0 && (
           <div class="similar-posts">
             <h3>Podobni zapisi</h3>
-            <div class="similar-grid">
+            <div class="row similar-grid">
               {similarPosts.map((p) => (
-                <a href={`/posts/${p.id}`} class="similar-card">
-                  <img
-                    src={
-                      p.data.thumbnail ||
-                      p.data.featureImage ||
-                      "/images/blog/blob1.svg"
-                    }
-                    alt={p.data.title}
-                  />
-                  <h4>{p.data.title}</h4>
-                  <span>
-                    {new Date(p.data.pubDate).toLocaleDateString("sl-SI", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}
-                  </span>
-                </a>
+                <div class="col-xs-12 col-md-4">
+                  <a href={`/posts/${p.id}`} class="similar-card">
+                    <img
+                      src={
+                        p.data.thumbnail ||
+                        p.data.featureImage ||
+                        "/images/blog/blob1.svg"
+                      }
+                      alt={p.data.title}
+                    />
+                    <h4>{p.data.title}</h4>
+                    <span>
+                      {new Date(p.data.pubDate).toLocaleDateString("sl-SI", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      })}
+                    </span>
+                  </a>
+                </div>
               ))}
             </div>
           </div>
@@ -230,10 +232,8 @@ const similarPosts = allPosts
     font-size: 1.125rem;
     margin: 0 0 1rem 0;
   }
-  .similar-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  .similar-grid > [class*="col-"] {
+    margin-bottom: 1rem;
   }
   .similar-card {
     text-decoration: none;
@@ -253,10 +253,5 @@ const similarPosts = allPosts
   .similar-card span {
     font-size: 11px;
     color: var(--grey-300);
-  }
-  @media (max-width: 768px) {
-    .similar-grid {
-      grid-template-columns: 1fr;
-    }
   }
 </style>

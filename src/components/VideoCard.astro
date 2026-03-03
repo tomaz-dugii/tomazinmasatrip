@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { Play } from "@lucide/astro";
 
 interface Props {
   entry: CollectionEntry<"blog">;
@@ -32,7 +33,9 @@ const metaText = data.readTime
       )
     }
     <div class="play-overlay">
-      <span class="play-icon" aria-hidden="true">▶</span>
+      <span class="play-icon" aria-hidden="true">
+        <Play size={12} stroke-width={2.5} />
+      </span>
     </div>
   </div>
   <div class="video-card-info">
@@ -90,17 +93,6 @@ const metaText = data.readTime
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.3);
-  }
-  .play-icon {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 999px;
-    font-size: 10px;
-    color: var(--black);
   }
   .video-card-info {
     display: flex;

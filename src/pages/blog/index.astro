@@ -32,8 +32,8 @@ const paginatedPosts = posts.slice(0, pageSize);
   activePage="blog"
 >
   <section class="blog-page">
-    <div class="blog-page-inner">
-      <div class="blog-main">
+    <div class="row blog-page-inner">
+      <div class="col-xs-12 col-md-8 blog-main">
         <div class="blog-header">
           <span class="section-label">BLOG</span>
           <h1 class="section-title">Kaj dogaja na poti.</h1>
@@ -78,7 +78,7 @@ const paginatedPosts = posts.slice(0, pageSize);
           )
         }
       </div>
-      <div class="blog-sidebar">
+      <div class="col-xs-12 col-md-4 blog-sidebar">
         <VideoSidebar videos={videos.slice(0, 5)} />
       </div>
     </div>
@@ -88,11 +88,6 @@ const paginatedPosts = posts.slice(0, pageSize);
 <style>
   .blog-page {
     padding: 2rem 0 4rem;
-  }
-  .blog-page-inner {
-    display: grid;
-    grid-template-columns: 1fr 320px;
-    gap: 3rem;
   }
   .blog-header {
     margin-bottom: 1.5rem;
@@ -139,32 +134,5 @@ const paginatedPosts = posts.slice(0, pageSize);
   .blog-list {
     display: flex;
     flex-direction: column;
-  }
-  .pagination {
-    display: flex;
-    gap: 0.5rem;
-    margin-top: 2rem;
-    align-items: center;
-  }
-  .pagination a {
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-size: 14px;
-    text-decoration: none;
-    color: var(--black);
-    background: var(--grey-100);
-  }
-  .pagination a.active {
-    background: var(--black);
-    color: white;
-  }
-  .pagination a.disabled {
-    opacity: 0.5;
-    pointer-events: none;
-  }
-  @media (max-width: 900px) {
-    .blog-page-inner {
-      grid-template-columns: 1fr;
-    }
   }
 </style>
