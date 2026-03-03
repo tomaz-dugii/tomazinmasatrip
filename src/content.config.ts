@@ -31,6 +31,15 @@ const blog = defineCollection({
               : false,
         z.boolean().optional(),
       ),
+      featured: z.preprocess(
+        (v) =>
+          v === true || v === "true"
+            ? true
+            : v === false || v === "false" || v === ""
+              ? false
+              : false,
+        z.boolean().optional(),
+      ),
       secondAuthor: z.preprocess(
         (v) =>
           v === true || v === "true"

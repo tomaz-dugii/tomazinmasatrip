@@ -3,6 +3,15 @@
   "frontMatter.framework.id": "astro",
   "frontMatter.preview.host": "http://localhost:4321",
   "frontMatter.content.publicFolder": "public",
+  "frontMatter.content.filters": [
+    "contentFolders",
+    "tags",
+    "categories",
+    {
+      "title": "Featured video",
+      "name": "featured"
+    }
+  ],
   "frontMatter.content.pageFolders": [
     {
       "title": "blog",
@@ -62,6 +71,12 @@
           "title": "Video",
           "name": "video",
           "type": "boolean"
+        },
+        {
+          "title": "Featured video",
+          "name": "featured",
+          "type": "boolean",
+          "description": "Prikaži ta video kot izbrani na strani Vlogi. Samo en video naj bo imel oznako true. Če noben nima true, se prikaže najnovejši."
         },
         {
           "title": "Second author",
@@ -147,6 +162,12 @@
           "title": "Video",
           "name": "video",
           "type": "boolean"
+        },
+        {
+          "title": "Featured video",
+          "name": "featured",
+          "type": "boolean",
+          "description": "Prikaži ta video kot izbrani na strani Vlogi. Samo en video naj bo imel oznako true. Če noben nima true, se prikaže najnovejši."
         },
         {
           "title": "Second author",

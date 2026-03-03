@@ -9,6 +9,7 @@ tags:
   - potovanje
   - vlog
 video: true
+featured: false
 secondAuthor: false
 readTime:
 thumbnail:

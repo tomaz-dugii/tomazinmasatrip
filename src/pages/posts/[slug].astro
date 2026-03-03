@@ -1,12 +1,12 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import { getCollection, render } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import type { CollectionEntry } from "astro:content";
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection("blog");
   return posts.map((post) => ({
     params: { slug: post.id },
     props: { post },
@@ -14,39 +14,55 @@ export async function getStaticPaths() {
 }
 
 interface Props {
-  post: CollectionEntry<'blog'>;
+  post: CollectionEntry<"blog">;
 }
 
 const { post } = Astro.props;
 const { Content } = await render(post);
 const { data } = post;
-const author = data.secondAuthor ? 'Maša Petan' : 'Tomaž Starašinič';
-const formattedDate = new Date(data.pubDate).toLocaleDateString('sl-SI', { year: 'numeric', month: 'long', day: 'numeric' });
+const author = data.secondAuthor ? "Maša Petan" : "Tomaž Starašinič";
+const formattedDate = new Date(data.pubDate).toLocaleDateString("sl-SI", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection("blog");
 const similarPosts = allPosts
   .filter((p) => !p.data.draft && !p.data.video && p.id !== post.id)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
 ---
 
-<BaseLayout title={`${data.title} | ${Astro.site}`} description={data.description || data.title} activePage="blog">
+<BaseLayout
+  title={`${data.title} | ${Astro.site}`}
+  description={data.description || data.title}
+  activePage="blog"
+>
   <article class="post">
     <div class="post-hero">
-      {data.featureImage && (
-        <img src={data.featureImage} alt={data.title} class="post-hero-image" />
-      )}
+      {
+        data.featureImage && (
+          <img
+            src={data.featureImage}
+            alt={data.title}
+            class="post-hero-image"
+          />
+        )
+      }
       <div class="post-hero-overlay"></div>
     </div>
     <div class="post-content-wrapper">
       <a href="/blog" class="back-link">← Nazaj na blog</a>
-      {data.tags && data.tags.length > 0 && (
-        <div class="post-tags">
-          {data.tags.map((tag) => (
-            <span class="tag">{tag}</span>
-          ))}
-        </div>
-      )}
+      {
+        data.tags && data.tags.length > 0 && (
+          <div class="post-tags">
+            {data.tags.map((tag) => (
+              <span class="tag">{tag}</span>
+            ))}
+          </div>
+        )
+      }
       <h1 class="post-title">{data.title}</h1>
       <div class="post-meta">
         <span>By {author}</span>
@@ -60,24 +76,47 @@ const similarPosts = allPosts
         <div class="coffee-icon">☕</div>
         <div>
           <h3>Kupi nama kavo</h3>
-          <p>Če ti je bil članek všeč, nama lahko kupiš kavo. Vsak evro pomaga, da lahko nadaljujeva pot.</p>
-          <a href="https://www.buymeacoffee.com/tomazinmasa" target="_blank" rel="noopener noreferrer" class="coffee-btn">KUPI KAVO</a>
+          <p>
+            Če ti je bil članek všeč, nama lahko kupiš kavo. Vsak evro pomaga,
+            da lahko nadaljujeva pot.
+          </p>
+          <a
+            href="https://www.buymeacoffee.com/tomazinmasa"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="coffee-btn">KUPI KAVO</a
+          >
         </div>
       </div>
-      {similarPosts.length > 0 && (
-        <div class="similar-posts">
-          <h3>Podobni zapisi</h3>
-          <div class="similar-grid">
-            {similarPosts.map((p) => (
-              <a href={`/posts/${p.id}`} class="similar-card">
-                <img src={p.data.thumbnail || p.data.featureImage || '/images/blog/blob1.svg'} alt={p.data.title} />
-                <h4>{p.data.title}</h4>
-                <span>{new Date(p.data.pubDate).toLocaleDateString('sl-SI', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-              </a>
-            ))}
+      {
+        similarPosts.length > 0 && (
+          <div class="similar-posts">
+            <h3>Podobni zapisi</h3>
+            <div class="similar-grid">
+              {similarPosts.map((p) => (
+                <a href={`/posts/${p.id}`} class="similar-card">
+                  <img
+                    src={
+                      p.data.thumbnail ||
+                      p.data.featureImage ||
+                      "/images/blog/blob1.svg"
+                    }
+                    alt={p.data.title}
+                  />
+                  <h4>{p.data.title}</h4>
+                  <span>
+                    {new Date(p.data.pubDate).toLocaleDateString("sl-SI", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </span>
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )
+      }
     </div>
   </article>
 </BaseLayout>
@@ -97,7 +136,12 @@ const similarPosts = allPosts
   .post-hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, var(--secondary-100) 0%, transparent 50%, transparent 100%);
+    background: linear-gradient(
+      to bottom,
+      var(--secondary-100) 0%,
+      transparent 50%,
+      transparent 100%
+    );
   }
   .post-content-wrapper {
     background: var(--white);
@@ -149,7 +193,7 @@ const similarPosts = allPosts
     display: flex;
     gap: 1rem;
     background: var(--primary-100);
-    border: 1px solid rgba(230, 59, 46, 0.1);
+    border: 1px solid var(--primary-featured-border);
     border-radius: 12px;
     padding: 1.5rem;
     margin: 2rem 0;
@@ -157,7 +201,7 @@ const similarPosts = allPosts
   .coffee-icon {
     width: 42px;
     height: 42px;
-    background: rgba(230, 59, 46, 0.1);
+    background: var(--primary-featured-bg);
     border-radius: 999px;
     display: flex;
     align-items: center;

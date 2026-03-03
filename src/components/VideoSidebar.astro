@@ -1,8 +1,8 @@
 ---
-import type { CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from "astro:content";
 
 interface Props {
-  videos: CollectionEntry<'blog'>[];
+  videos: CollectionEntry<"blog">[];
 }
 
 const { videos } = Astro.props;
@@ -15,26 +15,34 @@ const { videos } = Astro.props;
     <p class="section-subtitle">Kaj dogaja na poti, ampak v videu.</p>
   </div>
   <div class="video-list">
-    {videos.slice(0, 5).map((entry) => {
-      const { id, data } = entry;
-      const formattedDate = new Date(data.pubDate).toLocaleDateString('sl-SI', { year: 'numeric', month: 'long', day: 'numeric' });
-      return (
-        <a href={`/posts/${id}`} class="video-item">
-          <div class="video-thumb">
-            {data.thumbnail ? (
-              <img src={data.thumbnail} alt={data.title} loading="lazy" />
-            ) : (
-              <div class="video-placeholder"></div>
-            )}
-            <span class="play-icon">▶</span>
-          </div>
-          <div class="video-info">
-            <span class="video-title">{data.title}</span>
-            <span class="video-meta">{formattedDate}{data.readTime ? ` · ${data.readTime}` : ''}</span>
-          </div>
-        </a>
-      );
-    })}
+    {
+      videos.slice(0, 5).map((entry) => {
+        const { id, data } = entry;
+        const formattedDate = new Date(data.pubDate).toLocaleDateString(
+          "sl-SI",
+          { year: "numeric", month: "long", day: "numeric" },
+        );
+        return (
+          <a href={`/posts/${id}`} class="video-item">
+            <div class="video-thumb">
+              {data.thumbnail ? (
+                <img src={data.thumbnail} alt={data.title} loading="lazy" />
+              ) : (
+                <div class="video-placeholder" />
+              )}
+              <span class="play-icon">▶</span>
+            </div>
+            <div class="video-info">
+              <span class="video-title">{data.title}</span>
+              <span class="video-meta">
+                {formattedDate}
+                {data.readTime ? ` · ${data.readTime}` : ""}
+              </span>
+            </div>
+          </a>
+        );
+      })
+    }
   </div>
   <a href="/vlogi" class="sidebar-link">Vsi videi →</a>
 </aside>
@@ -104,7 +112,7 @@ const { videos } = Astro.props;
     justify-content: center;
     font-size: 20px;
     color: white;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
   .video-placeholder {
     width: 100%;

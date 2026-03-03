@@ -1,6 +1,7 @@
 /* Design tokens from Figma 1:3782 - Tomaz in Masa trip */
 :root {
   /* Primary (red accent) */
+  --primary-rgb: 230, 59, 46;
   --primary-100: #fdedec;
   --primary-200: #f8b8b6;
   --primary-300: #f47e7a;
@@ -35,4 +36,12 @@
   /* Border */
   --border: rgba(58, 56, 56, 0.15);
   --header-background: rgba(255, 255, 255, 0.8);
+
+  /* Hover & featured (derived from primary with opacity) */
+  --primary-hover-bg: rgba(var(--primary-rgb), 0.03);
+  --primary-featured-bg: rgba(var(--primary-rgb), 0.05);
+  --primary-featured-border: rgba(var(--primary-rgb), 0.15);
+
+  /* Shadow */
+  --shadow-image: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
