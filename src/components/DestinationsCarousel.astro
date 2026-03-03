@@ -1,0 +1,74 @@
+---
+import { destinations } from '../data/destinations';
+---
+
+<section class="destinations">
+  <div class="destinations-header">
+    <span class="section-label">DESTINACIJE</span>
+    <h2 class="section-title">Kam sva šla</h2>
+  </div>
+  <div class="destinations-scroll">
+    {destinations.map((d) => (
+      <a href={`/blog?category=${encodeURIComponent(d.name)}`} class="destination-card">
+        <img src={d.image} alt={d.name} loading="lazy" />
+        <span class="destination-name">{d.name}</span>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .destinations {
+    padding: 2rem 0 4rem;
+  }
+  .destinations-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--primary-base);
+    margin-bottom: 0.25rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  .destinations-scroll {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scroll-snap-type: x mandatory;
+  }
+  .destinations-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+  .destinations-scroll::-webkit-scrollbar-thumb {
+    background: var(--grey-300);
+    border-radius: 3px;
+  }
+  .destination-card {
+    flex: 0 0 160px;
+    scroll-snap-align: start;
+    text-decoration: none;
+    color: inherit;
+  }
+  .destination-card img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+  .destination-name {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    font-size: 14px;
+  }
+</style>

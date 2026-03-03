@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<BaseLayout title={`Zasebnost | ${SITE_TITLE}`} description="Pravilnik o zasebnosti in piškotkih za tomazinmasatrip.eu" activePage="domov">
+  <article class="privacy-page">
+    <h1 class="privacy-title">Pravilnik o zasebnosti</h1>
+    <div class="privacy-content">
+      <p>
+        Na strani tomazinmasatrip.eu spoštujemo vašo zasebnost. Ta pravilnik opisuje, kako zbiramo, uporabljamo in varujemo vaše podatke.
+      </p>
+      <h2>Piškotki</h2>
+      <p>
+        Uporabljamo piškotke za izboljšanje vaše izkušnje na naši strani:
+      </p>
+      <ul>
+        <li><strong>Nujni piškotki</strong> — potrebni za osnovno delovanje strani (npr. shranjevanje privolitev).</li>
+        <li><strong>Analitični piškotki</strong> — pomagajo razumeti, kako obiskovalci uporabljajo stran (npr. Google Analytics, Clarity).</li>
+        <li><strong>Trženjski piškotki</strong> — uporabljeni za prikazovanje relevantnih vsebin.</li>
+      </ul>
+      <p>
+        Svojo privolitev lahko kadarkoli spremenite z gumbom „Nastavitve“ v obvestilu o piškotkih.
+      </p>
+      <h2>Kontakt</h2>
+      <p>
+        Za vprašanja o zasebnosti nas kontaktirajte na tomaz.starasinic@hotmail.com ali petan.masa@gmail.com.
+      </p>
+      <p class="privacy-updated">
+        Zadnja posodobitev: marec 2025
+      </p>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .privacy-page {
+    padding: 2rem 0 4rem;
+  }
+  .privacy-title {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 0 0 2rem 0;
+  }
+  .privacy-content {
+    max-width: 720px;
+  }
+  .privacy-content p, .privacy-content li {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--grey-500);
+    margin: 0 0 1rem 0;
+  }
+  .privacy-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 2rem 0 0.75rem 0;
+  }
+  .privacy-content ul {
+    margin: 0 0 1rem 0;
+    padding-left: 1.5rem;
+  }
+  .privacy-updated {
+    font-size: 13px;
+    color: var(--grey-400);
+    margin-top: 2rem;
+  }
+</style>

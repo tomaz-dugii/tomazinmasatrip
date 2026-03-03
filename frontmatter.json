@@ -1,21 +1,29 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "blog",
+      "path": "[[workspace]]/src/content/blog",
+      "contentTypes": ["blog-post", "vlog-post"]
+    }
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "blog-post",
       "pageBundle": false,
-      "previewPath": null,
-      "template": "[[workspace]]/.frontmatter/templates/Blog_post_masa_south_korea.md",
+      "previewPath": "'blog'",
+      "filePrefix": null,
+      "clearEmpty": true,
+      "template": "[[workspace]]/.frontmatter/templates/Blog_post.md",
       "fields": [
         {
           "title": "Title",
           "name": "title",
-          "type": "string"
-        },
-        {
-          "name": "type",
           "type": "string",
-          "default": "posts"
+          "single": true
         },
         {
           "title": "Description",
@@ -24,20 +32,21 @@
         },
         {
           "title": "Publishing date",
-          "name": "date",
+          "name": "pubDate",
           "type": "datetime",
           "default": "{{now}}",
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "title": "Vrsta vsebine",
+          "name": "contentType",
+          "type": "choice",
+          "choices": ["Blog", "Vlog"]
         },
         {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "boolean"
+          "title": "Destinacije",
+          "name": "categories",
+          "type": "categories"
         },
         {
           "title": "Tags",
@@ -45,130 +54,131 @@
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "secondAuthor",
-          "name": "secondAuthor",
-          "type": "boolean"
-        },
-        {
-          "title": "video",
-          "name": "video",
-          "type": "boolean"
-        },
-        {
-          "title": "readTime",
-          "name": "readTime",
-          "type": "string"
-        },
-        {
-          "title": "thumbnail",
-          "name": "thumbnail",
-          "type": "string"
-        },
-        {
-          "title": "featureImage",
-          "name": "featureImage",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Video type",
-      "pageBundle": false,
-      "template": "[[workspace]]/.frontmatter/templates/Video.md",
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "date",
-          "name": "date",
-          "type": "datetime"
-        },
-        {
-          "title": "draft",
+          "title": "Draft",
           "name": "draft",
           "type": "boolean"
         },
         {
-          "title": "preview",
-          "name": "preview",
-          "type": "string"
-        },
-        {
-          "title": "tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "video",
+          "title": "Video",
           "name": "video",
           "type": "boolean"
         },
         {
-          "title": "secondAuthor",
+          "title": "Second author",
           "name": "secondAuthor",
           "type": "boolean"
         },
         {
-          "title": "readTime",
+          "title": "Read time",
           "name": "readTime",
           "type": "string"
         },
         {
-          "title": "thumbnail",
+          "title": "Thumbnail",
           "name": "thumbnail",
-          "type": "string"
+          "type": "image",
+          "isPreviewImage": true
         },
         {
-          "title": "featureImage",
+          "title": "Feature image",
           "name": "featureImage",
+          "type": "image"
+        },
+        {
+          "title": "YouTube URL",
+          "name": "youtubeUrl",
           "type": "string"
         },
         {
-          "name": "type",
-          "type": "string",
-          "default": "Video type",
-          "hidden": true
-        },
-        {
-          "title": "tranding",
+          "title": "Tranding",
           "name": "tranding",
           "type": "boolean"
         }
       ]
-    }
-  ],
-  "frontMatter.framework.id": "hugo",
-  "frontMatter.content.publicFolder": "static",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "posts objave",
-      "path": "[[workspace]]/content/posts",
-      "originalPath": "[[workspace]]/content/posts"
     },
     {
-      "title": "videos",
-      "path": "[[workspace]]/content/videos",
-      "originalPath": "[[workspace]]/content/videos",
-      "contentTypes": [
-        "Video type"
+      "name": "vlog-post",
+      "pageBundle": false,
+      "previewPath": "'blog'",
+      "filePrefix": null,
+      "clearEmpty": true,
+      "template": "[[workspace]]/.frontmatter/templates/Vlog_post.md",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "pubDate",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Vrsta vsebine",
+          "name": "contentType",
+          "type": "choice",
+          "choices": ["Blog", "Vlog"]
+        },
+        {
+          "title": "Destinacije",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "Video",
+          "name": "video",
+          "type": "boolean"
+        },
+        {
+          "title": "Second author",
+          "name": "secondAuthor",
+          "type": "boolean"
+        },
+        {
+          "title": "Read time",
+          "name": "readTime",
+          "type": "string"
+        },
+        {
+          "title": "Thumbnail",
+          "name": "thumbnail",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Feature image",
+          "name": "featureImage",
+          "type": "image"
+        },
+        {
+          "title": "YouTube URL",
+          "name": "youtubeUrl",
+          "type": "string"
+        },
+        {
+          "title": "Tranding",
+          "name": "tranding",
+          "type": "boolean"
+        }
       ]
     }
   ]

@@ -6,45 +6,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1.
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      # 2.
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          hugo-version: "0.111.3"
-          extended: true
+          node-version: "20"
+          cache: "npm"
 
-      # 3.
-      - name: Clone theme
-        run: git submodule update --init --recursive
+      - name: Install dependencies
+        run: npm ci
 
-      # 4.
-      - name: Hugo build
-        run: |
-          cd $GITHUB_WORKSPACE
-          hugo --minify
+      - name: Astro build
+        run: npm run build
 
-      # # 5.
-      # - name: Rsync Deployments Action
-      #   uses: Burnett01/rsync-deployments@5.2
-      #   with:
-      #     switches: -avzr --delete
-      #     path: public/
-      #     remote_path: /home/tomazinm/public_html/
-      #     remote_host: 152.89.234.190:21
-      #     remote_user: tomazs
-      #     remote_key: ${{ secrets.HUGODEPLOYACTION_SSH_KEY }}
-      # 5.
       - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          local-dir: public/
+          local-dir: dist/
           server-dir: /
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           protocol: ftp
-

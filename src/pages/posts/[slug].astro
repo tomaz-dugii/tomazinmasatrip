@@ -1,0 +1,218 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { data } = post;
+const author = data.secondAuthor ? 'Maša Petan' : 'Tomaž Starašinič';
+const formattedDate = new Date(data.pubDate).toLocaleDateString('sl-SI', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const allPosts = await getCollection('blog');
+const similarPosts = allPosts
+  .filter((p) => !p.data.draft && !p.data.video && p.id !== post.id)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+
+<BaseLayout title={`${data.title} | ${Astro.site}`} description={data.description || data.title} activePage="blog">
+  <article class="post">
+    <div class="post-hero">
+      {data.featureImage && (
+        <img src={data.featureImage} alt={data.title} class="post-hero-image" />
+      )}
+      <div class="post-hero-overlay"></div>
+    </div>
+    <div class="post-content-wrapper">
+      <a href="/blog" class="back-link">← Nazaj na blog</a>
+      {data.tags && data.tags.length > 0 && (
+        <div class="post-tags">
+          {data.tags.map((tag) => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+      )}
+      <h1 class="post-title">{data.title}</h1>
+      <div class="post-meta">
+        <span>By {author}</span>
+        <span>{formattedDate}</span>
+        {data.readTime && <span>{data.readTime} branja</span>}
+      </div>
+      <div class="post-body">
+        <Content />
+      </div>
+      <div class="buy-coffee">
+        <div class="coffee-icon">☕</div>
+        <div>
+          <h3>Kupi nama kavo</h3>
+          <p>Če ti je bil članek všeč, nama lahko kupiš kavo. Vsak evro pomaga, da lahko nadaljujeva pot.</p>
+          <a href="https://www.buymeacoffee.com/tomazinmasa" target="_blank" rel="noopener noreferrer" class="coffee-btn">KUPI KAVO</a>
+        </div>
+      </div>
+      {similarPosts.length > 0 && (
+        <div class="similar-posts">
+          <h3>Podobni zapisi</h3>
+          <div class="similar-grid">
+            {similarPosts.map((p) => (
+              <a href={`/posts/${p.id}`} class="similar-card">
+                <img src={p.data.thumbnail || p.data.featureImage || '/images/blog/blob1.svg'} alt={p.data.title} />
+                <h4>{p.data.title}</h4>
+                <span>{new Date(p.data.pubDate).toLocaleDateString('sl-SI', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .post-hero {
+    position: relative;
+    height: 400px;
+    margin: 0 -24px 2rem;
+    overflow: hidden;
+  }
+  .post-hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .post-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, var(--secondary-100) 0%, transparent 50%, transparent 100%);
+  }
+  .post-content-wrapper {
+    background: var(--white);
+    border-radius: 14px;
+    padding: 42px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.06);
+  }
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--grey-300);
+    margin-bottom: 1rem;
+  }
+  .post-tags {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 1rem;
+  }
+  .post-tags .tag {
+    padding: 3.5px 10.5px;
+    background: var(--black);
+    color: white;
+    font-size: 10px;
+    border-radius: 999px;
+  }
+  .post-title {
+    font-size: 2.25rem;
+    margin: 0 0 1rem 0;
+  }
+  .post-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 12px;
+    color: var(--grey-300);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.08);
+  }
+  .post-body {
+    padding: 1.5rem 0;
+    line-height: 1.75;
+  }
+  .post-body :global(img) {
+    border-radius: 12px;
+    margin: 1rem 0;
+  }
+  .buy-coffee {
+    display: flex;
+    gap: 1rem;
+    background: var(--primary-100);
+    border: 1px solid rgba(230, 59, 46, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  .coffee-icon {
+    width: 42px;
+    height: 42px;
+    background: rgba(230, 59, 46, 0.1);
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .buy-coffee h3 {
+    font-size: 15px;
+    margin: 0 0 0.5rem 0;
+  }
+  .buy-coffee p {
+    font-size: 13px;
+    color: var(--grey-300);
+    margin: 0 0 1rem 0;
+  }
+  .coffee-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: var(--primary-base);
+    color: white;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .similar-posts h3 {
+    font-size: 1.125rem;
+    margin: 0 0 1rem 0;
+  }
+  .similar-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .similar-card {
+    text-decoration: none;
+    color: inherit;
+  }
+  .similar-card img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+  }
+  .similar-card h4 {
+    font-size: 14px;
+    margin: 0 0 0.25rem 0;
+  }
+  .similar-card span {
+    font-size: 11px;
+    color: var(--grey-300);
+  }
+  @media (max-width: 768px) {
+    .similar-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

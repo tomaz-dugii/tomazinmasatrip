@@ -1,0 +1,37 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CookieConsent from '../components/CookieConsent.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  activePage?: 'domov' | 'blog' | 'vlogi' | 'onaju';
+}
+
+const { title, description, activePage = 'domov' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="sl">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <Header activePage={activePage} />
+    <main class="main-content">
+      <slot />
+    </main>
+    <Footer />
+    <CookieConsent />
+  </body>
+</html>
+
+<style>
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 24px 4rem;
+  }
+</style>

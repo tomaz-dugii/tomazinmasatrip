@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSection from '../components/HeroSection.astro';
+import DestinationsCarousel from '../components/DestinationsCarousel.astro';
+import JourneyStats from '../components/JourneyStats.astro';
+import BlogCard from '../components/BlogCard.astro';
+import VideoSidebar from '../components/VideoSidebar.astro';
+import { getCollection } from 'astro:content';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const allPosts = await getCollection('blog');
+const posts = allPosts
+  .filter((p) => !p.data.draft && !p.data.video)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+
+const videos = allPosts
+  .filter((p) => !p.data.draft && p.data.video && p.data.tranding)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION} activePage="domov">
+  <HeroSection />
+  <DestinationsCarousel />
+  <JourneyStats />
+  <section class="blog-section">
+    <div class="blog-section-inner">
+      <div class="blog-main">
+        <div class="blog-header">
+          <span class="section-label">BLOG</span>
+          <h2 class="section-title">Kaj dogaja na poti</h2>
+        </div>
+        <div class="blog-list">
+          {posts.map((entry) => (
+            <BlogCard entry={entry} />
+          ))}
+        </div>
+      </div>
+      <div class="blog-sidebar">
+        <VideoSidebar videos={videos.length > 0 ? videos : allPosts.filter((p) => p.data.video).slice(0, 5)} />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .blog-section {
+    padding: 2rem 0 4rem;
+  }
+  .blog-section-inner {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 3rem;
+    align-items: start;
+  }
+  .blog-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--primary-base);
+    margin-bottom: 0.25rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 900px) {
+    .blog-section-inner {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

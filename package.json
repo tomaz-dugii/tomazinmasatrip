@@ -1,0 +1,23 @@
+{
+  "name": "tomazinmasatrip-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "migrate:content": "node scripts/migrate-content.mjs",
+    "normalize:taxonomy": "node scripts/normalize-taxonomy.mjs"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.13",
+    "@astrojs/rss": "^4.0.15",
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^5.17.1",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

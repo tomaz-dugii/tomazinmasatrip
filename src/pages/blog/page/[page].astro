@@ -1,0 +1,191 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import BlogCard from "../../../components/BlogCard.astro";
+import VideoSidebar from "../../../components/VideoSidebar.astro";
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../../consts";
+import { getFilterList, matchesCategory } from "../../../data/categories";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("blog");
+  const posts = allPosts
+    .filter((p) => !p.data.draft && matchesCategory(p, "Blog"))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  const pageSize = 6;
+  const totalPages = Math.max(1, Math.ceil(posts.length / pageSize));
+  return Array.from({ length: totalPages }, (_, i) => ({
+    params: { page: String(i + 1) },
+  }));
+}
+
+const { page } = Astro.params;
+const currentPage = parseInt(page ?? "1", 10);
+
+const allPosts = await getCollection("blog");
+const published = allPosts
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = published.filter((p) => matchesCategory(p, "Blog"));
+const videos = published.filter((p) => matchesCategory(p, "Vlog"));
+
+const postCategories = [
+  ...new Set(published.flatMap((p) => p.data.categories || [])),
+];
+const filterList = getFilterList(postCategories);
+
+const pageSize = 6;
+const totalPages = Math.max(1, Math.ceil(posts.length / pageSize));
+const start = (currentPage - 1) * pageSize;
+const paginatedPosts = posts.slice(start, start + pageSize);
+---
+
+<BaseLayout
+  title={`Blog - stran ${currentPage} | ${SITE_TITLE}`}
+  description={SITE_DESCRIPTION}
+  activePage="blog"
+>
+  <section class="blog-page">
+    <div class="blog-page-inner">
+      <div class="blog-main">
+        <div class="blog-header">
+          <span class="section-label">BLOG</span>
+          <h1 class="section-title">Kaj dogaja na poti.</h1>
+          <p class="section-subtitle">Kaj dogaja na poti, ampak v videu.</p>
+        </div>
+        <div class="category-filters">
+          {
+            filterList.map((cat) => (
+              <a
+                href={
+                  cat === "Vse"
+                    ? "/blog"
+                    : `/categories/${encodeURIComponent(cat)}`
+                }
+                class={`filter-btn ${cat === "Vse" ? "" : ""}`}
+              >
+                {cat === "Vse" ? "VSE" : cat}
+              </a>
+            ))
+          }
+        </div>
+        <div class="blog-list">
+          {paginatedPosts.map((entry) => <BlogCard entry={entry} />)}
+        </div>
+        <nav class="pagination">
+          <a
+            href={currentPage > 1
+              ? currentPage === 2
+                ? "/blog"
+                : `/blog/page/${currentPage - 1}`
+              : "#"}
+            class={currentPage <= 1 ? "disabled" : ""}>←</a
+          >
+          {
+            Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
+              const p = i + 1;
+              const href = p === 1 ? "/blog" : `/blog/page/${p}`;
+              return (
+                <a href={href} class={p === currentPage ? "active" : ""}>
+                  {p}
+                </a>
+              );
+            })
+          }
+          <a
+            href={currentPage < totalPages
+              ? `/blog/page/${currentPage + 1}`
+              : "#"}
+            class={currentPage >= totalPages ? "disabled" : ""}>→</a
+          >
+        </nav>
+      </div>
+      <div class="blog-sidebar">
+        <VideoSidebar videos={videos} />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .blog-page {
+    padding: 2rem 0 4rem;
+  }
+  .blog-page-inner {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 3rem;
+  }
+  .blog-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--primary-base);
+    margin-bottom: 0.25rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+  }
+  .section-subtitle {
+    font-size: 15px;
+    color: var(--grey-400);
+    margin: 0 0 1.5rem 0;
+  }
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .filter-btn {
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    background: var(--grey-100);
+    color: var(--black);
+  }
+  .filter-btn:hover,
+  .filter-btn.active {
+    background: var(--black);
+    color: white;
+  }
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .pagination {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .pagination a {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--black);
+    background: var(--grey-100);
+  }
+  .pagination a.active {
+    background: var(--black);
+    color: white;
+  }
+  .pagination a.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  @media (max-width: 900px) {
+    .blog-page-inner {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

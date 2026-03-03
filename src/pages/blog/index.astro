@@ -1,0 +1,170 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogCard from "../../components/BlogCard.astro";
+import VideoSidebar from "../../components/VideoSidebar.astro";
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import { getFilterList, matchesCategory } from "../../data/categories";
+
+const allPosts = await getCollection("blog");
+const published = allPosts
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Vse: articles in main, videos in sidebar
+const posts = published.filter((p) => matchesCategory(p, "Blog"));
+const videos = published.filter((p) => matchesCategory(p, "Vlog"));
+
+const postCategories = [
+  ...new Set(published.flatMap((p) => p.data.categories || [])),
+];
+const filterList = getFilterList(postCategories);
+
+const pageSize = 6;
+const totalPages = Math.ceil(posts.length / pageSize);
+const currentPage = 1;
+const paginatedPosts = posts.slice(0, pageSize);
+---
+
+<BaseLayout
+  title={`Blog | ${SITE_TITLE}`}
+  description={SITE_DESCRIPTION}
+  activePage="blog"
+>
+  <section class="blog-page">
+    <div class="blog-page-inner">
+      <div class="blog-main">
+        <div class="blog-header">
+          <span class="section-label">BLOG</span>
+          <h1 class="section-title">Kaj dogaja na poti.</h1>
+          <p class="section-subtitle">Kaj dogaja na poti, ampak v videu.</p>
+        </div>
+        <div class="category-filters">
+          {
+            filterList.map((cat) => (
+              <a
+                href={
+                  cat === "Vse"
+                    ? "/blog"
+                    : `/categories/${encodeURIComponent(cat)}`
+                }
+                class={`filter-btn ${cat === "Vse" ? "active" : ""}`}
+              >
+                {cat === "Vse" ? "VSE" : cat}
+              </a>
+            ))
+          }
+        </div>
+        <div class="blog-list">
+          {paginatedPosts.map((entry) => <BlogCard entry={entry} />)}
+        </div>
+        {
+          totalPages > 1 && (
+            <nav class="pagination">
+              <a href="#" class="disabled">
+                ←
+              </a>
+              <a href="/blog" class="active">
+                1
+              </a>
+              {Array.from({ length: Math.min(totalPages - 1, 6) }, (_, i) => {
+                const p = i + 2;
+                return <a href={`/blog/page/${p}`}>{p}</a>;
+              })}
+              <a href="/blog/page/2" class="">
+                →
+              </a>
+            </nav>
+          )
+        }
+      </div>
+      <div class="blog-sidebar">
+        <VideoSidebar videos={videos.slice(0, 5)} />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .blog-page {
+    padding: 2rem 0 4rem;
+  }
+  .blog-page-inner {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 3rem;
+  }
+  .blog-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--primary-base);
+    margin-bottom: 0.25rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+  }
+  .section-subtitle {
+    font-size: 15px;
+    color: var(--grey-400);
+    margin: 0 0 1.5rem 0;
+  }
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .filter-btn {
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    background: var(--grey-100);
+    color: var(--black);
+  }
+  .filter-btn:hover,
+  .filter-btn.active {
+    background: var(--black);
+    color: white;
+  }
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .pagination {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .pagination a {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--black);
+    background: var(--grey-100);
+  }
+  .pagination a.active {
+    background: var(--black);
+    color: white;
+  }
+  .pagination a.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  @media (max-width: 900px) {
+    .blog-page-inner {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
