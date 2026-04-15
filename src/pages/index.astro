@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HeroSection from "../components/HeroSection.astro";
+import DestinationsCarousel from "../components/DestinationsCarousel.astro";
+import JourneyStats from "../components/JourneyStats.astro";
+import BlogCard from "../components/BlogCard.astro";
+import VideoSidebar from "../components/VideoSidebar.astro";
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import { isBlogPost, isVlogPost } from "../data/categories";
+
+const allPosts = await getCollection("blog");
+const posts = allPosts
+  .filter((p) => !p.data.draft && isBlogPost(p))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+
+const videos = allPosts
+  .filter((p) => !p.data.draft && isVlogPost(p) && p.data.showOnSidebar)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title={SITE_TITLE}
+  description={SITE_DESCRIPTION}
+  activePage="domov"
+>
+  <HeroSection />
+  <DestinationsCarousel />
+  <JourneyStats />
+  <section class="blog-section">
+    <div class="row blog-section-inner">
+      <div class="col-xs-12 col-md-8 blog-main">
+        <div class="blog-header">
+          <span class="section-label">BLOG</span>
+          <h2 class="section-title">Kaj dogaja na poti</h2>
+          <p class="section-subtitle">Kaj dogaja na poti in kod se potepava.</p>
+        </div>
+        <div class="blog-list">
+          {posts.map((entry) => <BlogCard entry={entry} />)}
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 blog-sidebar">
+        <VideoSidebar
+          videos={videos.length > 0
+            ? videos
+            : allPosts.filter((p) => isVlogPost(p)).slice(0, 5)}
+        />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .blog-section {
+    padding: 2rem 0 4rem;
+  }
+  .blog-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--primary-base);
+    margin-bottom: 0.25rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  .section-subtitle {
+    font-size: 15px;
+    color: var(--grey-400);
+    margin: 0 0 1.5rem 0;
+  }
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+  }
+</style>

@@ -1,0 +1,96 @@
+---
+import { hero } from "../data/hero";
+---
+
+<section class="hero">
+  <div class="row hero-inner">
+    <div class="col-xs-12 col-md-5 hero-content">
+      <h1 class="hero-title">{hero.heroTitle}</h1>
+      <p class="hero-description">{hero.heroDescription}</p>
+      <p class="hero-small">{hero.heroSmallDescription}</p>
+      <div class="hero-actions">
+        <a href="/blog" class="btn-primary">PREBERI BLOG</a>
+        <a href="/vlogi" class="btn-secondary">VLOGI</a>
+      </div>
+    </div>
+    <div class="hero-image col-md-7">
+      <img
+        src={hero.heroImage1200}
+        srcset={`${hero.heroImage690} 690w, ${hero.heroImage1020} 1020w, ${hero.heroImage1200} 1200w`}
+        sizes="(min-width: 1200px) 640px, (min-width: 1000px) 570px, (min-width: 780px) 690px, (min-width: 580px) 510px, calc(100vw - 30px)"
+        alt="Po najinih poteh"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    padding: 3rem 0 4rem;
+  }
+  .hero-inner {
+    max-width: 1250px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .hero-title {
+    font-family: var(--font-display);
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+  }
+  .hero-description {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--grey-400);
+    margin: 0 0 0.5rem 0;
+  }
+  .hero-small {
+    font-size: 15px;
+    color: var(--grey-400);
+    margin: 0 0 1.5rem 0;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 12px 24px;
+    background: var(--black);
+    color: white;
+    border-radius: 8px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .btn-primary:hover {
+    background: var(--secondary-600);
+  }
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    background: var(--secondary-100);
+    color: var(--black);
+    border: 2px solid var(--black);
+    border-radius: 8px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .btn-secondary:hover {
+    background: var(--grey-100);
+  }
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
+  }
+</style>

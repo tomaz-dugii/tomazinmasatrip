@@ -1,0 +1,47 @@
+/* Design tokens from Figma 1:3782 - Tomaz in Masa trip */
+:root {
+  /* Primary (red accent) */
+  --primary-rgb: 230, 59, 46;
+  --primary-100: #fdedec;
+  --primary-200: #f8b8b6;
+  --primary-300: #f47e7a;
+  --primary-400: #e63b2e;
+  --primary-base: #e63b2e;
+  --primary-500: #a8281f;
+  --primary-600: #6d1710;
+  --primary-700: #380705;
+
+  /* Secondary (warm neutrals) */
+  --secondary-100: #faf7f2;
+  --secondary-200: #e0cda7;
+  --secondary-300: #b6a687;
+  --secondary-400: #8e8168;
+  --secondary-500: #675e4b;
+  --secondary-600: #433d30;
+  --secondary-700: #221e17;
+
+  /* Grey */
+  --grey-100: #f1f0f0;
+  --grey-200: #cbc7c7;
+  --grey-300: #a79f9f;
+  --grey-400: #867979;
+  --grey-500: #605757;
+  --grey-600: #3d3636;
+  --grey-700: #1d1919;
+
+  /* Black */
+  --black: #1d1919;
+  --white: #ffffff;
+
+  /* Border */
+  --border: rgba(58, 56, 56, 0.15);
+  --header-background: rgba(255, 255, 255, 0.8);
+
+  /* Hover & featured (derived from primary with opacity) */
+  --primary-hover-bg: rgba(var(--primary-rgb), 0.03);
+  --primary-featured-bg: rgba(var(--primary-rgb), 0.05);
+  --primary-featured-border: rgba(var(--primary-rgb), 0.15);
+
+  /* Shadow */
+  --shadow-image: 0 4px 20px rgba(0, 0, 0, 0.08);
+}

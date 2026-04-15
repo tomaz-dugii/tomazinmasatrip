@@ -1,0 +1,321 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import VideoCard from "../../../components/VideoCard.astro";
+import { Play } from "@lucide/astro";
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../../consts";
+import {
+  getVlogCategoryPathSlugs,
+  getVlogFilterChips,
+  matchesVlogCategoryPage,
+} from "../../../data/categories";
+import {
+  buildPostHref,
+  buildVlogCategoryHref,
+  buildVlogCategoryPageHref,
+} from "../../../utils/urls";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("blog");
+  const published = allPosts.filter((p) => !p.data.draft);
+  const slugs = getVlogCategoryPathSlugs(published);
+  return slugs.map((cat) => ({
+    params: { category: cat },
+  }));
+}
+
+const { category } = Astro.params;
+const decodedCategory = category ? decodeURIComponent(category) : "";
+
+const allPosts = await getCollection("blog");
+const published = allPosts
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const videos = published.filter((p) =>
+  matchesVlogCategoryPage(p, decodedCategory),
+);
+const filterList = getVlogFilterChips(published);
+
+/** Featured row: first featured hit, else newest in this filter (only when list non-empty). */
+const featured =
+  videos.length === 0
+    ? undefined
+    : (videos.find((v) => v.data.featured) ?? videos[0]!);
+
+const pageSize = 6;
+const totalPages = Math.ceil(videos.length / pageSize);
+const paginatedVideos = videos.slice(0, pageSize);
+const listFrom = buildVlogCategoryHref(decodedCategory);
+---
+
+<BaseLayout
+  title={`${decodedCategory} | Vlogi | ${SITE_TITLE}`}
+  description={SITE_DESCRIPTION}
+  activePage="vlogi"
+>
+  <section class="vlogi-page">
+    <div class="vlogi-header">
+      <span class="section-label">VIDEO · {decodedCategory}</span>
+      <h1 class="section-title">Zadnji Videi</h1>
+      <p class="section-subtitle">Kaj dogaja na poti, ampak v videu.</p>
+    </div>
+
+    <div class="category-filters">
+      {
+        filterList.map((cat) => (
+          <a
+            href={buildVlogCategoryHref(cat)}
+            class:list={[
+              "filter-btn",
+              { active: cat === decodedCategory },
+            ]}
+          >
+            {cat === "Vse" ? "VSE" : cat}
+          </a>
+        ))
+      }
+    </div>
+
+    {
+      videos.length === 0 ? (
+        <div class="no-videos">
+          <p>Ni videov v tej kategoriji.</p>
+        </div>
+      ) : (
+        featured && (
+          <>
+            <div class="featured-section">
+              <a
+                href={buildPostHref(featured.id, { from: listFrom })}
+                class="featured-video-link"
+              >
+                <div class="featured-video-thumb">
+                  {featured.data.thumbnail ||
+                  featured.data.featureImage ? (
+                    <img
+                      src={
+                        featured.data.featureImage ||
+                        featured.data.thumbnail
+                      }
+                      alt={featured.data.title}
+                      loading="eager"
+                    />
+                  ) : (
+                    <div class="featured-placeholder" />
+                  )}
+                  <div class="play-overlay">
+                    <span class="play-icon" aria-hidden="true">
+                      <Play size={24} stroke-width={2.5} />
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="featured-meta">
+                <h2 class="featured-title">
+                  <a href={buildPostHref(featured.id, { from: listFrom })}>
+                    {featured.data.title}
+                  </a>
+                </h2>
+                <p class="featured-date">
+                  {new Date(featured.data.pubDate).toLocaleDateString(
+                    "sl-SI",
+                    {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    },
+                  )}
+                  {featured.data.readTime
+                    ? ` – ${featured.data.readTime} branja`
+                    : ""}
+                </p>
+              </div>
+            </div>
+
+            <h3 class="video-list-title">Videi</h3>
+            <div class="row video-grid">
+              {paginatedVideos.map((entry) => (
+                <div class="col-xs-12 col-md-6">
+                  <VideoCard
+                    entry={entry}
+                    featured={entry.id === featured.id}
+                    listFrom={listFrom}
+                  />
+                </div>
+              ))}
+            </div>
+          {
+            totalPages > 1 && (
+              <nav class="pagination">
+                <a href="#" class="disabled">
+                  ←
+                </a>
+                <a href={listFrom} class="active">
+                  1
+                </a>
+                {Array.from({ length: Math.min(totalPages - 1, 6) }, (_, i) => {
+                  const p = i + 2;
+                  return (
+                    <a href={buildVlogCategoryPageHref(decodedCategory, p)}>
+                      {p}
+                    </a>
+                  );
+                })}
+                <a href={buildVlogCategoryPageHref(decodedCategory, 2)}>→</a>
+              </nav>
+            )
+          }
+          </>
+        )
+      )
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .vlogi-page {
+    padding: 2rem 0 4rem;
+  }
+  .vlogi-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2.2px;
+    color: var(--primary-base);
+    margin-bottom: 0.5rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+  }
+  .section-subtitle {
+    font-size: 15px;
+    color: var(--grey-300);
+    margin: 0;
+  }
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .filter-btn {
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    background: var(--grey-100);
+    color: var(--black);
+  }
+  .filter-btn:hover,
+  .filter-btn.active {
+    background: var(--black);
+    color: white;
+  }
+  .featured-section {
+    background: rgba(230, 59, 46, 0.05);
+    border: 1px solid rgba(230, 59, 46, 0.15);
+    border-radius: 12.75px;
+    padding: 21px;
+    margin-bottom: 21px;
+  }
+  .featured-video-link {
+    display: block;
+    border-radius: 8.75px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    margin-bottom: 14px;
+  }
+  .featured-video-thumb {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: var(--grey-200);
+  }
+  .featured-video-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .featured-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--grey-200);
+  }
+  .play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .featured-section .play-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .featured-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .featured-title {
+    font-family: var(--font-display);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+  }
+  .featured-title a {
+    color: var(--black);
+    text-decoration: none;
+  }
+  .featured-title a:hover {
+    color: var(--primary-base);
+  }
+  .featured-date {
+    font-size: 13px;
+    color: var(--grey-300);
+    margin: 0;
+  }
+  .video-list-title {
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 14px 0;
+  }
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .pagination a {
+    padding: 0.35rem 0.65rem;
+    text-decoration: none;
+    color: var(--black);
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .pagination a.active {
+    background: var(--black);
+    color: white;
+  }
+  .pagination a.disabled {
+    pointer-events: none;
+    opacity: 0.35;
+  }
+  .no-videos {
+    padding: 4rem;
+    text-align: center;
+    color: var(--grey-400);
+  }
+</style>

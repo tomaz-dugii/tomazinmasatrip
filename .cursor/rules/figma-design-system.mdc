@@ -1,0 +1,114 @@
+---
+description: Rules for implementing Figma designs using the Figma MCP server. Covers design tokens, component conventions, styling approach, and the required Figma-to-code workflow for tomazinmasatrip.
+globs: ["src/**/*.astro", "src/**/*.css"]
+alwaysApply: false
+---
+
+# Figma Design System Rules — tomazinmasatrip
+
+## Design Tokens
+
+All design tokens are defined in `src/styles/tokens.css`. **IMPORTANT: Never hardcode colors—always use CSS variables.**
+
+### Colors (from Figma 1:3782)
+
+| Token                             | Value          | Usage                        |
+| --------------------------------- | -------------- | ---------------------------- |
+| `--primary-base`                  | #e63b2e        | Accent, links, active states |
+| `--primary-100` … `--primary-700` | See tokens.css | Primary scale                |
+| `--secondary-100`                 | #faf7f2        | Page background              |
+| `--secondary-700`                 | #221e17        | Footer, dark surfaces        |
+| `--grey-100` … `--grey-700`       | See tokens.css | Text, borders, placeholders  |
+| `--black`                         | #1d1919        | Headings, primary text       |
+| `--white`                         | #ffffff        | Light surfaces               |
+
+### Accent States (video cards, featured)
+
+- Active/featured background: `rgba(230, 59, 46, 0.05)`
+- Active/featured border: `rgba(230, 59, 46, 0.15)`
+- Hover background: `rgba(230, 59, 46, 0.03)`
+
+### Typography
+
+- **Body**: `var(--font-primary)` (Poppins), 15px base, line-height 1.6
+- **Headings**: `var(--font-display)` (Playfair Display)
+- **Section labels**: 11px, Semibold, letter-spacing 2.2px, `var(--primary-base)`
+- **Card titles**: 13px, Semibold (Poppins)
+- **Meta text**: 11px, Medium, `var(--grey-300)`
+
+### Spacing & Radius
+
+- Grid gap: 21px
+- Card gap: 14px
+- Card border-radius: 12.75px
+- Thumbnail border-radius: 8.75px
+- Play button: circular (999px radius)
+
+---
+
+## Component Conventions
+
+- **Location**: UI components in `src/components/`
+- **Format**: Astro components with scoped `<style>` blocks
+- **Naming**: PascalCase (e.g. `VideoCard.astro`, `BlogCard.astro`)
+- **Props**: Use TypeScript interfaces for `Astro.props`
+
+---
+
+## Styling Approach
+
+- **No Tailwind**: Project uses plain CSS with scoped styles
+- **Tokens**: Import `tokens.css` via `global.css`; use `var(--token-name)` everywhere
+- **Scoped styles**: Component-level `<style>` blocks (no `is:global` unless necessary)
+- **Layout**: CSS Grid and Flexbox; max-width 1250px for main content (BaseLayout)
+
+---
+
+## Figma MCP Integration Rules
+
+### Required Flow (do not skip)
+
+1. Run `get_design_context` with fileKey and nodeId from the Figma URL
+2. If response is truncated, run `get_metadata` then fetch specific child nodes
+3. Run `get_screenshot` for visual reference
+4. Translate output to Astro + scoped CSS (not React/Tailwind)
+5. Use project tokens from `src/styles/tokens.css`
+6. Validate against Figma screenshot before marking complete
+
+### Implementation Rules
+
+- Treat Figma MCP output (React + Tailwind) as design reference only—convert to Astro + CSS
+- Reuse existing components from `src/components/` when possible
+- Map Figma colors to `var(--primary-base)`, `var(--grey-300)`, etc.
+- Respect existing routing (`/blog/:slug` posts, `/blog/category/:filter`, `/vlogi`, `/blog`, etc.; legacy `/posts/*` redirects to `/blog/*`)
+- Video thumbnails: use `data.thumbnail` or `data.featureImage` from content
+- Play overlay: `background: rgba(0,0,0,0.3)`; play icon: white circle, black triangle
+
+### Asset Handling
+
+- Use content frontmatter paths for images (e.g. `thumbnail`, `featureImage`)
+- If Figma MCP returns localhost/asset URLs, prefer project assets in `public/images/`
+- Do not add new icon packages—use inline SVG or existing assets
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI (Header, Footer, BlogCard, VideoSidebar, etc.)
+├── layouts/        # BaseLayout
+├── pages/          # Astro file-based routing
+├── styles/         # tokens.css, global.css
+├── content/        # MD/MDX in src/content/blog
+└── data/           # categories, destinations, etc.
+```
+
+---
+
+## Vlogi Page Specifics (Figma 5:580)
+
+- **Layout**: Single column; featured video at top, then "Vsi videi" heading, then 2-column grid
+- **Featured**: Large 16:9 video in accent container; title (Playfair 21px) + date (13px grey) below
+- **Video cards**: Thumb ~179×118px (or flexible), horizontal layout; title 13px Semibold; date 11px
+- **Responsive**: Stack to 1 column below ~900px

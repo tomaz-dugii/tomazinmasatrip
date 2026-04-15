@@ -1,0 +1,89 @@
+---
+import { mapData } from "../data/map";
+---
+
+<section class="journey-stats">
+  <div class="row journey-inner">
+    <div class="col-xs-12 col-md-4 journey-content">
+      <span class="section-label">NAJINA POT</span>
+      <h2 class="section-title">Od Ljubljane do sveta</h2>
+      <p class="journey-desc">{mapData.mapDescription}</p>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-value">9</span>
+          <span class="stat-label">MESECEV</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">59</span>
+          <span class="stat-label">DRŽAV</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">47k</span>
+          <span class="stat-label">KILOMETROV</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-8 journey-map">
+      <img
+        src={mapData.mapImage1200}
+        srcset={`${mapData.mapImage690} 690w, ${mapData.mapImage1020} 1020w, ${mapData.mapImage1200} 1200w`}
+        sizes="(min-width: 1200px) 640px, (min-width: 1000px) 570px, (min-width: 780px) 690px, calc(100vw - 48px)"
+        alt="Map"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  .journey-stats {
+    padding: 2rem 0 4rem;
+  }
+  .journey-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .section-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--primary-base);
+    margin-bottom: 0.25rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+  }
+  .journey-desc {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--grey-400);
+    margin: 0 0 2rem 0;
+  }
+  .stats {
+    display: flex;
+    gap: 2rem;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+  .stat-value {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .stat-label {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: var(--grey-400);
+  }
+  .journey-map img {
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+  }
+</style>
