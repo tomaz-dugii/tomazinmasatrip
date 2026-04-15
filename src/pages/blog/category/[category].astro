@@ -1,0 +1,166 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import BlogCard from "../../../components/BlogCard.astro";
+import VideoSidebar from "../../../components/VideoSidebar.astro";
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../../consts";
+import {
+  getBlogCategoryPathSlugs,
+  getBlogFilterChips,
+  isVlogPost,
+  matchesBlogCategoryPage,
+} from "../../../data/categories";
+import {
+  buildCategoryHref,
+  buildCategoryPageHref,
+} from "../../../utils/urls";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("blog");
+  const published = allPosts.filter((p) => !p.data.draft);
+  const slugs = getBlogCategoryPathSlugs(published);
+  return slugs.map((cat) => ({
+    params: { category: cat },
+  }));
+}
+
+const { category } = Astro.params;
+const decodedCategory = category ? decodeURIComponent(category) : "";
+
+const allPosts = await getCollection("blog");
+const published = allPosts
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Main column: blog posts only, filtered by this destination (or legacy "Blog" = all blogs).
+const posts = published.filter((p) => matchesBlogCategoryPage(p, decodedCategory));
+
+const videos = published.filter((p) => isVlogPost(p));
+
+const filterList = getBlogFilterChips(published);
+
+const pageSize = 6;
+const totalPages = Math.ceil(posts.length / pageSize);
+const paginatedPosts = posts.slice(0, pageSize);
+const categoryUrl = buildCategoryHref(decodedCategory);
+const listFrom = categoryUrl;
+---
+
+<BaseLayout
+  title={`${decodedCategory} | Blog | ${SITE_TITLE}`}
+  description={SITE_DESCRIPTION}
+  activePage="blog"
+>
+  <section class="blog-page">
+    <div class="row blog-page-inner">
+      <div class="col-xs-12 col-md-8 blog-main">
+        <div class="blog-header">
+          <span class="section-label">BLOG · {decodedCategory}</span>
+          <h1 class="section-title">Kaj dogaja na poti.</h1>
+          <p class="section-subtitle">Kaj dogaja na poti in kod se potepava.</p>
+        </div>
+        <div class="category-filters">
+          {
+            filterList.map((cat) => (
+              <a
+                href={buildCategoryHref(cat)}
+                class={`filter-btn ${cat === decodedCategory ? "active" : ""}`}
+              >
+                {cat === "Vse" ? "VSE" : cat}
+              </a>
+            ))
+          }
+        </div>
+        <div class="blog-list">
+          {paginatedPosts.map((entry) => (
+            <BlogCard entry={entry} listFrom={listFrom} />
+          ))}
+        </div>
+        {
+          posts.length === 0 && (
+            <p class="empty-state">Destinacija še nima spisanega članka.</p>
+          )
+        }
+        {
+          totalPages > 1 && (
+            <nav class="pagination">
+              <a href="#" class="disabled">
+                ←
+              </a>
+              <a href={categoryUrl} class="active">
+                1
+              </a>
+              {Array.from({ length: Math.min(totalPages - 1, 6) }, (_, i) => {
+                const p = i + 2;
+                return (
+                  <a href={buildCategoryPageHref(decodedCategory, p)}>{p}</a>
+                );
+              })}
+              <a href={buildCategoryPageHref(decodedCategory, 2)}>→</a>
+            </nav>
+          )
+        }
+      </div>
+      <div class="col-xs-12 col-md-4 blog-sidebar">
+        <VideoSidebar videos={videos} />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .blog-page {
+    padding: 2rem 0 4rem;
+  }
+  .blog-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--primary-base);
+    margin-bottom: 0.25rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+  }
+  .section-subtitle {
+    font-size: 15px;
+    color: var(--grey-400);
+    margin: 0 0 1.5rem 0;
+  }
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .filter-btn {
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    background: var(--grey-100);
+    color: var(--black);
+  }
+  .filter-btn:hover,
+  .filter-btn.active {
+    background: var(--black);
+    color: white;
+  }
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .empty-state {
+    padding: 2rem;
+    text-align: center;
+    color: var(--grey-400);
+  }
+</style>

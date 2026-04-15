@@ -1,0 +1,145 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogCard from "../../components/BlogCard.astro";
+import VideoSidebar from "../../components/VideoSidebar.astro";
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import {
+  getBlogFilterChips,
+  isBlogPost,
+  isVlogPost,
+} from "../../data/categories";
+import { buildBlogPageHref, buildCategoryHref } from "../../utils/urls";
+
+// --- Blog hub: main list = posts typed as blog; chips = destinations from those posts only ---
+const allPosts = await getCollection("blog");
+const published = allPosts
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Hub: blog posts in main column, vlogs in sidebar (type from categories / contentType).
+const posts = published.filter((p) => isBlogPost(p));
+const videos = published.filter((p) => isVlogPost(p));
+
+const filterList = getBlogFilterChips(published);
+
+const pageSize = 6;
+const totalPages = Math.ceil(posts.length / pageSize);
+const currentPage = 1;
+const paginatedPosts = posts.slice(0, pageSize);
+---
+
+<BaseLayout
+  title={`Blog | ${SITE_TITLE}`}
+  description={SITE_DESCRIPTION}
+  activePage="blog"
+>
+  <section class="blog-page">
+    <div class="row blog-page-inner">
+      <div class="col-xs-12 col-md-8 blog-main">
+        <div class="blog-header">
+          <span class="section-label">BLOG</span>
+          <h1 class="section-title">Kaj dogaja na poti.</h1>
+          <p class="section-subtitle">Kaj dogaja na poti in kod se potepava.</p>
+        </div>
+        <div class="category-filters">
+          {
+            filterList.map((cat) => (
+              <a
+                href={buildCategoryHref(cat)}
+                class:list={["filter-btn", { active: cat === "Vse" }]}
+              >
+                {cat === "Vse" ? "VSE" : cat}
+              </a>
+            ))
+          }
+        </div>
+        <div class="blog-list">
+          {paginatedPosts.map((entry) => <BlogCard entry={entry} />)}
+        </div>
+        {
+          totalPages > 1 && (
+            <nav class="pagination">
+              <a href="#" class="disabled">
+                ←
+              </a>
+              <a href="/blog" class="active">
+                1
+              </a>
+              {Array.from({ length: Math.min(totalPages - 1, 6) }, (_, i) => {
+                const p = i + 2;
+                return <a href={buildBlogPageHref(p)}>{p}</a>;
+              })}
+              <a href={buildBlogPageHref(2)} class="">
+                →
+              </a>
+            </nav>
+          )
+        }
+      </div>
+      <div class="col-xs-12 col-md-4 blog-sidebar">
+        <VideoSidebar videos={videos.slice(0, 5)} />
+      </div>
+    </div>
+  </section>
+  <script is:inline>
+    const q = new URLSearchParams(window.location.search).get("category");
+    if (q) {
+      window.location.replace(
+        "/blog/category/" + encodeURIComponent(q),
+      );
+    }
+  </script>
+</BaseLayout>
+
+<style>
+  .blog-page {
+    padding: 2rem 0 4rem;
+  }
+  .blog-header {
+    margin-bottom: 1.5rem;
+  }
+  .section-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: var(--primary-base);
+    margin-bottom: 0.25rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+  }
+  .section-subtitle {
+    font-size: 15px;
+    color: var(--grey-400);
+    margin: 0 0 1.5rem 0;
+  }
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .filter-btn {
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    background: var(--grey-100);
+    color: var(--black);
+  }
+  .filter-btn:hover,
+  .filter-btn.active {
+    background: var(--black);
+    color: white;
+  }
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+  }
+</style>

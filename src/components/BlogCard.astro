@@ -1,0 +1,171 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { authors } from "../data/about";
+import { buildPostHref } from "../utils/urls";
+
+interface Props {
+  entry: CollectionEntry<"blog">;
+  /** When set, post links include `?from=` so the detail page “back” returns here. */
+  listFrom?: string;
+}
+
+const { entry, listFrom } = Astro.props;
+const { id, data } = entry;
+const { title, pubDate, description, tags, thumbnail, readTime } = data;
+const authorId = data.authorId ?? "tomaz";
+const author = authors.find((a) => a.id === authorId) ?? authors[0];
+const formattedDate = new Date(pubDate).toLocaleDateString("sl-SI", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+const excerpt = description || "";
+const postHref = buildPostHref(id, listFrom ? { from: listFrom } : undefined);
+---
+
+<article class="blog-card">
+  <a href={postHref} class="card-image-link">
+    {
+      thumbnail ? (
+        <img src={thumbnail} alt={title} class="card-image" loading="lazy" />
+      ) : (
+        <div class="card-image-placeholder" />
+      )
+    }
+  </a>
+  <div class="card-content">
+    {
+      tags && tags.length > 0 && (
+        <div class="card-tags">
+          {tags.slice(0, 2).map((tag) => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+      )
+    }
+    <h3 class="card-title">
+      <a href={postHref}>{title}</a>
+    </h3>
+    <p class="card-meta">
+      By {author.name} · {formattedDate}
+      {readTime && ` · ${readTime} branja`}
+    </p>
+    {excerpt && <p class="card-excerpt">{excerpt}</p>}
+    <a href={postHref} class="card-link">
+      Preberi več
+      <svg
+        width="14"
+        height="14"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"><path d="M9 18l6-6-6-6"></path></svg
+      >
+    </a>
+  </div>
+</article>
+
+<style>
+  .blog-card {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 21px;
+    align-items: start;
+    padding: 21px 0;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.08);
+  }
+  .blog-card:last-child {
+    border-bottom: none;
+  }
+  .card-image-link {
+    display: block;
+    border-radius: 12.75px;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+  }
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12.75px;
+    transition: transform 0.2s;
+  }
+  .card-image-link:hover .card-image {
+    transform: scale(1.02);
+  }
+  .card-image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--grey-100);
+    border-radius: 12.75px;
+  }
+  .card-content {
+    min-width: 0;
+  }
+  .card-tags {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 8px;
+  }
+  .tag {
+    display: inline-block;
+    padding: 3.5px 10.5px;
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    border-radius: 999px;
+  }
+  .card-title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 19.6px;
+    line-height: 1.2;
+    margin: 0 0 8px 0;
+  }
+  .card-title a {
+    color: var(--black);
+    text-decoration: none;
+  }
+  .card-title a:hover {
+    color: var(--primary-base);
+  }
+  .card-meta {
+    font-size: 12px;
+    color: var(--grey-400);
+    margin: 0 0 8px 0;
+  }
+  .card-excerpt {
+    font-size: 14px;
+    color: var(--grey-400);
+    line-height: 1.7;
+    margin: 0 0 12px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--black);
+    text-decoration: none;
+  }
+  .card-link:hover {
+    color: var(--primary-base);
+  }
+  .card-link svg {
+    flex-shrink: 0;
+  }
+  @media (max-width: 640px) {
+    .blog-card {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
