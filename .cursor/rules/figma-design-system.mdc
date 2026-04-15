@@ -97,7 +97,7 @@ All design tokens are defined in `src/styles/tokens.css`. **IMPORTANT: Never har
 ```
 src/
 ├── components/     # Reusable UI (Header, Footer, BlogCard, VideoSidebar, etc.)
-├── layouts/        # BaseLayout, BlogPost
+├── layouts/        # BaseLayout
 ├── pages/          # Astro file-based routing
 ├── styles/         # tokens.css, global.css
 ├── content/        # MD/MDX in src/content/blog

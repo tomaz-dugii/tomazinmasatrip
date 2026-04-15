@@ -7,13 +7,6 @@ export type ContentTypeSlug = (typeof CONTENT_TYPES)[number];
 
 export const DESTINATION_ORDER = taxonomy.destinations as readonly string[];
 
-/** Full ordered list including type slugs (used for redirects / legacy, not blog chip UI). */
-export const CATEGORY_FILTERS = [
-  "Vse",
-  ...CONTENT_TYPES,
-  ...DESTINATION_ORDER,
-] as const;
-
 // --- Post shape used across listings (keeps imports simple) ---
 
 export type PostForCategory = {
@@ -130,19 +123,7 @@ export function matchesVlogCategoryPage(
   return (post.data.categories || []).includes(category);
 }
 
-// --- Filter matching (sidebar, RSS, legacy) ---
-
-/** @deprecated Prefer getBlogFilterChips / getVlogFilterChips for UI chips. */
-export function getFilterList(postCategories: string[]): string[] {
-  const fromPosts = postCategories.filter(
-    (c) => !CONTENT_TYPES.includes(c as ContentTypeSlug),
-  );
-  const known = new Set(DESTINATION_ORDER);
-  const newOnes = fromPosts.filter(
-    (c) => !known.has(c as (typeof DESTINATION_ORDER)[number]),
-  );
-  return ["Vse", ...CONTENT_TYPES, ...DESTINATION_ORDER, ...newOnes];
-}
+// --- Filter matching (legacy category redirect stubs) ---
 
 /**
  * Match a single filter chip or RSS category.

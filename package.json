@@ -7,7 +7,6 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "migrate:content": "node scripts/migrate-content.mjs",
     "migrate:author-id": "node scripts/migrate-author-id.mjs",
     "normalize:taxonomy": "node scripts/normalize-taxonomy.mjs",
     "seed-taxonomy": "node scripts/seed-taxonomy.mjs",
