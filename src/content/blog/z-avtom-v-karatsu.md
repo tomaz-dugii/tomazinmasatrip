@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: 7 minut
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=Q9uMYFI1BA0'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 Prvič  na Japonski najameva avto in se po levi strani ceste iz Fukuoke podava proti mestu Karatsu. Tam obiščeva grad in muzej bančništva.
 

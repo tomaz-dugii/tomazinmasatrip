@@ -4,6 +4,7 @@ pubDate: '2023-08-30T10:16:32.277Z'
 draft: false
 tags: []
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: ''
@@ -14,6 +15,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=0e40qZ_p8oI'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 
 Udeležila sva se Beppu Hatto Hot Spring Festivala v mestu Beppu na Japonskem.

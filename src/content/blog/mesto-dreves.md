@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/mesto_dreves/sendai_5.webp
+
 ---
 Sendai se po Japonski oglašuje kot mesto dreves. Za državo, ki je precej zelena in tudi mesta ogromno vlagajo v urejanje parkov ter zelenih površin, se nama je takšen slogan zdel malce privlečen za lase. Da resnici prideva do dna, sva se usedla na vlak in odpeljala v samooklicano mesto dreves.
 

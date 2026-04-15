@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 2 minuti
@@ -15,6 +16,7 @@ description: 'Himeji, Kumamoto, Osaka, Fukuoka, Karatsu, Hirado in še kak bi se
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Himeji, Kumamoto, Osaka, Fukuoka, Karatsu, Hirado in še bi se našel. To je šest gradov, ali njihovih ostankov, ki sva jih do sedaj obiskala na Japonski. Po vsej vrjetnosti jih bo toliko tudi ostalo, saj jih imava za nekaj časa dovolj.
 

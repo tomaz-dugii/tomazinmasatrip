@@ -6,6 +6,7 @@ tags:
   - fukuoka
   - sprehod
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: 15 minut
@@ -17,6 +18,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=gr1hCEBEmSc'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 
 V tem videu vas popeljem po čudoviti poti v parku Ohori, ki povezuje 3 majhne otočke in prečka velik mestni ribnik v Fukuoki. Je prijeten park v središču mesta, kjer lahko uživate v naravi. Če potrebujete sprostitev med delom v službi in trenutno ne morete v naravo, poglejte video sprehoda čez park in se malo spočijete, da bo dan minil lažje.

@@ -7,15 +7,16 @@ import BlogCard from "../components/BlogCard.astro";
 import VideoSidebar from "../components/VideoSidebar.astro";
 import { getCollection } from "astro:content";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import { isBlogPost, isVlogPost } from "../data/categories";
 
 const allPosts = await getCollection("blog");
 const posts = allPosts
-  .filter((p) => !p.data.draft && !p.data.video)
+  .filter((p) => !p.data.draft && isBlogPost(p))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 6);
 
 const videos = allPosts
-  .filter((p) => !p.data.draft && p.data.video && p.data.showOnSidebar)
+  .filter((p) => !p.data.draft && isVlogPost(p) && p.data.showOnSidebar)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
@@ -43,7 +44,7 @@ const videos = allPosts
         <VideoSidebar
           videos={videos.length > 0
             ? videos
-            : allPosts.filter((p) => p.data.video).slice(0, 5)}
+            : allPosts.filter((p) => isVlogPost(p)).slice(0, 5)}
         />
       </div>
     </div>

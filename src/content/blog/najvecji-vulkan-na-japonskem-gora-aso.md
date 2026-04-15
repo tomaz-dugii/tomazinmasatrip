@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: '10'
@@ -15,6 +16,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=26xJx6l3pLo'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 Gora Aso je aktiven vulkan, ki se nahaja v središču otoka Kyushu. 
 Je največji aktiven Japonski vulkan in eden največjih na svetu. 

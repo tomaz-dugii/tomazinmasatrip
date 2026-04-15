@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 7 minut
@@ -16,6 +17,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/S_kolesom_po_obali_Itoshime/itoshima_5.webp
+
 ---
 Če smo si z Japonci pri čem podobni, je to kolesarjenje. Tako kot Ljubljana, je tudi Fukuoka polna kolesarjev, ki drvijo čez ulice. Le, da te tukaj bolj po redko zbijejo.
 

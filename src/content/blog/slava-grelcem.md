@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/slava_grelcem/slava_grelcem.webp
+
 ---
 Zadnja točka najinega potepanja po otoku Kyushu se nahaja na severni obali, tik ob mestu Oita. Beppu je obalno mesto, nekakšne velikosti Maribora, ki na otoku slavi po (kdo bi uganil) številnim termalnim vrelcem, ki mesto obdarjajo s toplo vodo.
 

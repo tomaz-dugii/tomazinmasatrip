@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 15 minut
@@ -14,6 +15,7 @@ showOnSidebar: false
 contentType: Blog
 authorId: tomaz
 fmContentType: blog-post
+
 ---
 Preden zaključiva z objavami iz Japonske, pa ne moreva brez nasvetov za vse bodoče belokranjske popotnike v to prečudovito deželo. Tri najpomembnejši nasveti: kako se sporazumevati, kako navigirati in kako naročiti sushi. Enega razloživa v tem članku,ostale pa v naslednjih dveh, ki pa bodo hkrati zadnji članki na temo Japonske.
 

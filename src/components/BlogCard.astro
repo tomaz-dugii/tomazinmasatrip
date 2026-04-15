@@ -1,12 +1,15 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { authors } from "../data/about";
+import { buildPostHref } from "../utils/urls";
 
 interface Props {
   entry: CollectionEntry<"blog">;
+  /** When set, post links include `?from=` so the detail page “back” returns here. */
+  listFrom?: string;
 }
 
-const { entry } = Astro.props;
+const { entry, listFrom } = Astro.props;
 const { id, data } = entry;
 const { title, pubDate, description, tags, thumbnail, readTime } = data;
 const authorId = data.authorId ?? "tomaz";
@@ -17,10 +20,11 @@ const formattedDate = new Date(pubDate).toLocaleDateString("sl-SI", {
   day: "numeric",
 });
 const excerpt = description || "";
+const postHref = buildPostHref(id, listFrom ? { from: listFrom } : undefined);
 ---
 
 <article class="blog-card">
-  <a href={`/posts/${id}`} class="card-image-link">
+  <a href={postHref} class="card-image-link">
     {
       thumbnail ? (
         <img src={thumbnail} alt={title} class="card-image" loading="lazy" />
@@ -40,14 +44,14 @@ const excerpt = description || "";
       )
     }
     <h3 class="card-title">
-      <a href={`/posts/${id}`}>{title}</a>
+      <a href={postHref}>{title}</a>
     </h3>
     <p class="card-meta">
       By {author.name} · {formattedDate}
       {readTime && ` · ${readTime} branja`}
     </p>
     {excerpt && <p class="card-excerpt">{excerpt}</p>}
-    <a href={`/posts/${id}`} class="card-link">
+    <a href={postHref} class="card-link">
       Preberi več
       <svg
         width="14"

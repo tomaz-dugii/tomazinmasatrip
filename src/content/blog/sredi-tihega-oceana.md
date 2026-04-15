@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 4 minute
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/sredi_tihega_oceana/tihi_ocean_6.webp
+
 ---
 Ali veš, da japonsko otočje sestavlja skoraj osem tisoč otokov? Da, teh 7.852 kopen, ki se iz morja dviga v najrazličnejših oblikah, skupaj tvori državo Japonsko. Seveda se ti med sabo precej razlikujejo po velikosti. Manjši komaj dosegajo površino štirih kilometrov, medtem ko največji izmed njih, otok Honshu, gosti največje mesto na svetu.
 

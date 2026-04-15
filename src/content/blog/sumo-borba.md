@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 10 minut
@@ -21,6 +22,7 @@ galleryImages:
   - /images/blog/sumo_borba/sumo_4.webp
   - /images/blog/sumo_borba/sumo_5.webp
   - /images/blog/sumo_borba/sumo_8.webp
+
 ---
 Vsaka država ima svoj državni šport. Za Slovenijo bi nekateri izbrali plezanje, kolesarjenje, košarko ali nogomet, da jih naštejem le nekaj. Vsi so priljubljeni in igrani v mnogo državah po svetu. Japonska pa mora biti posebna tudi v tej kategoriji, saj je edina država na svetu, kjer je nacionalni šport sumo.
 

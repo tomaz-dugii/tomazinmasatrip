@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: 12 minut
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=XgSlT0TMxb4'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 Najino prvo mesto na Japonski - Fukuoka. V video se sprehodili čez mesto, njegove parke in ulice. Poskusiva tudi hrano iz Familly Mart trgovine, zavitek riža in ribe imenovan Onigiri.
 

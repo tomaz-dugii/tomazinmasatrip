@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: |
@@ -23,6 +24,7 @@ galleryImages:
   - /images/blog/universal_studios_japan/universal_4.webp
   - /images/blog/universal_studios_japan/universal_5.webp
   - /images/blog/universal_studios_japan/universal_7.webp
+
 ---
 Obisk Osake ne more biti popoln brez dneva v ogromnem zabaviščnem parku Universal Studios. Eden izmed največjih, najbolj obiskanih in najbolj popularnih zabaviščnih parkov na svetu, ki ga letno obišče na milijone oboževalcev, se nahaja kar v centru mesta. Le deset minut vožnje s podzemno železnico iz glavne postaje in že si tam.
 

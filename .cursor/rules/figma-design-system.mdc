@@ -80,7 +80,7 @@ All design tokens are defined in `src/styles/tokens.css`. **IMPORTANT: Never har
 - Treat Figma MCP output (React + Tailwind) as design reference only—convert to Astro + CSS
 - Reuse existing components from `src/components/` when possible
 - Map Figma colors to `var(--primary-base)`, `var(--grey-300)`, etc.
-- Respect existing routing (`/posts/[slug]`, `/vlogi`, `/blog`, etc.)
+- Respect existing routing (`/blog/:slug` posts, `/blog/category/:filter`, `/vlogi`, `/blog`, etc.; legacy `/posts/*` redirects to `/blog/*`)
 - Video thumbnails: use `data.thumbnail` or `data.featureImage` from content
 - Play overlay: `background: rgba(0,0,0,0.3)`; play icon: white circle, black triangle
 

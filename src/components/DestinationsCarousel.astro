@@ -1,5 +1,6 @@
 ---
-import { destinations } from '../data/destinations';
+import { destinations } from "../data/destinations";
+import { buildCategoryHref } from "../utils/urls";
 ---
 
 <section class="destinations">
@@ -9,7 +10,7 @@ import { destinations } from '../data/destinations';
   </div>
   <div class="destinations-scroll">
     {destinations.map((d) => (
-      <a href={`/blog?category=${encodeURIComponent(d.name)}`} class="destination-card">
+      <a href={buildCategoryHref(d.name)} class="destination-card">
         <img src={d.image} alt={d.name} loading="lazy" />
         <span class="destination-name">{d.name}</span>
       </a>

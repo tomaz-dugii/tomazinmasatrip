@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 4 minute
@@ -15,6 +16,7 @@ description: 'Udon rezanci so hitro pripravljeni japonski rezanci, ki poskrbijo 
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Japonska s ponudbo tisočerih specialitet, letno privablja svetovne gurmane. Vsaka regija slovi po svojih, pa naj bo to le lokalni recept za ramen, ali povsem nova jed. Najlepše pri vsem tem pa je, da za okusno kosilo ne potrebuješ veliko odšteti. Seveda lahko večerjaš v restavracijah z michelin zvezdicami ali okušaš pravu wagyu zrezek kar na japonskem.　Okusno hrano pa lahko dnevno ješ tudi za manj kot pet evrov po obroku. Naj bodo to slaščice na ulici, majhne restavracije v ozkih ulicah, ali verižne restavracije, ki se vrstijo po vsej japonski. Okusna hrana je povsod.
 

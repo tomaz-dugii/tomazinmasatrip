@@ -283,102 +283,102 @@
           "multiple": true
         }
       ]
-    },
-    {
-      "name": "blog",
-      "previewPath": "'blog'",
-      "pageBundle": false,
-      "clearEmpty": true,
-      "fields": [
-        {
-          "name": "title",
-          "type": "string",
-          "single": true,
-          "required": true
-        },
-        {
-          "name": "description",
-          "type": "string",
-          "single": true
-        },
-        {
-          "name": "pubDate",
-          "type": "datetime",
-          "default": "{{now}}",
-          "required": true
-        },
-        {
-          "name": "updatedDate",
-          "type": "datetime",
-          "default": "{{now}}"
-        },
-        {
-          "name": "heroImage",
-          "type": "image",
-          "isPreviewImage": true
-        },
-        {
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "name": "contentType",
-          "type": "choice",
-          "choices": [
-            "Blog",
-            "Vlog"
-          ]
-        },
-        {
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "name": "video",
-          "type": "boolean"
-        },
-        {
-          "name": "featured",
-          "type": "boolean"
-        },
-        {
-          "name": "authorId",
-          "type": "string"
-        },
-        {
-          "name": "readTime",
-          "type": "string",
-          "single": true
-        },
-        {
-          "name": "thumbnail",
-          "type": "string",
-          "single": true
-        },
-        {
-          "name": "featureImage",
-          "type": "image"
-        },
-        {
-          "name": "youtubeUrl",
-          "type": "string",
-          "single": true
-        },
-        {
-          "name": "showOnSidebar",
-          "type": "boolean"
-        },
-        {
-          "name": "galleryImages",
-          "type": "image",
-          "multiple": true
-        }
-      ]
     }
+    // {
+    //   "name": "blog",
+    //   "previewPath": "'blog'",
+    //   "pageBundle": false,
+    //   "clearEmpty": true,
+    //   "fields": [
+    //     {
+    //       "name": "title",
+    //       "type": "string",
+    //       "single": true,
+    //       "required": true
+    //     },
+    //     {
+    //       "name": "description",
+    //       "type": "string",
+    //       "single": true
+    //     },
+    //     {
+    //       "name": "pubDate",
+    //       "type": "datetime",
+    //       "default": "{{now}}",
+    //       "required": true
+    //     },
+    //     {
+    //       "name": "updatedDate",
+    //       "type": "datetime",
+    //       "default": "{{now}}"
+    //     },
+    //     {
+    //       "name": "heroImage",
+    //       "type": "image",
+    //       "isPreviewImage": true
+    //     },
+    //     {
+    //       "name": "draft",
+    //       "type": "draft"
+    //     },
+    //     {
+    //       "name": "contentType",
+    //       "type": "choice",
+    //       "choices": [
+    //         "Blog",
+    //         "Vlog"
+    //       ]
+    //     },
+    //     {
+    //       "name": "tags",
+    //       "type": "tags"
+    //     },
+    //     {
+    //       "name": "categories",
+    //       "type": "categories"
+    //     },
+    //     {
+    //       "name": "video",
+    //       "type": "boolean"
+    //     },
+    //     {
+    //       "name": "featured",
+    //       "type": "boolean"
+    //     },
+    //     {
+    //       "name": "authorId",
+    //       "type": "string"
+    //     },
+    //     {
+    //       "name": "readTime",
+    //       "type": "string",
+    //       "single": true
+    //     },
+    //     {
+    //       "name": "thumbnail",
+    //       "type": "string",
+    //       "single": true
+    //     },
+    //     {
+    //       "name": "featureImage",
+    //       "type": "image"
+    //     },
+    //     {
+    //       "name": "youtubeUrl",
+    //       "type": "string",
+    //       "single": true
+    //     },
+    //     {
+    //       "name": "showOnSidebar",
+    //       "type": "boolean"
+    //     },
+    //     {
+    //       "name": "galleryImages",
+    //       "type": "image",
+    //       "multiple": true
+    //     }
+    //   ]
+    // }
   ],
   "frontMatter.content.snippets": {
     "Image": {

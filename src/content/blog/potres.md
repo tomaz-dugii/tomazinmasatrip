@@ -5,6 +5,7 @@ draft: false
 tags:
   - potres
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minutes
@@ -15,6 +16,7 @@ description: 'Potres z magnitudo 6.0 ni nič posebnega za Japonsko. Zato ni nič
 contentType: Blog
 authorId: tomaz
 fmContentType: blog-post
+
 ---
 
 Otočje, ki se nahaja na ognjenem obroču, letno strese okoli 1500 potresov. V povprečju to pomeni 4 na dan. Potresi z magnitudo 6.0 niso nič posebnega in bolj kot sam potres, te pretrese odziv Japoncev.

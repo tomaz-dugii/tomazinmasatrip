@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/agoriba/agoriba_4.webp
+
 ---
 Japonci pred uživanjem obroka izrečejo besedo “itadsakimasu”. Ta beseda v direktnem prevodu pomeni ponižno sprejemam. V okolju s hrano, pa bolj kot direkten prevod, pomeni zahvalo za hrano ali nakazilo, da začenjamo jesti.
 

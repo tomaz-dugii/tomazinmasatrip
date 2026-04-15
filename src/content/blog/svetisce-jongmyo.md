@@ -6,6 +6,7 @@ tags:
   - seoul
   - potovanje
 categories:
+  - Blog
   - Južna Koreja
 video: false
 readTime: 10 min
@@ -20,6 +21,7 @@ galleryImages:
   - /images/blog/Jongmyo/Jongmyo.webp
   - /images/blog/Jongmyo/Jongmyo_5_pot.png
   - /images/blog/Jongmyo/Jongmyo_5_pot2x.webp
+
 ---
 Znani rek pravi “Drži prijatelje blizu in svoje sovražnike bližje”. Včasih pa tovrstna bližina vseeno lahko naredi več škode kot dobrega. Takšna je tudi zgodba nekdanjega korejskega cesarstva, ki s svojimi vzhodnimi sosedi preprosto ni uspelo shajati.
 

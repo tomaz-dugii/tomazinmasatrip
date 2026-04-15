@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 10 minut
@@ -23,6 +24,7 @@ galleryImages:
   - /images/blog/sredisca_tokia/srediscatokia_5.webp
   - /images/blog/sredisca_tokia/srediscatokia_7.webp
   - /images/blog/sredisca_tokia/srediscatokia_9.webp
+
 ---
 Ne glede na kateri izmed stoterih postaj izstopiš v Tokiu, te bo mesto pričakalo s pestro ponudbo. Na ulicah se stalno kaj dogaja in ni treba daleč, da se med visokimi zgradbami prikaže novo svetišče. Mesto, ki nikoli ne spi, se spreminja iz dneva v dan, in medtem, ko nekatera središča ob mraku ugasnejo luči, se v drugih življenje šele prične.
 

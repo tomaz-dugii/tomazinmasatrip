@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/mesto_srn/nara_2.webp
+
 ---
 Na japonskem srne veljajo za svete živali. Sika srne, ki so precej manjše od naših, že stoletja uprizarjajo kot kurirje božanstev. Že v dalnem osmem stoletju, ko je Nara, takrat po imenu Yamato, bila prva japonska prestolnica, so srne veljale za svete, kar se je obdržalo do danes.
 

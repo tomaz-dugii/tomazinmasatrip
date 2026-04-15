@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 10 minut
@@ -20,6 +21,7 @@ galleryImages:
   - /images/blog/sam_svoj_svet/svoj_svet_7.webp
   - /images/blog/sam_svoj_svet/svoj_svet_8.webp
   - /images/blog/sam_svoj_svet/svoj_svet_9.webp
+
 ---
 Hokkaido, drugi največji otok Japonske, ki se tik za otokom Tohoku baha s svojimi prostranimi planotami in visokimi gorovji, po mnogih značilnostih prej kot na Japonsko, spominja na Skandinavijo. Medtem, ko se po japonskem veselijo zmag baseball skupin, ali občudujejo svoje svetovno znane drsalce, na Hokkaido slavijo smučarske skoke. Te lahko enkrat letno iz oddaljenega Sappora, spremljamo tudi na udobnih kavčih. Da se z domačega udobja na Hokkaido odpraviš tudi, ko se naši orli ne potegujejo za medalje, je tukaj nekaj značilnosti, ki Hokkaido loči od preostale Japonske.
 

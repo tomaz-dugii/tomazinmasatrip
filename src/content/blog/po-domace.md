@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -15,6 +16,7 @@ description: Tekom treh dni sva živela v majhni hišici sredi hribovitih ulic i
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Ryokani in kapsulski hoteli sta dve precej slavni obliki nastanitev na otoku. Obe sta opevani med turisti kot edinstvena izkušnja, ki je ni zamuditi. In četudi sta nočitvi res zanimivi, je življenje prebivalcev precej drugačno od turističnega.
 

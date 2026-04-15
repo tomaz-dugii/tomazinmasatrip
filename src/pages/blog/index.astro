@@ -4,21 +4,24 @@ import BlogCard from "../../components/BlogCard.astro";
 import VideoSidebar from "../../components/VideoSidebar.astro";
 import { getCollection } from "astro:content";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
-import { getFilterList, matchesCategory } from "../../data/categories";
+import {
+  getBlogFilterChips,
+  isBlogPost,
+  isVlogPost,
+} from "../../data/categories";
+import { buildBlogPageHref, buildCategoryHref } from "../../utils/urls";
 
+// --- Blog hub: main list = posts typed as blog; chips = destinations from those posts only ---
 const allPosts = await getCollection("blog");
 const published = allPosts
   .filter((p) => !p.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-// Vse: articles in main, videos in sidebar
-const posts = published.filter((p) => matchesCategory(p, "Blog"));
-const videos = published.filter((p) => matchesCategory(p, "Vlog"));
+// Hub: blog posts in main column, vlogs in sidebar (type from categories / contentType).
+const posts = published.filter((p) => isBlogPost(p));
+const videos = published.filter((p) => isVlogPost(p));
 
-const postCategories = [
-  ...new Set(published.flatMap((p) => p.data.categories || [])),
-];
-const filterList = getFilterList(postCategories);
+const filterList = getBlogFilterChips(published);
 
 const pageSize = 6;
 const totalPages = Math.ceil(posts.length / pageSize);
@@ -43,12 +46,8 @@ const paginatedPosts = posts.slice(0, pageSize);
           {
             filterList.map((cat) => (
               <a
-                href={
-                  cat === "Vse"
-                    ? "/blog"
-                    : `/categories/${encodeURIComponent(cat)}`
-                }
-                class={`filter-btn ${cat === "Vse" ? "active" : ""}`}
+                href={buildCategoryHref(cat)}
+                class:list={["filter-btn", { active: cat === "Vse" }]}
               >
                 {cat === "Vse" ? "VSE" : cat}
               </a>
@@ -69,9 +68,9 @@ const paginatedPosts = posts.slice(0, pageSize);
               </a>
               {Array.from({ length: Math.min(totalPages - 1, 6) }, (_, i) => {
                 const p = i + 2;
-                return <a href={`/blog/page/${p}`}>{p}</a>;
+                return <a href={buildBlogPageHref(p)}>{p}</a>;
               })}
-              <a href="/blog/page/2" class="">
+              <a href={buildBlogPageHref(2)} class="">
                 →
               </a>
             </nav>
@@ -83,6 +82,14 @@ const paginatedPosts = posts.slice(0, pageSize);
       </div>
     </div>
   </section>
+  <script is:inline>
+    const q = new URLSearchParams(window.location.search).get("category");
+    if (q) {
+      window.location.replace(
+        "/blog/category/" + encodeURIComponent(q),
+      );
+    }
+  </script>
 </BaseLayout>
 
 <style>

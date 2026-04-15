@@ -6,6 +6,7 @@ tags:
   - potovanje
   - vlog
 categories:
+  - Vlog
   - Avstralija
 video: true
 readTime: 20 min
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=NM2IYHV_aCo'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NM2IYHV_aCo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

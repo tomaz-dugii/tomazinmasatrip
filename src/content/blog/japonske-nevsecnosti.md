@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -14,6 +15,7 @@ showOnSidebar: false
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Če že piševa kaj nama je všeč, je prav, da malo omeniva tudi zadeve, ki nama niso tako pri srcu. Nikjer ni popolno in tukaj je seznam, ki povzema najine tegobe tekom potovanja.
 

@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/unzen/unzen.webp
+
 ---
 Japonsko otočje je močno prepleteno z vulkani, ki s svojim delovanjem krojijo življenje otočanov. Najznamenitejši vulkan je nedvomno Fuji, gorovje glavnega otoka, ki se razprostira med Tokyom in Kyotom.
 

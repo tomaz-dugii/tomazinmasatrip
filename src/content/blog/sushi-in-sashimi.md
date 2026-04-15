@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/sushi_in_sashimi/sushi_5.webp
+
 ---
 Na katero hrano pomisliš, ko slišiš besedo Japonska? Nedvomno se med prvimi idejami poroji beseda sushi. Sushi je ena izmed svetovno znanih vrst hrane, ki se je v podobi, kot jo poznamo danes, začela razvijati v času Edo vladavine v devetnajstem stoletju.
 

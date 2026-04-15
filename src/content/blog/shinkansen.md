@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 7 minut
@@ -15,6 +16,7 @@ description: 'Najhitrejši vlaki na svetu, ki dosežejo hitrost do 320km/h se im
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Kako dolgo potrebuješ iz Celja do Ljubljane, če se vkrcaš na najhitrejši vlak? Dobrih 64 minut, če imaš srečo in ni nikakršne zamude. V teh 64 minutah prevoziš 62 kilometrov, kar načeloma pomeni, da za vsak prevožen kilomerter vlak porabi malce več kot minuto.
 

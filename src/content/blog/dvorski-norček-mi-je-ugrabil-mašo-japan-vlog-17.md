@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: ''
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=VHTQUvqEUiM'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 V mestu Beppu poteka festival vodnih vrelcev. V sklopu festivala se odvija veliko kulturnih dogotkov. Midva sva se udeležila gledališke predstave, za posladek je bila Maša povabljena na oder zaplesat s glavnim likom predstave.
 

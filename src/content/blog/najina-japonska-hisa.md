@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 7 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/najina_japonska_hisa/japonska_hisa_4.webp
+
 ---
 Ko sva se maja prebijala iz Hakodate v Tokio, sva se za slab teden dni ustavila v obalnem mestu Ishinomaki. To se nahaja slabo uro vožnje z vlakom iz mesta Sendai in meji na Tihi ocean. Začasen dom sva našla v stari hiši, ki je za teden dni pripadala le nama.
 

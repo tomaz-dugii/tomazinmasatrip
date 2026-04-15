@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 7 minut
@@ -19,6 +20,7 @@ galleryImages:
   - /images/blog/osaka/osaka_1.webp
   - /images/blog/osaka/osaka_6.webp
   - /images/blog/osaka/osaka_7.webp
+
 ---
 Osaka, drugo največje japonsko mesto in nekdanje mesto trgovcev, se ponosno predstavlja z vzdevkom japonska kuhinja. Prav tu, v neštetih kanalih kjer so z ladjami uvažali dobrote celotnega otoka, so se razvili mnogi recepti znane japonske kuhinje.
 

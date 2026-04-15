@@ -5,7 +5,8 @@ pubDate:
 draft: true
 contentType: Blog
 fmContentType: blog-post
-categories: []
+categories:
+  - Blog
 tags:
   - potovanje
 video: false

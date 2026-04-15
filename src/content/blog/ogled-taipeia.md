@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Taiwan
 video: false
 readTime: 10 minut
@@ -19,6 +20,7 @@ galleryImages:
   - /images/blog/ogled_taipeia/taipei_11.webp
   - /images/blog/ogled_taipeia/taipei_18.webp
   - /images/blog/ogled_taipeia/taipei_7.webp
+
 ---
 Ključna kratica: ROC - Republika Kitajska. Je politična struktura nekdanje celinske Kitajske, ki je izgubila državljansko vojno iz prebežala na otok Taiwan. 
 

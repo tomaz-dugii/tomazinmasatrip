@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -15,6 +16,7 @@ description: 'Edina turista v Karatsu, mestu na otoku Kyushu na Japonski.'
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 V Tokiu in Kansai regiji se v spomladanskem času na ulice zgrne gora turistov. Več kot ima mesto atrakcij, bolj kot so te znane, več jih bo. To je nenapisano pravilo znano vsem. Tako se večina tujcev na Japonskem giblje med tema dvema vročima točkama, z dnevnimi zleti do gore Fuji ali bližnjih mest. Že manj jih pride v Fukuoko, prestolnico otoka Kyushu, še manj jih iz Fukuoke obišče ostala turistična mesta kot so Nagasaki, Beppu ali Unzen. Zelo redki srečneži, pa se znajdejo v manjših mestih kot je Karatsu.
 

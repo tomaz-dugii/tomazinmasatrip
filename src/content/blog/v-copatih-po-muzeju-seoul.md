@@ -6,6 +6,7 @@ tags:
   - potovanje
   - vlog
 categories:
+  - Vlog
   - Južna Koreja
 video: true
 readTime: 15 minut
@@ -17,6 +18,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=lw4_ZxnLjbQ'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 Prvo vlog za prvi postanek najinega vandranja. Kot se vidi, je kot najino potepanje tudi vlog še malo v povojih. Nič za to! Pridružite se nama na sprehodu po živahnih ulicah, ogledu palač in okušanja neznanih jedač v centru Seoula.
 

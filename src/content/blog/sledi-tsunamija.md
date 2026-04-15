@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -18,6 +19,7 @@ fmContentType: blog-post
 galleryImages:
   - /images/blog/sledi_tsunamija/tsunami_4.webp
   - /images/blog/sledi_tsunamija/tsunami_5.webp
+
 ---
 Popotovanje okoli sveta me stalno opozarja kako smrtonosna je neskončna modrina oceana. Morje brez razburkanih valov, ogromnih razlik v plimovanju in uničujočih tsunamijev, mi je doma povsem samoumevno. Na vzhodni obali Japonske, kjer večmetrski valovi požirajo pomole, je zgodba povsem drugačna.
 

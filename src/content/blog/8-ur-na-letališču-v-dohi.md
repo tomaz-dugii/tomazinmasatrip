@@ -5,7 +5,8 @@ draft: true
 tags:
   - doha
   - vlog
-categories: []
+categories:
+  - Vlog
 video: true
 readTime: 30 min
 thumbnail: /images/videos/doha_airport.webp
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=Z0MsXi9di0M'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 ### 30 minutni video sprehoda po letališču
 

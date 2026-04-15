@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 10 minut
@@ -16,6 +17,7 @@ authorId: tomaz
 fmContentType: blog-post
 galleryImages:
   - /images/blog/tip_kura_sushi/kura.webp
+
 ---
 Japonska je dežela sušija in kot se za naziv spodobi, ga lahko ješ vsak dan, kadarkoli si ga srce poželi. Seveda bolj kot sushi, priporočam sashimi, kjer gre za kvalitetnejše kose surove ribe brez riža, kar poskrbi še za večji užitek. Vendar je za sprobat tudi sushi. Za dober sushi moraš biti pripravljen odšteti isto ceno kot doma. Še posebej, če se na sushi odpraviš v večernem času, ko so cene pogosto višje.
 

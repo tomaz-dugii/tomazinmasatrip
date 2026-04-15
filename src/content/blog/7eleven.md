@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 10 minut
@@ -19,6 +20,7 @@ galleryImages:
   - /images/blog/7eleven/7eleven3.webp
   - /images/blog/7eleven/7eleven_1.webp
   - /images/blog/7eleven/7eleven_2.webp
+
 ---
 Convenience store je tip majhnih priročnih trgovin, ki obiskovalcem ponujajo vse najnujnejše. Po svetu so precej pogoste in se nahajajo na vsakem vogalu. V Sloveniji tovrstnih trgovin, ki so odrpte 24 ur na dan, vsak dan v tednu, nimamo. Najbližje jim pridejo trgovine na bencinskih črpalkah. Za lažje razumevanje si lahko predstavljaš majhno Petrol trgovino na vsakem koraku.
 

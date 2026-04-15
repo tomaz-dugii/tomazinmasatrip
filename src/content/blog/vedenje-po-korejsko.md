@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Južna Koreja
 video: false
 readTime: 10 minut
@@ -14,6 +15,7 @@ showOnSidebar: false
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Skrb za starejše, čistoča, ter olikanost so svetovno znani atributi Južne Koreje. V tem članku pa se dotakneva še drugih zanimivosti kulture obnašanja v Južni Koreji, ki se razlikuje od tiste, ki smo jo navajeni doma.
 

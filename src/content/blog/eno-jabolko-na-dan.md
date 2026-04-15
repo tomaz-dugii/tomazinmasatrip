@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/eno_jabolko_na_dan/jabolko_thimbnail.webp
+
 ---
 Eno jabolko na dan, te na Japonskem precej veliko stane.
 

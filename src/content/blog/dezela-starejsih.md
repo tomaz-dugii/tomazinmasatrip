@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/Dezela_starejsih/Dezela_starejsih.webp
+
 ---
 Japonska je druga najhitreje starajoča se država. Pred kratkim jo je uspelo prehiteti le Južni Koreji z indeksom 0.8.
 

@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Južna Koreja
 video: false
 readTime: 10 minut
@@ -14,6 +15,7 @@ showOnSidebar: false
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Sprehajava se po Busanu, ko naenkrat zavijeva na ribjo tržnico. Ribja tržnica za Busan, največje južnokorejsko pristanišče, seveda ni nič presenetljivega. Vseeno pa je s svojo živahnostjo in ponudbo vredna ogleda.
 

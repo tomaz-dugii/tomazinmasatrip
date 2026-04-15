@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: 15 minut
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=zr7cwqHu5yY'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 Na sončen marčevski dan, sva se odločila najeti kolesa in raziskati Itoshimo. Itoshima je polotok tik ob Fukuoki, ki s peščenimi plažami in goznatimi pobočji privablja veliko nedeljskih turistov.
 

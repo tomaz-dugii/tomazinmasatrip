@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 8 minut
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=vytJCkm9VQc'
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Japonska se že vrsto let srečuje z upadom rodnosti in masovno selitvijo mladih v mesta, kar njeno podeželje spreminja v zaraščene ruševine. Na Japonski se je od vstopa v novo tisočletje zaprlo že več kot 6000 šol. Brez otrok, ki bi obiskovali šolo, vsako leto zadnjič vrata zapre skoraj 500 šol. Ogromne stavbe, ki so nekoč dnevno gostile razigrane otroke, tako ostajajo prazne.
 

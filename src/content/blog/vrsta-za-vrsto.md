@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/vrsta_za_vrsto/vrsta_1.webp
+
 ---
 Kako pogosto doma stojiš v vrsti? Najverjetneje vsakič, ko se odpraviš v Mercator. Tam je vrsta na blagajni pač del izkušnje. 
 

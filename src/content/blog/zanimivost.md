@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Južna Koreja
 video: false
 readTime: 15 minut
@@ -15,6 +16,7 @@ contentType: Blog
 preview: null
 authorId: masa
 fmContentType: blog-post
+
 ---
 Ko gre seljak u grad, ali ko se Slovenec znajde v Južni Koreji.
 

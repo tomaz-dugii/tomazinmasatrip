@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -15,6 +16,7 @@ description: 'Bleda dekleta, ki jih doma poznamo pod imenom geisha, v Kyotu imen
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 V starodavnem mestu Kyoto, poznanem tudi po imenu Srce Japonske, ozke ulice krasijo stare lesene hiše. V njih ob mraku pričnejo zahajati gostje, ki si po napornem dnevu zaželijo okusne večerje. Tako kot gostje, pa v kakšno izmed njih vstopi tudi dekle snežnobelega obraza.
 

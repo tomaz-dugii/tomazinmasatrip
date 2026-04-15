@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 6 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/Voznja_po_levi/Voznja_po_levi.webp
+
 ---
 Japonska slovi po mnogih avtomobilskih zmakah - Toyota, Honda,  Nissan, Mazda, Subaru, Mitsubishi, Suzuki, Lexus, ... da o motorjih sploh ne začenjam. Po cestah se stalno vozijo zanimivi modeli, ki jih na evropskem trgu ne vidimo. S Tomažem imava najraje škatlaste avtke, kot sva jih poimenovala, ki po svoji obliki spominjajo na kocko.
 

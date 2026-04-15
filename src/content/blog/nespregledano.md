@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 10 minut
@@ -18,6 +19,7 @@ fmContentType: blog-post
 galleryImages:
   - /images/blog/nespregledano/nespregledano_1.webp
   - /images/blog/nespregledano/nespregledano_3.webp
+
 ---
 Japonska s svojo oddaljenostjo in posebnostjo stalno ponuja nove kulturne šoke. Večina, kot je vožnja po levi, olikanost, držanje vrst in pravil, ter podobno, so mnogim že znani. Vseeno pa dnevno opažava majhne zanimivosti, ki jih z doma nisva vajena. Da jih ne pozabiva in se bova čez leta z užitkom spominjala teh podrobnosti, sva jih zapisala v prispevku.
 

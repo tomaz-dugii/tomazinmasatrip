@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: 8 minut
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=4N5j0jRtqtg'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 
 V tokratnem vlogu se potepava po Japonskem mestu Beppu.

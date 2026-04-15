@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 7 minut
@@ -19,6 +20,7 @@ galleryImages:
   - /images/blog/japonske_sladice/sladice_2.webp
   - /images/blog/japonske_sladice/sladice_3.webp
   - /images/blog/japonske_sladice/sladice_4.webp
+
 ---
 Izjemen rezultat japonskega perfekcionizma in ljubezni do mešanja nenavadnih okusov so njihove sladice.
 

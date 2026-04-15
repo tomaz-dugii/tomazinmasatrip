@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Južna Koreja
 video: false
 readTime: 10 minut
@@ -14,6 +15,7 @@ showOnSidebar: false
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Kava, doza energije, ki mnoge spravi čez jutranji prag, ali kremast napitek, ki ogreje okončine med napornim tednom. Ne glede na razlog za pitje, se strinjamo, da je ta topla pijača del naše kulture.
 

@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Južna Koreja
 video: true
 readTime: 5 minut
@@ -15,6 +16,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=LywvoypNs60'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 Bolj video z glasbeno podlago kakor vlog. Zgodila se mi bedarija in sem zbrisal večino posnetkov iz Busana.
 Na kratko, ogledala sva si mesto Busan. Stari del mesta in ribjo tržnico, kjer sva tudi nekaj pojedla.

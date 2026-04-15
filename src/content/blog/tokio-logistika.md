@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 7 minut
@@ -18,6 +19,7 @@ fmContentType: blog-post
 galleryImages:
   - /images/blog/tokio_logistika/tokio_4.webp
   - /images/blog/tokio_logistika/tokio_5.webp
+
 ---
 Območje Tokia že dve desetletji velja za najbolj poseljen predel sveta. Megamesto, ki je nastalo s širitvijo večih milijonskih mest v eno, je dom že skoraj 40 milijonom ljudem. Če tem prištejemo še dnevne migrante iz okolice, ki se vozijo v službo in tisoče turistov, je število precej višje. Za mesto, ki je veliko približno toliko kot Dolenjska, gosti pa dvajsetkrat več prebivalcev kot celotna Slovenija, je pretočnost izjemnega pomena.
 

@@ -4,7 +4,8 @@ pubDate: '2023-04-29T08:24:38.847Z'
 draft: false
 tags:
   - potovanje
-categories: []
+categories:
+  - Blog
 video: false
 readTime: 2 minuti
 thumbnail: /images/blog/beppu/beppu_thumbnail.webp
@@ -14,6 +15,7 @@ description: 'V Beppu, mestu s številnimi naravnimi grelci in kopališči, se n
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 V Beppu, mestu s številnimi naravnimi grelci in kopališči, se njihovi aktivnosti zahvalijo vsak april v skaldu Hatto Onsen Matsuri festivala. Tekom festivala proslavijo obilje, ki ga vrelci prinašajo mestu in prosijo, da bo obilje trajalo še dalje.
 

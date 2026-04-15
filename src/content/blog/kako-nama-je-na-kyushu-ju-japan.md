@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: 15 minut
@@ -15,6 +16,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=Z0ZNoqSWXAA'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 1 mesec japonske je minil. Kako se imava ? Kaj delava ? V tokratnem vlogu poveva več o potovanju in izkušnjah na poti.
 

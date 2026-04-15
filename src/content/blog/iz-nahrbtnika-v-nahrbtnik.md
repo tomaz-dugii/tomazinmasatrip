@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -15,6 +16,7 @@ description: Stalna menjava prenočišča in pakiranje iz nahrbtnika v nahrbtnik
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Na cesti že na daleč opaziš popotnika. Oblačila in oprema so že tako očitni, da je vsem jasno, da je človek na daljšem potovanju. Športni čevlji, ogromen nahrbtnik s katerega mnogokrat visijo čevlji, pohodniška oblačila in zagorela koža. 
 

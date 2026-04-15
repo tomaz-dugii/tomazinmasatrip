@@ -4,39 +4,45 @@ import BlogCard from "../../../components/BlogCard.astro";
 import VideoSidebar from "../../../components/VideoSidebar.astro";
 import { getCollection } from "astro:content";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../../../consts";
-import { getFilterList, matchesCategory } from "../../../data/categories";
+import {
+  getBlogFilterChips,
+  isBlogPost,
+  isVlogPost,
+} from "../../../data/categories";
+import { buildBlogPageHref, buildCategoryHref } from "../../../utils/urls";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("blog");
   const posts = allPosts
-    .filter((p) => !p.data.draft && matchesCategory(p, "Blog"))
+    .filter((p) => !p.data.draft && isBlogPost(p))
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
   const pageSize = 6;
   const totalPages = Math.max(1, Math.ceil(posts.length / pageSize));
-  return Array.from({ length: totalPages }, (_, i) => ({
-    params: { page: String(i + 1) },
+  // Page 1 is /blog; only generate /blog/page/2+.
+  if (totalPages <= 1) return [];
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    params: { page: String(i + 2) },
   }));
 }
 
 const { page } = Astro.params;
 const currentPage = parseInt(page ?? "1", 10);
 
+// --- Paginated blog list: pass current URL as `listFrom` for post “back” links ---
 const allPosts = await getCollection("blog");
 const published = allPosts
   .filter((p) => !p.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const posts = published.filter((p) => matchesCategory(p, "Blog"));
-const videos = published.filter((p) => matchesCategory(p, "Vlog"));
+const posts = published.filter((p) => isBlogPost(p));
+const videos = published.filter((p) => isVlogPost(p));
 
-const postCategories = [
-  ...new Set(published.flatMap((p) => p.data.categories || [])),
-];
-const filterList = getFilterList(postCategories);
+const filterList = getBlogFilterChips(published);
 
 const pageSize = 6;
 const totalPages = Math.max(1, Math.ceil(posts.length / pageSize));
 const start = (currentPage - 1) * pageSize;
 const paginatedPosts = posts.slice(start, start + pageSize);
+const listFrom = buildBlogPageHref(currentPage);
 ---
 
 <BaseLayout
@@ -56,12 +62,8 @@ const paginatedPosts = posts.slice(start, start + pageSize);
           {
             filterList.map((cat) => (
               <a
-                href={
-                  cat === "Vse"
-                    ? "/blog"
-                    : `/categories/${encodeURIComponent(cat)}`
-                }
-                class={`filter-btn ${cat === "Vse" ? "" : ""}`}
+                href={buildCategoryHref(cat)}
+                class:list={["filter-btn", { active: cat === "Vse" }]}
               >
                 {cat === "Vse" ? "VSE" : cat}
               </a>
@@ -69,21 +71,21 @@ const paginatedPosts = posts.slice(start, start + pageSize);
           }
         </div>
         <div class="blog-list">
-          {paginatedPosts.map((entry) => <BlogCard entry={entry} />)}
+          {paginatedPosts.map((entry) => (
+            <BlogCard entry={entry} listFrom={listFrom} />
+          ))}
         </div>
         <nav class="pagination">
           <a
             href={currentPage > 1
-              ? currentPage === 2
-                ? "/blog"
-                : `/blog/page/${currentPage - 1}`
+              ? buildBlogPageHref(currentPage - 1)
               : "#"}
             class={currentPage <= 1 ? "disabled" : ""}>←</a
           >
           {
             Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
               const p = i + 1;
-              const href = p === 1 ? "/blog" : `/blog/page/${p}`;
+              const href = buildBlogPageHref(p);
               return (
                 <a href={href} class={p === currentPage ? "active" : ""}>
                   {p}
@@ -93,7 +95,7 @@ const paginatedPosts = posts.slice(start, start + pageSize);
           }
           <a
             href={currentPage < totalPages
-              ? `/blog/page/${currentPage + 1}`
+              ? buildBlogPageHref(currentPage + 1)
               : "#"}
             class={currentPage >= totalPages ? "disabled" : ""}>→</a
           >

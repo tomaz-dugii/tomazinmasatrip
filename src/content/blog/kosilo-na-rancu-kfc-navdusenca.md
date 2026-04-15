@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -15,6 +16,7 @@ description: 'Uro vožnje od mesta Hakodate, ki vrata odpira v prostrane planote
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Tik na vznožju otoka Hokkaido, uro vožnje od mesta Hakodate, ki vrata odpira v prostrane planote najsevernejšega japonskega otoka, se nahaja restavracija Harvester Yakumo. No, bolje kot beseda restavracija, jo opiše beseda ranč, saj ogromno poslopje na vrhu griča  po videzu spominja na ogromno kmetijo.
 

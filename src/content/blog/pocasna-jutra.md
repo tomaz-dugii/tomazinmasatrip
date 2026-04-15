@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Južna Koreja
 video: false
 readTime: 10 minut
@@ -14,6 +15,7 @@ showOnSidebar: false
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Za državo, ki nikoli ne spi, se korejska jutra zdijo kot magičen trenutek miline. Vse od prvih žarkov, ki se priplazijo na obzorje in osvetlijo temno morje, ter pozno v deseto uro, mesto diha počasneje.
 

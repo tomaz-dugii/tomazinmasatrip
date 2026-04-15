@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/japonski_sento/sento_3.webp
+
 ---
 Obalno mesto Yakumo, katerega občinska meja sega vse od Japonskega morja na eni, in Tihega oceana na drugi strani, se nahaja na južnem delu otoka Hokkaido. Hokkaido je najsevernejši otok Japonske, ki se zaradi svoje veličine in precej hladnega podnebja, precej razlikuje od glavnega otoka Tohoku. Zime se tukaj vlečejo še daleč v pomlad in češnje, naznanilke japonske pomladi, tu zacvetijo z majem. Ob ledenih temperaturah in brezmilostnem vetru, so kopališča sento in onsen nadvse priljubljena.
 

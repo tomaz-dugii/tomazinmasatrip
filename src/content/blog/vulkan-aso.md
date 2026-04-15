@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 4 minute
@@ -15,6 +16,7 @@ description: 'Vulkan Aso je največji aktivni vulkan na Japonskem s katerega se 
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 V središču otoka Kyushu, nedaleč od Kumamota, se v nebo dviga gorovje Aso. Gorovje je vulkanskega nastanka in spada med največje vulkane na svetu. Sam vulkan Aso je največji aktivni vulkan na Japonskem s katerega se pridno kadi dim. 
 

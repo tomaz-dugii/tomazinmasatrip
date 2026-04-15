@@ -6,6 +6,7 @@ tags:
   - fukuoka
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 10 minut
@@ -15,6 +16,7 @@ showOnSidebar: false
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Večina obiskovalcev Japonske, svoj dopust prične na zelo glasnem Narita letališču, ki svet povezuje z japonsko prestolnico Tokio. Letališče je znano po gužvi in tisočim ljudem, ki hkrati želijo biti prvi, ki se prebijejo čez letališče.
 

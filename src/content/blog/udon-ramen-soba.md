@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -19,6 +20,7 @@ galleryImages:
   - /images/blog/udon_ramen_soba/udon_ramen_soba_1.webp
   - /images/blog/udon_ramen_soba/udon_ramen_soba_2.webp
   - /images/blog/udon_ramen_soba/udon_ramen_soba_3.webp
+
 ---
 Ko doma govorimo o japonski hrani, najprej pomislimo na sushi. Kroglice riža s svežo ribo nas še vedno delijo na strastne ljubitelje in skeptike, ki še poskusiti ne želijo. No, sicer je sushi res povsod po japosnki, vendar še zdaleč ni tako tipična hrana kot so rezanci. Japonci obužujejo svoje rezance in drznem si reči, da znajo z njimi pripraviti več jedi kot naši zahodni sosedje.
 

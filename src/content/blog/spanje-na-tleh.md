@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 readTime: 7 minut
 thumbnail: /images/blog/spane_na_tleh/spanje_na_tleh_thumbnail.webp
@@ -16,6 +17,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/spane_na_tleh/spanje_na_tleh_4.webp
+
 ---
 Za Japonsko so postelje, kot jih poznamo doma, precej pozen dodatek. Preden so ladje s tujimi dobrinami priplule na otok, so za udoben spanec stoletja uporabljali dobro premišljeno kombinacijo tatami in futona.
 

@@ -1,12 +1,15 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { Play } from "@lucide/astro";
+import { buildPostHref } from "../utils/urls";
 
 interface Props {
   videos: CollectionEntry<"blog">[];
+  /** Optional list URL for `?from=` on vlog links (e.g. current /vlogi/category/…). */
+  listFrom?: string;
 }
 
-const { videos } = Astro.props;
+const { videos, listFrom } = Astro.props;
 ---
 
 <aside class="video-sidebar">
@@ -23,8 +26,9 @@ const { videos } = Astro.props;
           "sl-SI",
           { year: "numeric", month: "long", day: "numeric" },
         );
+        const href = buildPostHref(id, listFrom ? { from: listFrom } : undefined);
         return (
-          <a href={`/posts/${id}`} class="video-item">
+          <a href={href} class="video-item">
             <div class="video-thumb">
               {data.thumbnail ? (
                 <img src={data.thumbnail} alt={data.title} loading="lazy" />

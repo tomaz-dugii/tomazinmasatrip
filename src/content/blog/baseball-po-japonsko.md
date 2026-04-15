@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -15,6 +16,7 @@ description: Ogled baseball tekme SoftBank Hawks v Fukuoki na Japonskem.
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 V marcu, ko sva se prebijala po Južni Koreji in Fukuoki, je sočasno potekalo svetovno prvenstvo v baseballu. Nič, kar bi nas zanimalo v Sloveniji, kjer ta šport ni tako razšijen, a velika novica za državi, v katerih sva bivala.
 

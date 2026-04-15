@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: 12 minut
@@ -15,5 +16,6 @@ youtubeUrl: 'https://www.youtube.com/watch?v=e-twJJIOIek'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e-twJJIOIek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

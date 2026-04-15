@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 4 minute
@@ -15,6 +16,7 @@ description: Prenočitev v avtu na japonskem postajališču michi no eki.
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Michi no eki je japonsko ime za obcestna počivališča. Ta so nastala v okviru vladnega projekta, da potnikom na štirih kolesih ponudi prostor za osvežitev in počitek. Locirana ob vseh pretočnejših cestah, obiskovalcem ponujajo oskrbovana stranišča, restavracije, trgovine, informacijski center in celo brezplačno internetno povezavo. 
 

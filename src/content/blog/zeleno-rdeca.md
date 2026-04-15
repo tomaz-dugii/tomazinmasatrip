@@ -6,6 +6,7 @@ tags:
   - potovanje
   - seoul
 categories:
+  - Blog
   - Južna Koreja
 video: false
 readTime: 5 minut
@@ -19,6 +20,7 @@ fmContentType: blog-post
 galleryImages:
   - /images/blog/Zeleno-rdeca/colored_ruf.webp
   - /images/blog/Zeleno-rdeca/seoul_palace@2x.webp
+
 ---
 Južna Koreja v zadnjih letih poževa slavo na globavni ravni. Naj bo to uspeh K-pop idolov, kozmetične industrije, plastične kirurgije, pametnih telefonov, avtomobilov, ali popularnih serij. Ne glede na to, v katerem kotičku sveta se skrivaš, vest o tej državi prodira tudi tja.
 

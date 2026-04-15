@@ -4,7 +4,8 @@ pubDate: '2023-05-04T10:17:04.587Z'
 draft: false
 tags:
   - potovanje
-categories: []
+categories:
+  - Blog
 video: false
 readTime: 3 minute
 thumbnail: /images/blog/prenocitev_v_kapsuli/spanje_v_kapsuli_thumbnail.webp
@@ -14,6 +15,7 @@ description: 'Kapsulski hoteli so znamenite nastanitve Japonske, kjer obiskovale
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Spala sva na tatami, spala sva pri domačinih, v hostlih in službenih hotelih. Sedaj pa je čas, da izkusiva tudi slavne kapsulske hotele.
 

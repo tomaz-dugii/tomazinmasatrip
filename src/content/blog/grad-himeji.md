@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/grad_himeji/himeji_1.webp
+
 ---
 Tipično razglednico Japonske krasi fotografija vulkana Fuji, Tokio stolpa ali grada Himeji. Po mesecu dni potepanja po Japonski, sva končno prispela na eno izmed teh ikoničnih točk - grad Himeji.
 

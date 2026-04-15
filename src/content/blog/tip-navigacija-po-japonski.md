@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 10 minut
@@ -16,6 +17,7 @@ authorId: tomaz
 fmContentType: blog-post
 galleryImages:
   - /images/blog/tip_navigacija/taxi_web.webp
+
 ---
 ### Make better business
 

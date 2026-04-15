@@ -19,17 +19,28 @@ const { title, description, activePage = "domov" } = Astro.props;
     <BaseHead title={title} description={description} />
   </head>
   <body>
-    <Header activePage={activePage} />
-    <main class="main-content">
-      <slot />
-    </main>
-    <Footer />
+    <div class="site-shell">
+      <Header activePage={activePage} />
+      <main class="main-content">
+        <slot />
+      </main>
+      <Footer />
+    </div>
     <CookieConsent />
   </body>
 </html>
 
 <style>
+  /* Sticky footer: column fills viewport; main grows so footer sits at the bottom on short pages. */
+  .site-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
   .main-content {
+    flex: 1 1 auto;
+    width: 100%;
     max-width: 1250px;
     margin: 0 auto;
     padding: 2rem 24px 4rem;

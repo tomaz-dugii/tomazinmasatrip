@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/kumamoto/kumamoto_2.webp
+
 ---
 Če je Fukuoka vhod v hribovit Kyushu, je Kumamoto njegovo srce. Mesto, ki se nahaja v središču otoka, obdano s pobočji največjega japonskega vulkana Aso in Ariaškim morjem na drugem obrežju, dom predstavlja skoraj polovici milijona ljudi.
 

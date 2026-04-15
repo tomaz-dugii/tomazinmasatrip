@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -17,6 +18,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/nazaj_v_prihodnost/back_to_the_future.webp
+
 ---
 Če se želiš preleviti v Martya iz kultnega filma Nazajv prihodnost, za to ne potrebuješ časovnega stroja. Dovolj je že enosmerna karta za Japosnko, kjer odputuješ nazaj v prihodnost. Svetovno znana po svojih naprednih tehnologijah, uporabi robotov, hitrih vlakih in futurističnem izlgedu, je hkrati ujeta v staro tehnologijo prejšnjega stoletja. Posebno ravnovesje med prihodnostjo in zgodovino, ki sobivata na otoku, omogoča, da lahko hkrati izkusiš obe skrajnosti.
 

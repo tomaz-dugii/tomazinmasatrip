@@ -5,6 +5,7 @@ draft: false
 tags:
   - vlog
 categories:
+  - Vlog
   - Japonska
 video: true
 readTime: 13 minut
@@ -16,6 +17,7 @@ youtubeUrl: 'https://www.youtube.com/watch?v=GVcsqK6JIUA'
 contentType: Vlog
 authorId: tomaz
 fmContentType: vlog-post
+
 ---
 Raziskujeva mesto Nagasaki, kjer naletiva na prijetno presenečenje v živalski obliki. Ze več poglejte vlog.
 

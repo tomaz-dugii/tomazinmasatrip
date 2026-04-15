@@ -1,13 +1,15 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { Play } from "@lucide/astro";
+import { buildPostHref } from "../utils/urls";
 
 interface Props {
   entry: CollectionEntry<"blog">;
   featured?: boolean;
+  listFrom?: string;
 }
 
-const { entry, featured = false } = Astro.props;
+const { entry, featured = false, listFrom } = Astro.props;
 const { id, data } = entry;
 const formattedDate = new Date(data.pubDate).toLocaleDateString("sl-SI", {
   year: "numeric",
@@ -17,9 +19,10 @@ const formattedDate = new Date(data.pubDate).toLocaleDateString("sl-SI", {
 const metaText = data.readTime
   ? `${formattedDate} – ${data.readTime} branja`
   : formattedDate;
+const postHref = buildPostHref(id, listFrom ? { from: listFrom } : undefined);
 ---
 
-<a href={`/posts/${id}`} class={`video-card ${featured ? "featured" : ""}`}>
+<a href={postHref} class={`video-card ${featured ? "featured" : ""}`}>
   <div class="video-card-thumb">
     {
       data.thumbnail ? (

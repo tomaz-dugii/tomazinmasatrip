@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
   - Južna Koreja
 video: false
@@ -18,6 +19,7 @@ authorId: masa
 fmContentType: blog-post
 galleryImages:
   - /images/blog/tokio_ali_seoul/japonska_8.webp
+
 ---
 Tokio in Seoul, dve ogromni prestolnici, ki privabljata ljubitelje tehnike in pop-kulture, sta si v mongih pogledih precej podobni. Ko sem o potovanju v vzhodno Azijo prvič premišljevala že leta 2017, tudi sama nisem bila povsem odločena kam oditi. Na koncu je prevladal Seoul s cenejšo letalsko karto. Sedaj sem v letu 2023 obiskala obe državi zapored in lahko trdim, da čeprav sta si precej podobni, se je v podobnostih tudi precej razlik. 
 

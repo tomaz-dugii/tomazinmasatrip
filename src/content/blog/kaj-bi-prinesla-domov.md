@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -15,6 +16,7 @@ description: 'Tukaj je nekaj zadev iz Japonske, ki bi jih želela prenesti v las
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Na Japonskem nama je všeč ogromno stvari. Nekatere bi z veseljem odnesla domov. In ne, tukaj ne govoriva o spominkih (ki so prav tako čisto odbiti) ampak o načinu življenja. Tukaj je pet zadev, ki bi jih želela prenesti v lastno življenje.
 

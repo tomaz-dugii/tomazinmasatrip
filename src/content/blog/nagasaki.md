@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 3 minute
@@ -15,6 +16,7 @@ description: Mesto Nagasaki je na svetovni zemlejvid postavil tragičen napad z 
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Japonsko sestavlja sedeminštirideset prefektur. Prefekture so večja območja, kot pri nas pokrajine, ki na območnem nivoju upravljajo državno administracijo. Tekom prvega tedna sva na otoku Kyushu obiskala že tri - Fukuoka, Saga in Nagasaki.
 

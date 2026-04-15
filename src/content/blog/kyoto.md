@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Japonska
 video: false
 readTime: 5 minut
@@ -15,6 +16,7 @@ description: 'Kyoto, nekdanja japosnka prestolnica in srce tradicionalnih četrt
 contentType: Blog
 authorId: masa
 fmContentType: blog-post
+
 ---
 Kyoto, nekdanja japosnka prestolnica in srce tradicionalnih četrti, je najbližje stari Japosnki, kot lahko prideš.
 

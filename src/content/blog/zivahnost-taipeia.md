@@ -5,6 +5,7 @@ draft: false
 tags:
   - potovanje
 categories:
+  - Blog
   - Taiwan
 video: false
 readTime: '10'
@@ -17,6 +18,7 @@ fmContentType: blog-post
 galleryImages:
   - /images/blog/zivahnost-taipeia/taipei_13.webp
   - /images/blog/zivahnost-taipeia/taipei_4.webp
+
 ---
 Po mesecih Japonske, ki jo na trenutke lahko primerjaš s čistočo in redom v bolnišnici, je kratek oddih v Taiwanu bil zelo dobrodošel. Mesto reda in miru sva za štiri dni zamenjala za živahno prestolnico Taipei, ki ob vonju nočnih tržnic in brnečih motorjev diha dolgo v noč. S tem nadaljujeva najino popotovanje po Aziji, kjer sva končno zapustila Japonsko in se za dva tedna odpravila potepat po Taiwanu in Tajski.
 
