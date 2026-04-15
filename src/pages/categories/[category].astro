@@ -1,0 +1,42 @@
+---
+/**
+ * Legacy /categories/:name → /blog/category/:name
+ */
+import { getCollection } from "astro:content";
+import { CONTENT_TYPES } from "../../data/categories";
+import { buildCategoryHref } from "../../utils/urls";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("blog");
+  const published = allPosts.filter((p) => !p.data.draft);
+  const postCategories = [
+    ...new Set(published.flatMap((p) => p.data.categories || [])),
+  ];
+  const categorySlugs = [...CONTENT_TYPES, ...postCategories];
+  return categorySlugs.map((cat) => ({
+    params: { category: cat },
+  }));
+}
+
+const { category } = Astro.params;
+const decoded = category ? decodeURIComponent(category) : "";
+const targetPath = buildCategoryHref(decoded);
+const canonical = new URL(targetPath, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="sl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Preusmeritev…</title>
+    <link rel="canonical" href={canonical} />
+    <meta http-equiv="refresh" content={`0;url=${targetPath}`} />
+  </head>
+  <body>
+    <p><a href={targetPath}>Nadaljuj na blog</a></p>
+    <script is:inline define:vars={{ targetPath }}>
+      location.replace(targetPath);
+    </script>
+  </body>
+</html>

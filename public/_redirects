@@ -1,0 +1,5 @@
+# Optional: Netlify-style redirects (ignored on plain FTP; harmless if copied to a host that supports them)
+/posts/* /blog/:splat 301
+/categories/* /blog/category/:splat 301
+/blog/category/Blog /blog 301
+/blog/category/Vlog /vlogi 301

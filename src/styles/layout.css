@@ -1,0 +1,47 @@
+/* Project layout overrides for Flexbox Grid */
+
+/* 3rem gap for main+sidebar layouts (Flexbox Grid default is 1rem) */
+.blog-page-inner.row,
+.blog-section-inner.row {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+.blog-page-inner > [class*="col-"],
+.blog-section-inner > [class*="col-"] {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* 3rem gap for two-column layouts */
+.hero-inner.row,
+.journey-inner.row {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+.hero-inner > [class*="col-"],
+.journey-inner > [class*="col-"] {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* 3.5rem gap for about-authors */
+.about-authors.row {
+  margin-left: -1.75rem;
+  margin-right: -1.75rem;
+}
+.about-authors > [class*="col-"] {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+/* 21px gap for video grid */
+.video-grid.row {
+  margin-left: -10.5px;
+  margin-right: -10.5px;
+}
+.video-grid > [class*="col-"] {
+  padding-left: 10.5px;
+  padding-right: 10.5px;
+  margin-bottom: 21px;
+}
+

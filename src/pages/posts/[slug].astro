@@ -1,0 +1,37 @@
+---
+/**
+ * Legacy /posts/:slug → canonical /blog/:slug (client + meta refresh for static FTP hosts).
+ */
+import { getCollection } from "astro:content";
+import { buildPostHref } from "../../utils/urls";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { slug: post.id },
+  }));
+}
+
+const slug = Astro.params.slug ?? "";
+const targetPath = buildPostHref(slug);
+const canonical = new URL(targetPath, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="sl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Preusmeritev…</title>
+    <link rel="canonical" href={canonical} />
+    <meta http-equiv="refresh" content={`0;url=${targetPath}`} />
+  </head>
+  <body>
+    <p>
+      <a href={targetPath}>Nadaljuj na članek</a>
+    </p>
+    <script is:inline define:vars={{ targetPath }}>
+      location.replace(targetPath);
+    </script>
+  </body>
+</html>
