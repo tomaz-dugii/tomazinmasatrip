@@ -57,38 +57,135 @@ const { expanded = false } = Astro.props;
       <button type="button" class="btn-secondary" id="cookie-reject">Zavrni vse</button>
       <button type="button" class="btn-outline" id="cookie-settings">Nastavitve</button>
     </div>
+    <div class="cookie-actions cookie-extra-actions" id="cookie-extra-actions">
+      <button type="button" class="btn-primary" id="cookie-save">Shrani izbiro</button>
+    </div>
   </div>
 </div>
 
 <script>
-  (function() {
-    const storageKey = 'cookie-consent';
+  (function () {
+    const STORAGE_KEY = 'cookie-consent';
+    const VERSION = 1;
+
+    function readRaw() {
+      try {
+        return localStorage.getItem(STORAGE_KEY);
+      } catch {
+        return null;
+      }
+    }
+
+    /** @returns {{ version: number; analytics: boolean; marketing: boolean } | null} */
+    function parseConsent(raw: string | null) {
+      if (raw == null || raw === '') return null;
+      if (raw === 'true') {
+        return { version: VERSION, analytics: true, marketing: true };
+      }
+      try {
+        const o = JSON.parse(raw);
+        if (
+          o &&
+          typeof o === 'object' &&
+          o.version === VERSION &&
+          typeof o.analytics === 'boolean' &&
+          typeof o.marketing === 'boolean'
+        ) {
+          return o;
+        }
+      } catch {}
+      return null;
+    }
+
+    function persist(choice: { analytics: boolean; marketing: boolean }) {
+      try {
+        localStorage.setItem(
+          STORAGE_KEY,
+          JSON.stringify({
+            version: VERSION,
+            analytics: choice.analytics,
+            marketing: choice.marketing,
+          })
+        );
+      } catch {}
+    }
+
+    function migrateLegacy() {
+      if (readRaw() === 'true') {
+        persist({ analytics: true, marketing: true });
+      }
+    }
+
+    migrateLegacy();
+    const existing = parseConsent(readRaw());
+
     const consent = document.getElementById('cookie-consent');
     const toggles = document.getElementById('cookie-toggles');
+    const extraActions = document.getElementById('cookie-extra-actions');
     const closeBtn = document.getElementById('cookie-close');
     const acceptBtn = document.getElementById('cookie-accept');
     const rejectBtn = document.getElementById('cookie-reject');
     const settingsBtn = document.getElementById('cookie-settings');
+    const saveBtn = document.getElementById('cookie-save');
+    const analyticsInput = document.getElementById(
+      'cookie-analytics'
+    ) as HTMLInputElement | null;
+    const marketingInput = document.getElementById(
+      'cookie-marketing'
+    ) as HTMLInputElement | null;
 
-    if (localStorage.getItem(storageKey)) {
-      consent?.remove();
-      return;
+    type Loader = () => void;
+    interface WindowWithGALoader extends Window {
+      __loadGoogleAnalyticsIfConsented?: Loader;
     }
 
-    function hide() {
-      localStorage.setItem(storageKey, 'true');
+    function loadGAIfConsented() {
+      const w = globalThis as unknown as WindowWithGALoader;
+      w.__loadGoogleAnalyticsIfConsented?.();
+    }
+
+    function resolve(choice: { analytics: boolean; marketing: boolean }) {
+      persist(choice);
+      loadGAIfConsented();
       consent?.classList.add('hidden');
       setTimeout(() => consent?.remove(), 300);
     }
 
+    if (existing) {
+      loadGAIfConsented();
+      consent?.remove();
+      return;
+    }
+
     if (toggles) toggles.style.display = 'none';
+    if (extraActions) extraActions.style.display = 'none';
 
     settingsBtn?.addEventListener('click', () => {
-      toggles?.style && (toggles.style.display = toggles.style.display === 'none' ? 'block' : 'none');
+      const expanded = toggles?.style.display === 'none';
+      if (toggles) toggles.style.display = expanded ? 'block' : 'none';
+      if (extraActions) extraActions.style.display = expanded ? 'flex' : 'none';
+      if (expanded && analyticsInput && marketingInput) {
+        const saved = parseConsent(readRaw());
+        analyticsInput.checked = saved?.analytics ?? false;
+        marketingInput.checked = saved?.marketing ?? false;
+      }
     });
-    closeBtn?.addEventListener('click', hide);
-    acceptBtn?.addEventListener('click', hide);
-    rejectBtn?.addEventListener('click', hide);
+
+    closeBtn?.addEventListener('click', () =>
+      resolve({ analytics: false, marketing: false })
+    );
+    rejectBtn?.addEventListener('click', () =>
+      resolve({ analytics: false, marketing: false })
+    );
+    acceptBtn?.addEventListener('click', () =>
+      resolve({ analytics: true, marketing: true })
+    );
+    saveBtn?.addEventListener('click', () =>
+      resolve({
+        analytics: !!analyticsInput?.checked,
+        marketing: !!marketingInput?.checked,
+      })
+    );
   })();
 </script>
 
@@ -226,6 +323,11 @@ const { expanded = false } = Astro.props;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+  }
+  .cookie-extra-actions {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #e8e4de;
   }
   .btn-primary {
     background: var(--primary-base);
